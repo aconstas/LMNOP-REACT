@@ -1,0 +1,44 @@
+.backgroundBlur {
+  width: 100vw;
+  height: calc(100vh - 96px);
+  filter: blur(10px);
+  z-index: 1;
+}
+
+.modalContainer {
+  border: 2px solid #8c8c8c;
+  z-index: 100;
+  width: 80vw;
+  max-width: 364px;
+  background: #FFF;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modalTitle {
+  font-family: "Space Grotesk", sans-serif;
+  margin: 55px 0 0 28px;
+}
+
+.modalText {
+  width: 283px; 
+  font-family: 'Space Grotesk', sans-serif;
+  text-align: left;
+  margin: 22px 0 22px 28px;
+
+}
+
+.modalButton {
+  width: 276px;
+  height: 58px;
+  border-radius: 10px;
+  border: none;
+  background: #b7ed82;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 30px auto 82px auto;
+  display: block;
+}
