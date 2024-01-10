@@ -5,8 +5,10 @@ export default function GuessInput() {
     <div className={styles.letterContainer}>
       <div className={styles.letterBox}></div>
       <div>
-        <input type="text" required></input>
+        <input type="text" required enterKeyHint="go"></input>
       </div>
     </div>
   );
 }
+
+// how to handle autofocus for the first input box?
