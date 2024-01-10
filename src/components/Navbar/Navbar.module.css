@@ -1,6 +1,6 @@
 #header {
   height: 9vh;
-  min-height: 69px;
+  min-height: 75px;
   max-height: 81px;
   display: flex;
   justify-content: space-between;
@@ -26,4 +26,5 @@
 #title {
     padding-top: 31px;
     padding-left: 31px;
+    margin-bottom: 15px;
 }
