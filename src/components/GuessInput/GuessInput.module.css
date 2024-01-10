@@ -7,6 +7,7 @@
 
 .letterBox {
     width: 66px;
+    max-width: 500px;
     height: 66px;
     background-color: red;
 }
