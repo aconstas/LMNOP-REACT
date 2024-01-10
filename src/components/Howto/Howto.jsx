@@ -7,7 +7,6 @@ export default function Howto({ closeModal, isModalOpen }) {
 
   return (
     <>
-      <div className={styles.backgroundBlur}></div>
       <div className={styles.modalContainer}>
         <h2 className={styles.modalTitle}>HOW-TO:</h2>
         <p className={styles.modalText}>
