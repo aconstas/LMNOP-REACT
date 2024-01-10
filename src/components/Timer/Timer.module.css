@@ -1,0 +1,8 @@
+#timer {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px 24px 0 0;
+}
