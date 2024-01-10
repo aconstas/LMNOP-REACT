@@ -1,4 +1,4 @@
-import styles from "./Howto.module.css";
+import styles from '../../shared/styles/modal.module.css';
 
 export default function Howto({ closeModal, isModalOpen }) {
   if (!isModalOpen) {
