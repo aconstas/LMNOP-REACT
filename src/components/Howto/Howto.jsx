@@ -1,13 +1,6 @@
-import { useState } from "react";
 import styles from "./Howto.module.css";
 
-export default function Howto() {
-  const [isModalOpen, setIsModalOpen] = useState(true);
-
-  const toggleModal = () => {
-    setIsModalOpen(false);
-  }
-
+export default function Howto({ closeModal, isModalOpen }) {
   if (!isModalOpen) {
     return null;
   }
@@ -22,7 +15,9 @@ export default function Howto() {
           alphabetical letters. You have 3 chances for each letter. The clues
           can be synonyms, antonyms, etc.
         </p>
-        <button className={styles.modalButton} onClick={toggleModal}>LET'S PLAY!</button>
+        <button className={styles.modalButton} onClick={closeModal}>
+          LET'S PLAY!
+        </button>
       </div>
     </>
   );
