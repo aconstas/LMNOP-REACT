@@ -17,6 +17,10 @@
   margin-left: 15px;
 }
 
+.icons:hover {
+  cursor: pointer;
+}
+
 #title {
     padding-top: 31px;
     padding-left: 31px;
