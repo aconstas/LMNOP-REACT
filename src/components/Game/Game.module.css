@@ -1,5 +1,6 @@
 .blurred {
     filter: blur(10px);
+    -webkit-filter: blur(10px);
 }
 
 #guessInputContainer {
