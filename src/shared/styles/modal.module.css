@@ -13,6 +13,8 @@
 .modalTitle {
   font-family: "Space Grotesk", sans-serif;
   margin: 55px 0 0 28px;
+  font-weight: 700;
+  font-size: 32px;
 }
 
 .modalText {
@@ -39,4 +41,36 @@
 
 .modalButton:hover {
   cursor: pointer;
+}
+
+.modalHeading {
+  text-align: center;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  margin-top: 12px;
+}
+
+.resultsBoard {
+  display: flex;
+  justify-content: center;
+}
+
+.resultsBoard > * {
+  /* styles for children squares */
+}
+
+#stats {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 42px;
+  margin-top: 42px;
+}
+
+.statsDescription {
+  margin-top: 5px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
 }
