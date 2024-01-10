@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import './App.css'
-import Howto from './components/HowTo/Howto';
-import Navbar from './components/Navbar/Navbar';
-import Results from './components/Results/Results';
-import Game from './components/Game/Game';
+import Howto from './components/HowTo/Howto.jsx';
+import Navbar from './components/Navbar/Navbar.jsx';
+import Results from './components/Results/Results.jsx';
+import Game from './components/Game/Game.jsx';
 
 function App() {
   const [showResults, setshowResults] = useState(false);
