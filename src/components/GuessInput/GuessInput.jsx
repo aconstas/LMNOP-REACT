@@ -5,7 +5,7 @@ export default function GuessInput() {
     <div className={styles.letterContainer}>
       <div className={styles.letterBox}></div>
       <div>
-        <input type="text" required enterKeyHint="go"></input>
+        <input type="text" required enterKeyHint="go" autoComplete="off"></input>
       </div>
     </div>
   );
