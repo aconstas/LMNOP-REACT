@@ -6,5 +6,6 @@
 #guessInputContainer {
     display: flex;
     flex-direction: column;
-    gap: 16px
+    gap: 10px
+    /* prev gap: 16px */
 }
