@@ -50,3 +50,19 @@ input {
     font-size: 24px;
     padding: 7px 0 6px 13px;
 } */
+
+.oneGuess {
+    background: #B7ED82;
+}
+
+.twoGuesses {
+    background: #FFE37E;
+}
+
+.threeGuesses {
+    background: #FFAD4E;
+}
+
+.failed {
+    background: #FE8979;
+}
