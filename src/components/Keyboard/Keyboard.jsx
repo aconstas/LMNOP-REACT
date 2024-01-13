@@ -10,7 +10,7 @@ export default function Keyboard({ isModalOpen }) {
 
     setTimeout(() => {
       setActiveKey(null);
-    }, 25);
+    }, 10);
   };
 
   const keys1 = ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"];
