@@ -1,3 +1,7 @@
+*:focus {
+  outline: none;
+}
+
 #keyboard {
   background: #d9d9d9;
   display: flex;
