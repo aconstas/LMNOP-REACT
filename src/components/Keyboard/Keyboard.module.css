@@ -35,6 +35,29 @@
     border-radius: 5px;
 }
 
+#enterKey {
+    display: grid;
+    margin: 5px 2px;
+    background: #B7ED82; 
+    place-items: center;
+    font-size: 14px;
+    cursor: pointer;
+    height: 41px;
+    width: 55px;
+    border-radius: 5px;
+}
+
+#backspaceKey {
+    display: grid;
+    margin: 5px 2px;
+    background: #FFF; 
+    place-items: center;
+    cursor: pointer;
+    height: 41px;
+    width: 55px;
+    border-radius: 5px;
+}
+
 /* Media query for desktop screens */
 @media (min-width: 768px) {
     #keyboard {

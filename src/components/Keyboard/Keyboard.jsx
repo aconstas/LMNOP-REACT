@@ -1,4 +1,5 @@
 import styles from "./Keyboard.module.css";
+import backspace from "../../assets/backspace.png";
 
 export default function Keyboard() {
   const keys1 = ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"];
@@ -18,9 +19,11 @@ export default function Keyboard() {
         })}
       </div>
       <div className={styles.line3}>
+        <div id={styles.enterKey}>ENTER</div>
         {keys3.map((key) => {
           return <div key={key} className={styles.key}>{key}</div>;
         })}
+        <div id={styles.backspaceKey}><img src={backspace}/></div>
       </div>
     </div>
   );
