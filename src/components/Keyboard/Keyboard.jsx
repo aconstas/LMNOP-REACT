@@ -1,17 +1,8 @@
 import styles from "./Keyboard.module.css";
 import backspace from "../../assets/backspace.png";
-import { useState } from "react";
+import Key from "../Key/Key";
 
 export default function Keyboard({ isModalOpen }) {
-  const [activeKey, setActiveKey] = useState(null);
-
-  const handleKeyClick = (key) => {
-    setActiveKey(key);
-
-    setTimeout(() => {
-      setActiveKey(null);
-    }, 5);
-  };
 
   const keys1 = ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"];
   const keys2 = ["A", "S", "D", "F", "G", "H", "J", "K", "L"];
@@ -22,28 +13,14 @@ export default function Keyboard({ isModalOpen }) {
       <div className={styles.line1}>
         {keys1.map((key) => {
           return (
-            <div
-              key={key}
-              className={styles.key}
-              onClick={() => handleKeyClick(key)}
-              style={{ backgroundColor: activeKey === key && "#E5E5E5" }}
-            >
-              {key}
-            </div>
+            <Key keyVal={key} key={key}/>
           );
         })}
       </div>
       <div className={styles.line2}>
         {keys2.map((key) => {
           return (
-            <div
-              key={key}
-              className={styles.key}
-              onClick={() => handleKeyClick(key)}
-              style={{ backgroundColor: activeKey === key && "#E5E5E5" }}
-            >
-              {key}
-            </div>
+            <Key keyVal={key} key={key}/>
           );
         })}
       </div>
@@ -51,14 +28,7 @@ export default function Keyboard({ isModalOpen }) {
         <div id={styles.enterKey}>ENTER</div>
         {keys3.map((key) => {
           return (
-            <div
-              key={key}
-              className={styles.key}
-              onClick={() => handleKeyClick(key)}
-              style={{ backgroundColor: activeKey === key && "#E5E5E5" }}
-            >
-              {key}
-            </div>
+            <Key keyVal={key} key={key}/>
           );
         })}
         <div id={styles.backspaceKey}
