@@ -1,0 +1,8 @@
+#hint {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
