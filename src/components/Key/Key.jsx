@@ -9,7 +9,7 @@ export default function Key({ keyVal }) {
 
     setTimeout(() => {
       setActiveKey(false);
-    }, 10);
+    }, 200);
   };
 
   return (
