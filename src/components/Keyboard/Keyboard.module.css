@@ -1,66 +1,73 @@
 #keyboard {
-    background: #D9D9D9;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-    width: 100%;
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: 400;
-    position: absolute;
-    bottom: 0;
-    padding: 5px 0;
+  background: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  position: absolute;
+  bottom: 0;
+  padding: 5px 0;
 }
 
-.line1, .line2, .line3 {
-    display: flex;
-    width: 100%;
-    justify-content: center;
+.line1,
+.line2,
+.line3 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
 #disabled {
-    background-color: red;
+  background-color: red;
 }
 
 .key {
-    display: grid;
-    margin: 5px 2px;
-    background: #FFF; 
-    color: black;
-    place-items: center;
-    font-size: 20px;
-    cursor: pointer;
-    height: 41px;
-    width: 34px;
-    border-radius: 5px;
+  display: grid;
+  margin: 5px 2px;
+  background: #fff;
+  color: black;
+  place-items: center;
+  font-size: 20px;
+  cursor: pointer;
+  height: 41px;
+  width: 34px;
+  border-radius: 5px;
 }
 
 #enterKey {
-    display: grid;
-    margin: 5px 2px;
-    background: #B7ED82; 
-    place-items: center;
-    font-size: 14px;
-    cursor: pointer;
-    height: 41px;
-    width: 55px;
-    border-radius: 5px;
+  display: grid;
+  margin: 5px 2px;
+  background: #b7ed82;
+  place-items: center;
+  font-size: 14px;
+  cursor: pointer;
+  height: 41px;
+  width: 55px;
+  border-radius: 5px;
 }
 
 #backspaceKey {
-    display: grid;
-    margin: 5px 2px;
-    background: #FFF; 
-    place-items: center;
-    cursor: pointer;
-    height: 41px;
-    width: 55px;
-    border-radius: 5px;
+  display: grid;
+  margin: 5px 2px;
+  background: #fff;
+  place-items: center;
+  cursor: pointer;
+  height: 41px;
+  width: 55px;
+  border-radius: 5px;
+}
+
+.blurred {
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
 }
 
 /* Media query for desktop screens */
 @media (min-width: 768px) {
-    #keyboard {
-        width: 33vw;
-    }
+  #keyboard {
+    width: 33vw;
+  }
 }
