@@ -9,17 +9,17 @@ export default function Keyboard() {
     <div id={styles.keyboard}>
       <div className={styles.line1}>
         {keys1.map((key) => {
-          return <div key={key}>{key}</div>;
+          return <div key={key} className={styles.key}>{key}</div>;
         })}
       </div>
       <div className={styles.line2}>
         {keys2.map((key) => {
-          return <div key={key}>{key}</div>;
+          return <div key={key} className={styles.key}>{key}</div>;
         })}
       </div>
       <div className={styles.line3}>
         {keys3.map((key) => {
-          return <div key={key}>{key}</div>;
+          return <div key={key} className={styles.key}>{key}</div>;
         })}
       </div>
     </div>
