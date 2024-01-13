@@ -5,7 +5,6 @@ import Navbar from "./components/Navbar/Navbar.jsx";
 import Results from "./components/Results/Results.jsx";
 import Game from "./components/Game/Game.jsx";
 import Keyboard from "./components/Keyboard/Keyboard.jsx";
-import CurrentHint from "./components/CurrentHint/CurrentHint.jsx";
 
 export default function App() {
   const [showResults, setshowResults] = useState(false);
