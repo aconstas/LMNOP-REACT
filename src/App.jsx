@@ -11,7 +11,7 @@ export default function App() {
   const [isModalOpen, setIsModalOpen] = useState(true);
 
   const toggleModal = () => {
-    setIsModalOpen(false);
+    setIsModalOpen(!isModalOpen);
   };
 
   return (
@@ -20,8 +20,8 @@ export default function App() {
       {isModalOpen && (
         <Howto closeModal={toggleModal} isModalOpen={isModalOpen} />
       )}
-      <Game isModalOpen={isModalOpen} />
       {showResults && <Results />}
+      <Game isModalOpen={isModalOpen} />
       <Keyboard isModalOpen={isModalOpen}/>
     </>
   );
