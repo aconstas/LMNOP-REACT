@@ -21,10 +21,9 @@ export default function App() {
       {isModalOpen && (
         <Howto closeModal={toggleModal} isModalOpen={isModalOpen} />
       )}
-      <CurrentHint />
       <Game isModalOpen={isModalOpen} />
       {showResults && <Results />}
-      <Keyboard />
+      <Keyboard isModalOpen={isModalOpen}/>
     </>
   );
 }
