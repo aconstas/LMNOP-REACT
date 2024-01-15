@@ -4,10 +4,7 @@ import GuessInput from "../GuessInput/GuessInput";
 import Timer from "../Timer/Timer";
 import styles from "./Game.module.css";
 
-export default function Game({ isModalOpen }) {
-  const [gameStarted, setGameStarted] = useState(false);
-  const [gameEnded, setGameEnded] = useState(false);
-
+export default function Game({ isModalOpen, gameStarted }) {
 
   return (
     <div className={isModalOpen ? styles.blurred : ""}>
@@ -19,7 +16,7 @@ export default function Game({ isModalOpen }) {
         <GuessInput />
         <GuessInput />
       </div>
-      <Timer />
+      <Timer gameStarted={gameStarted}/>
     </div>
   );
 }
