@@ -6,3 +6,10 @@
     justify-content: center;
     color: black;
 }
+
+/* Media query for desktop screens */
+@media (min-width: 500px) {
+    #hint {
+        margin: 20px 0;
+    }
+  }

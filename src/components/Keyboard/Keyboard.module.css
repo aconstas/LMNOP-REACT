@@ -57,8 +57,21 @@
 }
 
 /* Media query for desktop screens */
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   #keyboard {
-    width: 33vw;
+    width: 100vw;
+    background: none;
+    position: relative;
+    margin-top: 50px;
+  }
+
+  #backspaceKey {
+    height: 58px;
+    background: #d9d9d9;
+  }
+  
+  #enterKey {
+    height: 58px;
+    font-weight: 700;
   }
 }
