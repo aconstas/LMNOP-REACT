@@ -9,10 +9,18 @@ import Keyboard from "./components/Keyboard/Keyboard.jsx";
 export default function App() {
   const [showResults, setshowResults] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(true);
+  const [gameStarted, setGameStarted] = useState(false);
+  const [gameEnded, setGameEnded] = useState(false);
 
   const toggleModal = () => {
     setIsModalOpen(!isModalOpen);
+    startGame();
   };
+
+  function startGame() {
+    setGameStarted(!gameStarted);
+  }
+
 
   return (
     <>
@@ -21,7 +29,7 @@ export default function App() {
         <Howto closeModal={toggleModal} isModalOpen={isModalOpen} />
       )}
       {showResults && <Results />}
-      <Game isModalOpen={isModalOpen} />
+      <Game isModalOpen={isModalOpen} gameStarted={gameStarted}/>
       <Keyboard isModalOpen={isModalOpen}/>
     </>
   );
