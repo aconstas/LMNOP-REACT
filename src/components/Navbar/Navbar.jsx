@@ -7,8 +7,8 @@ export default function Navbar() {
         <header id={styles.header}>
             <h1 id={styles.title}>LMNOP</h1>
             <div id={styles.buttons}>
-                <img src={settings} className={styles.icons}/>
-                <img src={help} className={styles.icons}/>
+                <img src={settings} className={styles.icons} alt='settings icon'/>
+                <img src={help} className={styles.icons} alt='help icon'/>
             </div>
         </header>
     );
