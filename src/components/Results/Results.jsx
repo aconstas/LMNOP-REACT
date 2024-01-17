@@ -3,7 +3,7 @@ import styles from "../../shared/styles/modal.module.css";
 // should accept result object as props
 export default function Results() {
   const sendResults = () => {
-    window.location.href = `sms:%body=hello + this + is + the + message`;
+    window.location.href = `sms:&body=LMNOP%0A🟥🟩🟨🟩🟧%0ALMNOP`;
   }
 
 
