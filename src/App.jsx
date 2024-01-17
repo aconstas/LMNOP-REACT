@@ -7,7 +7,6 @@ import Game from "./components/Game/Game.jsx";
 import Keyboard from "./components/Keyboard/Keyboard.jsx";
 
 export default function App() {
-  const [showResults, setshowResults] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(true);
   const [gameStarted, setGameStarted] = useState(false);
   const [gameEnded, setGameEnded] = useState(false);
@@ -25,10 +24,11 @@ export default function App() {
   return (
     <>
       <Navbar />
-      {isModalOpen && (
+      {/* {isModalOpen && (
         <Howto closeModal={toggleModal} isModalOpen={isModalOpen} />
-      )}
-      {showResults && <Results />}
+      )} */}
+      <Results />
+      {/* {gameEnded && <Results />} */}
       <Game isModalOpen={isModalOpen} gameStarted={gameStarted}/>
       <Keyboard isModalOpen={isModalOpen}/>
     </>

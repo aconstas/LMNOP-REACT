@@ -2,6 +2,11 @@ import styles from "../../shared/styles/modal.module.css";
 
 // should accept result object as props
 export default function Results() {
+  const sendResults = () => {
+    window.location.href = `sms:%body=hello + this + is + the + message`;
+  }
+
+
   return (
     <>
       <div className={styles.modalContainer}>
@@ -24,7 +29,7 @@ export default function Results() {
             </div>
           </div>
         </div>
-        <button className={styles.modalButton}>SHARE</button>
+        <button className={styles.modalButton} onClick={sendResults}>SHARE</button>
       </div>
     </>
   );
