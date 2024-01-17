@@ -13,6 +13,7 @@
     height: 41px;
     width: 34px;
     border-radius: 5px;
+    user-select: none;
   }
 
   @media (min-width: 500px) {
