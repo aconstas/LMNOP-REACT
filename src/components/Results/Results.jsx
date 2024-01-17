@@ -6,7 +6,7 @@ export default function Results() {
     const gameNumber = 1;
     const time = '1:25';
     const score = '🟥🟩🟨🟩🟧';
-    window.location.href = `sms:&body=LMNOP #${gameNumber} ⏱️${time}%0A${score}%0AA  B  C  D  E`;
+    window.location.href = `sms:&body=LMNOP #${gameNumber} ⏱️${time}%0A${score}%0A A   B   C   D   E`;
   }
 
 
