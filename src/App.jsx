@@ -24,11 +24,10 @@ export default function App() {
   return (
     <>
       <Navbar />
-      {/* {isModalOpen && (
+      {isModalOpen && (
         <Howto closeModal={toggleModal} isModalOpen={isModalOpen} />
-      )} */}
-      <Results />
-      {/* {gameEnded && <Results />} */}
+      )}
+      {gameEnded && <Results />}
       <Game isModalOpen={isModalOpen} gameStarted={gameStarted}/>
       <Keyboard isModalOpen={isModalOpen}/>
     </>
