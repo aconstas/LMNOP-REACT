@@ -3,7 +3,10 @@ import styles from "../../shared/styles/modal.module.css";
 // should accept result object as props
 export default function Results() {
   const sendResults = () => {
-    window.location.href = `sms:&body=LMNOP%0A🟥🟩🟨🟩🟧%0ALMNOP`;
+    const gameNumber = 1;
+    const time = '1:25';
+    const score = '🟥🟩🟨🟩🟧';
+    window.location.href = `sms:&body=LMNOP #${gameNumber} ⏱️${time}%0A${score}%0AA  B  C  D  E`;
   }
 
 
