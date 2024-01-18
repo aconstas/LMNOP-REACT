@@ -4,16 +4,26 @@ import GuessInput from "../GuessInput/GuessInput";
 import Timer from "../Timer/Timer";
 import styles from "./Game.module.css";
 
-export default function Game({ isModalOpen, gameStarted, userGuess }) {
+export default function Game({
+  isModalOpen,
+  gameStarted,
+  userGuess,
+  currentWordlist,
+}) {
+
   return (
     <div className={isModalOpen ? styles.blurred : ""}>
       <CurrentHint />
       <div id={styles.guessInputContainer}>
-        <GuessInput userGuess={userGuess} />
-        <GuessInput userGuess={userGuess} />
-        <GuessInput userGuess={userGuess} />
-        <GuessInput userGuess={userGuess} />
-        <GuessInput userGuess={userGuess} />
+        {currentWordlist.map((wordSet) => {
+          return (
+            <GuessInput
+              key={wordSet.word}
+              userGuess={userGuess}
+              correctWord={wordSet.word}
+            />
+          );
+        })}
       </div>
       <Timer gameStarted={gameStarted} />
     </div>
