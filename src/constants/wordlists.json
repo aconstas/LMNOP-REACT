@@ -1,0 +1,342 @@
+[
+  {
+    "days_since_launch": 0,
+    "wordlist": [
+      { "word": "apple", "hint": "fruit" },
+      { "word": "butterfly", "hint": "insect" },
+      { "word": "cat", "hint": "pet" },
+      { "word": "diamond", "hint": "gemstone" },
+      { "word": "elephant", "hint": "trunk" }
+    ]
+  },
+  {
+    "days_since_launch": 1,
+    "wordlist": [
+      { "word": "flower", "hint": "bloom" },
+      { "word": "guitar", "hint": "instrument" },
+      { "word": "helicopter", "hint": "aircraft" },
+      { "word": "island", "hint": "landform" },
+      { "word": "jacket", "hint": "clothing" }
+    ]
+  },
+  {
+    "days_since_launch": 2,
+    "wordlist": [
+      { "word": "kangaroo", "hint": "marsupial" },
+      { "word": "lemon", "hint": "citrus" },
+      { "word": "mountain", "hint": "elevation" },
+      { "word": "notebook", "hint": "writing" },
+      { "word": "ocean", "hint": "sea" }
+    ]
+  },
+  {
+    "days_since_launch": 3,
+    "wordlist": [
+      { "word": "piano", "hint": "music" },
+      { "word": "quartz", "hint": "mineral" },
+      { "word": "rose", "hint": "flower" },
+      { "word": "sunflower", "hint": "plant" },
+      { "word": "telescope", "hint": "astronomy" }
+    ]
+  },
+  {
+    "days_since_launch": 4,
+    "wordlist": [
+      { "word": "umbrella", "hint": "rain" },
+      { "word": "volcano", "hint": "eruption" },
+      { "word": "watermelon", "hint": "fruit" },
+      { "word": "xylophone", "hint": "instrument" },
+      { "word": "yacht", "hint": "boat" }
+    ]
+  },
+  {
+    "days_since_launch": 5,
+    "wordlist": [
+      { "word": "accordion", "hint": "music" },
+      { "word": "balloon", "hint": "helium" },
+      { "word": "cactus", "hint": "plant" },
+      { "word": "dolphin", "hint": "mammal" },
+      { "word": "erase", "hint": "remove" }
+    ]
+  },
+  {
+    "days_since_launch": 6,
+    "wordlist": [
+      { "word": "eclipse", "hint": "celestial" },
+      { "word": "flute", "hint": "wind" },
+      { "word": "galaxy", "hint": "space" },
+      { "word": "harbor", "hint": "water" },
+      { "word": "iguana", "hint": "reptile" }
+    ]
+  },
+  {
+    "days_since_launch": 7,
+    "wordlist": [
+      { "word": "jellyfish", "hint": "ocean" },
+      { "word": "kite", "hint": "fly" },
+      { "word": "lighthouse", "hint": "beacon" },
+      { "word": "magnet", "hint": "attraction" },
+      { "word": "noodle", "hint": "food" }
+    ]
+  },
+  {
+    "days_since_launch": 8,
+    "wordlist": [
+      { "word": "octopus", "hint": "tentacles" },
+      { "word": "penguin", "hint": "bird" },
+      { "word": "quill", "hint": "pen" },
+      { "word": "rainbow", "hint": "colors" },
+      { "word": "starfish", "hint": "marine" }
+    ]
+  },
+  {
+    "days_since_launch": 9,
+    "wordlist": [
+      { "word": "turtle", "hint": "shell" },
+      { "word": "unicorn", "hint": "mythical" },
+      { "word": "volleyball", "hint": "sport" },
+      { "word": "walrus", "hint": "mammal" },
+      { "word": "xenon", "hint": "element" }
+    ]
+  },
+  {
+    "days_since_launch": 10,
+    "wordlist": [
+      { "word": "jaguar", "hint": "big cat" },
+      { "word": "kettle", "hint": "boil" },
+      { "word": "llama", "hint": "animal" },
+      { "word": "mango", "hint": "fruit" },
+      { "word": "nest", "hint": "bird's" }
+    ]
+  },
+  {
+    "days_since_launch": 11,
+    "wordlist": [
+      { "word": "tiger", "hint": "striped" },
+      { "word": "urchin", "hint": "sea" },
+      { "word": "vulture", "hint": "bird" },
+      { "word": "willow", "hint": "tree" },
+      { "word": "xylograph", "hint": "carving" }
+    ]
+  },
+  {
+    "days_since_launch": 12,
+    "wordlist": [
+      { "word": "lime", "hint": "tequila" },
+      { "word": "marriage", "hint": "union" },
+      { "word": "nasty", "hint": "gross" },
+      { "word": "off", "hint": "on" },
+      { "word": "place", "hint": "location" }
+    ]
+  },
+  {
+    "days_since_launch": 13,
+    "wordlist": [
+      { "word": "queen", "hint": "king" },
+      { "word": "rest", "hint": "break" },
+      { "word": "slime", "hint": "goo" },
+      { "word": "touch", "hint": "feel" },
+      { "word": "unknown", "hint": "known" }
+    ]
+  },
+  {
+    "days_since_launch": 14,
+    "wordlist": [
+      { "word": "applause", "hint": "clap" },
+      { "word": "beta", "hint": "alpha" },
+      { "word": "charm", "hint": "rizz" },
+      { "word": "deep", "hint": "shallow" },
+      { "word": "earring", "hint": "jewelry" }
+    ]
+  },
+  {
+    "days_since_launch": 15,
+    "wordlist": [
+      { "word": "steer", "hint": "navigate" },
+      { "word": "tank", "hint": "war" },
+      { "word": "under", "hint": "over" },
+      { "word": "vowel", "hint": "consonant" },
+      { "word": "waste", "hint": "garbage" }
+    ]
+  },
+  {
+    "days_since_launch": 16,
+    "wordlist": [
+      { "word": "thief", "hint": "robber" },
+      { "word": "unreal", "hint": "fake" },
+      { "word": "vision", "hint": "x-ray" },
+      { "word": "white", "hint": "black" },
+      { "word": "xerox", "hint": "copy" }
+    ]
+  },
+  {
+    "days_since_launch": 17,
+    "wordlist": [
+      { "word": "linger", "hint": "stays" },
+      { "word": "march", "hint": "parade" },
+      { "word": "naughty", "hint": "mischievous" },
+      { "word": "offend", "hint": "disturb" },
+      { "word": "parliament", "hint": "congress" }
+    ]
+  },
+  {
+    "days_since_launch": 18,
+    "wordlist": [
+      { "word": "price", "hint": "amount" },
+      { "word": "quarter", "hint": "twenty-five" },
+      { "word": "roam", "hint": "wander" },
+      { "word": "seek", "hint": "search" },
+      { "word": "time", "hint": "hour" }
+    ]
+  },
+  {
+    "days_since_launch": 19,
+    "wordlist": [
+      { "word": "undo", "hint": "loosen" },
+      { "word": "variable", "hint": "changeable" },
+      { "word": "whale", "hint": "mammal" },
+      { "word": "xenophobic", "hint": "anti-stranger" },
+      { "word": "yesterday", "hint": "The Beatles" }
+    ]
+  },
+  {
+    "days_since_launch": 20,
+    "wordlist": [
+      { "word": "best", "hint": "greatest" },
+      { "word": "chat", "hint": "talk" },
+      { "word": "decided", "hint": "chosen" },
+      { "word": "elevate", "hint": "lift-up" },
+      { "word": "fear", "hint": "scared" }
+    ]
+  },
+  {
+    "days_since_launch": 21,
+    "wordlist": [
+      { "word": "jump", "hint": "leap" },
+      { "word": "keep", "hint": "retain" },
+      { "word": "laugh", "hint": "giggle" },
+      { "word": "mend", "hint": "repair" },
+      { "word": "narrate", "hint": "tell" }
+    ]
+  },
+  {
+    "days_since_launch": 22,
+    "wordlist": [
+      { "word": "jog", "hint": "run" },
+      { "word": "knit", "hint": "yarn" },
+      { "word": "lesson", "hint": "tutorial" },
+      { "word": "mimic", "hint": "copy" },
+      { "word": "navigate", "hint": "steer" }
+    ]
+  },
+  {
+    "days_since_launch": 23,
+    "wordlist": [
+      { "word": "computer", "hint": "device" },
+      { "word": "data", "hint": "information" },
+      { "word": "encrypt", "hint": "cipher" },
+      { "word": "flash", "hint": "____ drive" },
+      { "word": "gigabyte", "hint": "storage" }
+    ]
+  },
+  {
+    "days_since_launch": 24,
+    "wordlist": [
+      { "word": "abandon", "hint": "leave" },
+      { "word": "babble", "hint": "gibberish" },
+      { "word": "cab", "hint": "taxi" },
+      { "word": "disgust", "hint": "repulse" },
+      { "word": "exit", "hint": "leave" }
+    ]
+  },
+  {
+    "days_since_launch": 25,
+    "wordlist": [
+      { "word": "fortune", "hint": "luck" },
+      { "word": "grudge", "hint": "resentment" },
+      { "word": "human", "hint": "person" },
+      { "word": "invent", "hint": "concoct" },
+      { "word": "jostle", "hint": "shove" }
+    ]
+  },
+  {
+    "days_since_launch": 26,
+    "wordlist": [
+      { "word": "keg", "hint": "barrel" },
+      { "word": "life", "hint": "vivacity" },
+      { "word": "machine", "hint": "mechanism" },
+      { "word": "nag", "hint": "torment" },
+      { "word": "oval", "hint": "shape" }
+    ]
+  },
+  {
+    "days_since_launch": 27,
+    "wordlist": [
+      { "word": "panic", "hint": "alarm" },
+      { "word": "quake", "hint": "shake" },
+      { "word": "raise", "hint": "increase" },
+      { "word": "shore", "hint": "seaside" },
+      { "word": "table", "hint": "chart" }
+    ]
+  },
+  {
+    "days_since_launch": 28,
+    "wordlist": [
+      { "word": "ugly", "hint": "pretty" },
+      { "word": "vague", "hint": "unclear" },
+      { "word": "wacky", "hint": "silly" },
+      { "word": "xerox", "hint": "copy" },
+      { "word": "yell", "hint": "scream" }
+    ]
+  },
+  {
+    "days_since_launch": 29,
+    "wordlist": [
+      { "word": "ghost", "hint": "phantom" },
+      { "word": "hurry", "hint": "rush" },
+      { "word": "interrogate", "hint": "question" },
+      { "word": "jade", "hint": "gemstone" },
+      { "word": "kick", "hint": "boot" }
+    ]
+  },
+  {
+    "days_since_launch": 30,
+    "wordlist": [
+      { "word": "career", "hint": "occupation" },
+      { "word": "decide", "hint": "determine" },
+      { "word": "entitle", "hint": "empower" },
+      { "word": "four", "hint": "number" },
+      { "word": "gruff", "hint": "scratchy" }
+    ]
+  },
+  {
+    "days_since_launch": 31,
+    "wordlist": [
+      { "word": "drug", "hint": "medicine" },
+      { "word": "essay", "hint": "paper" },
+      { "word": "fright", "hint": "terror" },
+      { "word": "grief", "hint": "mourning" },
+      { "word": "hall", "hint": "passage" }
+    ]
+  },
+  {
+    "days_since_launch": 32,
+    "wordlist": [
+      { "word": "mirror", "hint": "reflection" },
+      { "word": "necessary", "hint": "needed" },
+      { "word": "option", "hint": "choice" },
+      { "word": "package", "hint": "parcel" },
+      { "word": "quirky", "hint": "odd" }
+    ]
+  },
+  {
+    "days_since_launch": 33,
+    "wordlist": [
+      { "word": "less", "hint": "more" },
+      { "word": "maid", "hint": "housekeeper" },
+      { "word": "near", "hint": "close" },
+      { "word": "observer", "hint": "witness" },
+      { "word": "please", "hint": "satisfy" }
+    ]
+  }
+]
