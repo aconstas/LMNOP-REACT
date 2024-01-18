@@ -17,6 +17,10 @@ export default function App() {
     setUserGuess(newText);
   }
 
+  function handleBackspace() {
+    setUserGuess(prevGuess => prevGuess.slice(0, -1));
+  }
+
   const toggleModal = () => {
     setIsModalOpen(!isModalOpen);
     startGame();
@@ -34,7 +38,7 @@ export default function App() {
       )}
       {gameEnded && <Results />}
       <Game isModalOpen={isModalOpen} gameStarted={gameStarted} userGuess={userGuess}/>
-      <Keyboard isModalOpen={isModalOpen} addUserText={addUserText}/>
+      <Keyboard isModalOpen={isModalOpen} addUserText={addUserText} handleBackspace={handleBackspace}/>
     </>
   );
 }
