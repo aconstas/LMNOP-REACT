@@ -1,10 +1,12 @@
 import styles from "./Key.module.css";
 import { useState } from "react";
 
-export default function Key({ keyVal }) {
+export default function Key({ keyVal, addUserText }) {
   const [activeKey, setActiveKey] = useState(false);
 
-  const handleKeyClick = () => {
+  const handleKeyClick = (key) => {
+    addUserText(key)
+
     setActiveKey(!activeKey);
 
     setTimeout(() => {

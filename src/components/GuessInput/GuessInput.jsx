@@ -1,10 +1,10 @@
 import styles from "./GuessInput.module.css";
 
-export default function GuessInput() {
+export default function GuessInput({ userGuess }) {
   return (
     <div className={styles.container}>
       <div className={styles.letterBox}>L</div>
-      <input type="text" enterKeyHint="go" autoComplete="off" readOnly></input>
+      <input type="text" enterKeyHint="go" autoComplete="off" readOnly value={userGuess}></input>
     </div>
   );
 }

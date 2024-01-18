@@ -10,6 +10,12 @@ export default function App() {
   const [isModalOpen, setIsModalOpen] = useState(true);
   const [gameStarted, setGameStarted] = useState(false);
   const [gameEnded, setGameEnded] = useState(false);
+  const [userGuess, setUserGuess] = useState("");
+
+  function addUserText(key) {
+    const newText = userGuess + key;
+    setUserGuess(newText);
+  }
 
   const toggleModal = () => {
     setIsModalOpen(!isModalOpen);
@@ -20,7 +26,6 @@ export default function App() {
     setGameStarted(!gameStarted);
   }
 
-
   return (
     <>
       <Navbar />
@@ -28,8 +33,8 @@ export default function App() {
         <Howto closeModal={toggleModal} isModalOpen={isModalOpen} />
       )}
       {gameEnded && <Results />}
-      <Game isModalOpen={isModalOpen} gameStarted={gameStarted}/>
-      <Keyboard isModalOpen={isModalOpen}/>
+      <Game isModalOpen={isModalOpen} gameStarted={gameStarted} userGuess={userGuess}/>
+      <Keyboard isModalOpen={isModalOpen} addUserText={addUserText}/>
     </>
   );
 }
