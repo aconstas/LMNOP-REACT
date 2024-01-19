@@ -33,6 +33,35 @@ input {
   background: #F1F1F1; 
 }
 
+
+.oneGuess {
+  background: #b7ed82;
+}
+
+.twoGuesses {
+  background: #ffe37e;
+}
+
+.threeGuesses {
+  background: #ffad4e;
+}
+
+.failed {
+  background: #fe8979;
+}
+
+@keyframes tilt-shaking {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(30deg); }
+  50% { transform: rotate(0deg); }
+  75% { transform: rotate(-30deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.active.shaking {
+  animation: tilt-shaking 0.3s;
+}
+
 /* iPhone Max */
 /* .letterBox {
     width: 66px;
@@ -56,19 +85,3 @@ input {
     font-size: 24px;
     padding: 7px 0 6px 13px;
 } */
-
-.oneGuess {
-  background: #b7ed82;
-}
-
-.twoGuesses {
-  background: #ffe37e;
-}
-
-.threeGuesses {
-  background: #ffad4e;
-}
-
-.failed {
-  background: #fe8979;
-}
