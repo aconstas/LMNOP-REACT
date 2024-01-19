@@ -9,18 +9,23 @@ export default function Game({
   gameStarted,
   userGuess,
   currentWordlist,
+  activeInputIndex,
+  checkGuess,
+  hints,
 }) {
 
   return (
     <div className={isModalOpen ? styles.blurred : ""}>
-      <CurrentHint />
+      <CurrentHint hints={hints} activeInputIndex={activeInputIndex}/>
       <div id={styles.guessInputContainer}>
-        {currentWordlist.map((wordSet) => {
+        {currentWordlist.map((wordSet, index) => {
           return (
             <GuessInput
               key={wordSet.word}
-              userGuess={userGuess}
+              userGuess={userGuess[index]}
               correctWord={wordSet.word}
+              isActive={index === activeInputIndex}
+              checkGuess={checkGuess}
             />
           );
         })}
