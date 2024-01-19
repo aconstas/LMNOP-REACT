@@ -13,6 +13,7 @@ export default function App() {
   const [gameEnded, setGameEnded] = useState(false);
   const [activeInputIndex, setActiveInputIndex] = useState(0);
   const [hints, setHints] = useState([]);
+  const [shakeIncorrect, setShakeIncorrect] = useState(false);
 
   const launchDate = new Date("2024-01-18");
   const currentDate = new Date();
@@ -74,6 +75,10 @@ export default function App() {
   const checkGuess = (guess, correctWord) => {
     hasUserFailed(guess, correctWord);
     increaseGuessCount();
+    //if the user guessed correct on the last word, end game
+    if (guess === correctWord.toUpperCase() && activeInputIndex === 4 ) {
+      endGame();
+    }
     // if the user guessed the correct word and the user has more guesses left, move on
     if (guess === correctWord.toUpperCase() && guessCount[activeInputIndex] < 3) {
       console.log('moving to the next active index!')
@@ -83,13 +88,16 @@ export default function App() {
   };
 
   function hasUserFailed(guess, correctWord) {
+    if(guess !== correctWord) setShakeIncorrect(true);
     // if the user did not guess the correct word on the final try of the last input, end game
     if (guess !== correctWord.toUpperCase() && guessCount[activeInputIndex] === 2 && activeInputIndex === 4) {
+      console.log('you should shake here 1')
       endGame();
     }
     // if the user did not guess the correct word on the final (3rd) try, move on
     if (guess !== correctWord.toUpperCase() && guessCount[activeInputIndex] === 2) {
       console.log(`FAILED! ${activeInputIndex}`);
+      console.log('you should shake here 2');
       if (activeInputIndex !== 4) setActiveInputIndex((prevIndex) => prevIndex + 1);
     }
   }
@@ -108,7 +116,7 @@ console.log(guessCount, userGuesses, activeInputIndex);
       {isModalOpen && (
         <Howto closeModal={toggleModal} isModalOpen={isModalOpen} />
       )}
-      {gameEnded && <Results />}
+      {gameEnded && <Results guessCount={guessCount} currentWordList={currentWordlist}/>}
       <Game
         isModalOpen={isModalOpen}
         gameStarted={gameStarted}
@@ -117,6 +125,7 @@ console.log(guessCount, userGuesses, activeInputIndex);
         activeInputIndex={activeInputIndex}
         checkGuess={checkGuess}
         hints={hints}
+        shakeIncorrect={shakeIncorrect}
       />
       <Keyboard
         isModalOpen={isModalOpen}
