@@ -13,6 +13,7 @@ export default function App() {
   const [gameEnded, setGameEnded] = useState(false);
   const [activeInputIndex, setActiveInputIndex] = useState(0);
   const [hints, setHints] = useState([]);
+  const [gameNumber, setGameNumber] = useState(0);
   const [shakeIncorrect, setShakeIncorrect] = useState(false);
 
   const launchDate = new Date("2024-01-17T00:00:00"); // This is in UTC
@@ -32,6 +33,7 @@ export default function App() {
     (currentDate - launchDate) / (1000 * 60 * 60 * 24)
   );
 
+  // get today's game from .json file
   const currentGame = wordlists.filter(
     (game) => game.days_since_launch === daysSinceLaunch
   );
@@ -45,6 +47,7 @@ export default function App() {
 
   useEffect(() => {
     setHints(currentWordlist.map((set) => set.hint));
+    setGameNumber(currentGame[0].days_since_launch);
   }, [currentWordlist]);
 
   const addUserText = (key) => {
@@ -81,12 +84,11 @@ export default function App() {
   function endGame() {
     setGameEnded(true);
     setIsModalOpen(true);
-    console.log("the game has ended");
   }
 
   const checkGuess = (guess, correctWord) => {
     hasUserFailed(guess, correctWord);
-    increaseGuessCount();
+    increaseGuessCount(guess, correctWord);
     //if the user guessed correct on the last word, end game
     if (guess === correctWord.toUpperCase() && activeInputIndex === 4) {
       endGame();
@@ -118,6 +120,12 @@ export default function App() {
       guess !== correctWord.toUpperCase() &&
       guessCount[activeInputIndex] === 2
     ) {
+      // trying to add 'FAIL' to guessCount if the user maxed out their 3 tries
+      setGuessCount(
+        guessCount.map((item, index) =>
+          index === activeInputIndex ? 'FAIL' : item
+        )
+      );
       console.log(`FAILED! ${activeInputIndex}`);
       console.log("you should shake here 2");
       if (activeInputIndex !== 4)
@@ -125,7 +133,14 @@ export default function App() {
     }
   }
 
-  function increaseGuessCount() {
+  function increaseGuessCount(guess, correctWord) {
+    if (guess !== correctWord.toUpperCase() && guessCount[activeInputIndex] === 2) {
+      setGuessCount(
+        guessCount.map((item, index) =>
+          index === activeInputIndex ? 'FAIL' : item
+        )
+      );
+    }
     console.log("increasing guess count!");
     setGuessCount(
       guessCount.map((item, index) =>
@@ -142,7 +157,7 @@ export default function App() {
         <Howto closeModal={toggleModal} isModalOpen={isModalOpen} />
       )}
       {gameEnded && (
-        <Results guessCount={guessCount} currentWordList={currentWordlist} />
+        <Results guessCount={guessCount} currentWordList={currentWordlist} gameNumber={gameNumber}/>
       )}
       <Game
         isModalOpen={isModalOpen}
@@ -165,5 +180,3 @@ export default function App() {
     </>
   );
 }
-
-// use guessCount to construct <Results />
