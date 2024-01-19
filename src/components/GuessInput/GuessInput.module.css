@@ -19,9 +19,6 @@
   text-align: center;
 }
 
-#focused {
-}
-
 input {
   border-radius: 10px;
   width: 60vw;
@@ -30,6 +27,10 @@ input {
   font-family: "Space Grotesk", sans-serif;
   font-size: 24px;
   padding: 7px 0 6px 13px;
+}
+
+.active {
+  background: #F1F1F1; 
 }
 
 /* iPhone Max */
