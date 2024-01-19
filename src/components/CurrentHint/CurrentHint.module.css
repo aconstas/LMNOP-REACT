@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center;
     color: black;
+    text-transform: uppercase;
 }
 
 /* Media query for desktop screens */
