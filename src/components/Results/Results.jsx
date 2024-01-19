@@ -2,11 +2,25 @@ import styles from "../../shared/styles/modal.module.css";
 
 // should accept result object as props
 export default function Results({ guessCount, currentWordList }) {
+  const convertGuessCountToEmoji = (guessCount) => {
+    const colorMap = {
+      'fail': "🟥",
+      1: "🟩",
+      2: "🟨",
+      3: "🟧",
+    };
+    const emojiString = guessCount.map(value => colorMap[value] || '?').join('');
+    console.log(emojiString, currentWordList);
+    return emojiString;
+  }
+  
+  const scoreEmojiString = convertGuessCountToEmoji(guessCount);
+  const lettersString = currentWordList.map(set => set.word[0]).join('   ');
+
   const sendResults = () => {
     const gameNumber = 1;
     const time = "1:25";
-    const score = "🟥🟩🟨🟩🟧";
-    window.location.href = `sms:&body=LMNOP #${gameNumber} ⏱️${time}%0A${score}%0A A   B   C   D   E`;
+    window.location.href = `sms:&body=LMNOP #${gameNumber} ⏱️${time}%0A${scoreEmojiString}%0A ${lettersString}`;
   };
 
   return (
@@ -16,11 +30,16 @@ export default function Results({ guessCount, currentWordList }) {
         <div>
           <h2 className={styles.modalHeading}>1:25</h2>
           <div className={styles.resultsBoard}>
-            {
-              currentWordList.map((set, index) => {
-                return <div key={set.word} className={styles[`guess${guessCount[index]}`]}>{set.word[0].toUpperCase()}</div>;
-              })
-            }
+            {currentWordList.map((set, index) => {
+              return (
+                <div
+                  key={set.word}
+                  className={styles[`guess${guessCount[index]}`]}
+                >
+                  {set.word[0].toUpperCase()}
+                </div>
+              );
+            })}
           </div>
           <div id={styles.stats}>
             <div>
