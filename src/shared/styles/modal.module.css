@@ -54,10 +54,37 @@
 .resultsBoard {
   display: flex;
   justify-content: center;
+  font-family: 'Space Grotesk', sans-serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  gap: 7px;
+  margin-top: 20px;
 }
 
-.resultsBoard > * {
-  /* styles for children squares */
+.resultsBoard > div {
+  display: flex;
+  width: 52px;
+  height: 52px;
+  justify-content: center;
+  align-items: center;
+}
+
+.guess1 {
+  background: #B7ED82;
+}
+
+.guess2 {
+  background: #FFE37E;
+}
+
+.guess3 {
+  background: #FFAD4E;
+}
+
+/* change to fail? */
+.guess4 {
+  background: #FE8979;
 }
 
 #stats {
