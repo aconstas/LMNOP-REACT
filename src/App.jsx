@@ -88,18 +88,19 @@ export default function App() {
     }
     // if the user did not guess the correct word on the final (3rd) try, move on
     if (guess !== correctWord.toUpperCase() && guessCount[activeInputIndex] === 2) {
-      console.log('FAILED!');
-      setActiveInputIndex((prevIndex) => prevIndex + 1);
+      console.log(`FAILED! ${activeInputIndex}`);
+      if (activeInputIndex !== 4) setActiveInputIndex((prevIndex) => prevIndex + 1);
     }
   }
 
   function increaseGuessCount() {
+    console.log('increasing guess count!')
     setGuessCount(guessCount.map((item, index) => 
     index === activeInputIndex ? item + 1 : item
     ))
   }
 
-console.log(guessCount, userGuesses);
+console.log(guessCount, userGuesses, activeInputIndex);
   return (
     <>
       <Navbar />
