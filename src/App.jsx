@@ -15,11 +15,23 @@ export default function App() {
   const [hints, setHints] = useState([]);
   const [shakeIncorrect, setShakeIncorrect] = useState(false);
 
-  const launchDate = new Date("2024-01-18");
+  const launchDate = new Date("2024-01-17T00:00:00"); // This is in UTC
+
+  const pstOffset = 8 * 60; // PST is UTC-8
+  const currentOffset = launchDate.getTimezoneOffset();
+
+  // Adjust the launch date to PST
+  launchDate.setMinutes(launchDate.getMinutes() - pstOffset + currentOffset);
+
   const currentDate = new Date();
+  currentDate.setMinutes(
+    currentDate.getMinutes() - pstOffset + currentDate.getTimezoneOffset()
+  );
+
   const daysSinceLaunch = Math.floor(
     (currentDate - launchDate) / (1000 * 60 * 60 * 24)
   );
+
   const currentGame = wordlists.filter(
     (game) => game.days_since_launch === daysSinceLaunch
   );
@@ -69,54 +81,69 @@ export default function App() {
   function endGame() {
     setGameEnded(true);
     setIsModalOpen(true);
-    console.log('the game has ended');
+    console.log("the game has ended");
   }
 
   const checkGuess = (guess, correctWord) => {
     hasUserFailed(guess, correctWord);
     increaseGuessCount();
     //if the user guessed correct on the last word, end game
-    if (guess === correctWord.toUpperCase() && activeInputIndex === 4 ) {
+    if (guess === correctWord.toUpperCase() && activeInputIndex === 4) {
       endGame();
     }
     // if the user guessed the correct word and the user has more guesses left, move on
-    if (guess === correctWord.toUpperCase() && guessCount[activeInputIndex] < 3) {
-      console.log('moving to the next active index!')
+    if (
+      guess === correctWord.toUpperCase() &&
+      guessCount[activeInputIndex] < 3
+    ) {
+      console.log("moving to the next active index!");
       setActiveInputIndex((prevIndex) => prevIndex + 1);
       console.log("CORRECT! " + activeInputIndex);
     }
   };
 
   function hasUserFailed(guess, correctWord) {
-    if(guess !== correctWord) setShakeIncorrect(true);
+    if (guess !== correctWord) setShakeIncorrect(true);
     // if the user did not guess the correct word on the final try of the last input, end game
-    if (guess !== correctWord.toUpperCase() && guessCount[activeInputIndex] === 2 && activeInputIndex === 4) {
-      console.log('you should shake here 1')
+    if (
+      guess !== correctWord.toUpperCase() &&
+      guessCount[activeInputIndex] === 2 &&
+      activeInputIndex === 4
+    ) {
+      console.log("you should shake here 1");
       endGame();
     }
     // if the user did not guess the correct word on the final (3rd) try, move on
-    if (guess !== correctWord.toUpperCase() && guessCount[activeInputIndex] === 2) {
+    if (
+      guess !== correctWord.toUpperCase() &&
+      guessCount[activeInputIndex] === 2
+    ) {
       console.log(`FAILED! ${activeInputIndex}`);
-      console.log('you should shake here 2');
-      if (activeInputIndex !== 4) setActiveInputIndex((prevIndex) => prevIndex + 1);
+      console.log("you should shake here 2");
+      if (activeInputIndex !== 4)
+        setActiveInputIndex((prevIndex) => prevIndex + 1);
     }
   }
 
   function increaseGuessCount() {
-    console.log('increasing guess count!')
-    setGuessCount(guessCount.map((item, index) => 
-    index === activeInputIndex ? item + 1 : item
-    ))
+    console.log("increasing guess count!");
+    setGuessCount(
+      guessCount.map((item, index) =>
+        index === activeInputIndex ? item + 1 : item
+      )
+    );
   }
 
-console.log(guessCount, userGuesses, activeInputIndex);
+  console.log(guessCount, userGuesses, activeInputIndex);
   return (
     <>
       <Navbar />
       {isModalOpen && (
         <Howto closeModal={toggleModal} isModalOpen={isModalOpen} />
       )}
-      {gameEnded && <Results guessCount={guessCount} currentWordList={currentWordlist}/>}
+      {gameEnded && (
+        <Results guessCount={guessCount} currentWordList={currentWordlist} />
+      )}
       <Game
         isModalOpen={isModalOpen}
         gameStarted={gameStarted}
