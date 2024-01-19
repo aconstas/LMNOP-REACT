@@ -6,6 +6,7 @@ export default function GuessInput({
   correctWord,
   isActive,
   checkGuess,
+  shakeIncorrect,
 }) {
   const inputRef = useRef(null);
 
@@ -15,9 +16,18 @@ export default function GuessInput({
     }
   }, [isActive]);
 
+  const onAnimationEnd = () => {
+    setIsCorrect(false);
+  };
+
   return (
     <div className={styles.container}>
-      <div className={`${styles.letterBox} ${isActive ? styles.active : ""}`}>
+      <div
+        className={`${styles.letterBox} ${isActive ? styles.active : ""} ${
+          shakeIncorrect ? styles.shaking : ""
+        }`}
+        onAnimationEnd={onAnimationEnd}
+      >
         {correctWord[0].toUpperCase()}
       </div>
       <input
@@ -32,5 +42,3 @@ export default function GuessInput({
     </div>
   );
 }
-
-// how to handle autofocus for the first input box?
