@@ -1,7 +1,5 @@
-import styles from './CurrentHint.module.css';
+import styles from "./CurrentHint.module.css";
 
-export default function CurrentHint() {
-    return (
-        <h5 id={styles.hint}>HINT</h5>
-    );
+export default function CurrentHint({ hints, activeInputIndex }) {
+  return <h5 id={styles.hint}>{hints[activeInputIndex]}</h5>;
 }
