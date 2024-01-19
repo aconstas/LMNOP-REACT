@@ -12,6 +12,7 @@ export default function Game({
   activeInputIndex,
   checkGuess,
   hints,
+  shakeIncorrect,
 }) {
 
   return (
@@ -26,6 +27,7 @@ export default function Game({
               correctWord={wordSet.word}
               isActive={index === activeInputIndex}
               checkGuess={checkGuess}
+              shakeIncorrect={shakeIncorrect}
             />
           );
         })}
