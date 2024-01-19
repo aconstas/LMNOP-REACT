@@ -1,14 +1,13 @@
 import styles from "../../shared/styles/modal.module.css";
 
 // should accept result object as props
-export default function Results() {
+export default function Results({ guessCount, currentWordList }) {
   const sendResults = () => {
     const gameNumber = 1;
-    const time = '1:25';
-    const score = '🟥🟩🟨🟩🟧';
+    const time = "1:25";
+    const score = "🟥🟩🟨🟩🟧";
     window.location.href = `sms:&body=LMNOP #${gameNumber} ⏱️${time}%0A${score}%0A A   B   C   D   E`;
-  }
-
+  };
 
   return (
     <>
@@ -16,7 +15,13 @@ export default function Results() {
         <h2 className={styles.modalTitle}>RESULTS</h2>
         <div>
           <h2 className={styles.modalHeading}>1:25</h2>
-          <div className={styles.resultsBoard}></div>
+          <div className={styles.resultsBoard}>
+            {
+              currentWordList.map((set, index) => {
+                return <div key={set.word} className={styles[`guess${guessCount[index]}`]}>{set.word[0].toUpperCase()}</div>;
+              })
+            }
+          </div>
           <div id={styles.stats}>
             <div>
               <h3 className={styles.modalHeading}>5</h3>
@@ -32,7 +37,9 @@ export default function Results() {
             </div>
           </div>
         </div>
-        <button className={styles.modalButton} onClick={sendResults}>SHARE</button>
+        <button className={styles.modalButton} onClick={sendResults}>
+          SHARE
+        </button>
       </div>
     </>
   );
