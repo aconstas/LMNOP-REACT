@@ -1,7 +1,6 @@
 import styles from "../../shared/styles/modal.module.css";
 
-// should accept result object as props
-export default function Results({ guessCount, currentWordList }) {
+export default function Results({ guessCount, currentWordList, gameNumber }) {
   const convertGuessCountToEmoji = (guessCount) => {
     const colorMap = {
       'fail': "🟥",
@@ -10,7 +9,6 @@ export default function Results({ guessCount, currentWordList }) {
       3: "🟧",
     };
     const emojiString = guessCount.map(value => colorMap[value] || '?').join('');
-    console.log(emojiString, currentWordList);
     return emojiString;
   }
   
@@ -18,7 +16,6 @@ export default function Results({ guessCount, currentWordList }) {
   const lettersString = currentWordList.map(set => set.word[0]).join('   ');
 
   const sendResults = () => {
-    const gameNumber = 1;
     const time = "1:25";
     window.location.href = `sms:&body=LMNOP #${gameNumber} ⏱️${time}%0A${scoreEmojiString}%0A ${lettersString}`;
   };
@@ -63,5 +60,3 @@ export default function Results({ guessCount, currentWordList }) {
     </>
   );
 }
-
-// .modalText
