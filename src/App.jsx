@@ -67,6 +67,7 @@ export default function App() {
 
   function endGame() {
     setGameEnded(true);
+    setIsModalOpen(true);
     console.log('the game has ended');
   }
 
