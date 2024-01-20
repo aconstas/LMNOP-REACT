@@ -13,7 +13,7 @@ export default function Results({ guessCount, currentWordList, gameNumber }) {
   }
   
   const scoreEmojiString = convertGuessCountToEmoji(guessCount);
-  const lettersString = currentWordList.map(set => set.word[0]).join('   ');
+  const lettersString = currentWordList.map(set => set.word[0].toUpperCase()).join('   ');
 
   const sendResults = () => {
     const time = "1:25";
