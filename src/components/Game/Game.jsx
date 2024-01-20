@@ -1,4 +1,3 @@
-import { useState } from "react";
 import CurrentHint from "../CurrentHint/CurrentHint";
 import GuessInput from "../GuessInput/GuessInput";
 import Timer from "../Timer/Timer";
@@ -13,6 +12,8 @@ export default function Game({
   checkGuess,
   hints,
   shakeIncorrect,
+  setShakeIncorrect,
+  guessCount
 }) {
 
   return (
@@ -28,6 +29,9 @@ export default function Game({
               isActive={index === activeInputIndex}
               checkGuess={checkGuess}
               shakeIncorrect={shakeIncorrect}
+              setShakeIncorrect={setShakeIncorrect}
+              guessCount={guessCount}
+              activeInputIndex={activeInputIndex}
             />
           );
         })}
