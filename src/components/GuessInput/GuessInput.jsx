@@ -10,6 +10,7 @@ export default function GuessInput({
   setShakeIncorrect,
   guessCount,
   activeInputIndex,
+  wordSetIndex,
 }) {
   const inputRef = useRef(null);
 
@@ -23,11 +24,27 @@ export default function GuessInput({
     setShakeIncorrect(false);
   };
 
+  const getGuessStyle = () => {
+    const guessNumber = guessCount[wordSetIndex];
+    switch(guessNumber) {
+      case 0:
+        return undefined;
+      case 1:
+        return styles.guess1;
+      case 2:
+        return styles.guess2;
+      case 3:
+        return styles.guess3;
+      case 'FAIL':
+        return styles.guessFAIL;
+    }
+  }
+
   return (
     <div className={styles.container}>
       <div
         id={isActive ? styles.active : undefined}
-        className={`${styles.letterBox}  ${
+        className={`${styles.letterBox} ${getGuessStyle()} ${
           shakeIncorrect ? styles.shaking : undefined
         }`}
         onAnimationEnd={onAnimationEnd}
