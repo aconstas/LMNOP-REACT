@@ -23,8 +23,8 @@ export default function GuessInput({
   return (
     <div className={styles.container}>
       <div
-        className={`${styles.letterBox} ${isActive ? styles.active : ""} ${
-          shakeIncorrect ? styles.shaking : ""
+        className={`${styles.letterBox} ${isActive ? styles.active : undefined} ${
+          shakeIncorrect ? styles.shaking : undefined
         }`}
         onAnimationEnd={onAnimationEnd}
       >
@@ -37,7 +37,7 @@ export default function GuessInput({
         autoComplete="off"
         readOnly
         value={isActive ? userGuess : ""}
-        className={isActive && styles.active}
+        className={isActive ? styles.active : undefined}
       ></input>
     </div>
   );
