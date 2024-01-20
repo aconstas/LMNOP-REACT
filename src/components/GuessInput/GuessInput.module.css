@@ -33,21 +33,31 @@ input {
   background: #F1F1F1; 
 }
 
+#active.letterBox {
+  background: #D9D9D9;
+  border: none;
+  width: 62px;
+  height: 62px;
+}
 
-.oneGuess {
+.guess1 {
   background: #b7ed82;
+  border: none;
 }
 
-.twoGuesses {
+.guess2 {
   background: #ffe37e;
+  border: none;
 }
 
-.threeGuesses {
+.guess3 {
   background: #ffad4e;
+  border: none;
 }
 
-.failed {
+.guessFAIL {
   background: #fe8979;
+  border: none;
 }
 
 @keyframes tilt-shaking {
