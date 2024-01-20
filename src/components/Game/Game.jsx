@@ -2,6 +2,7 @@ import CurrentHint from "../CurrentHint/CurrentHint";
 import GuessInput from "../GuessInput/GuessInput";
 import Timer from "../Timer/Timer";
 import styles from "./Game.module.css";
+// import { useState } from "react";
 
 export default function Game({
   isModalOpen,
@@ -13,8 +14,12 @@ export default function Game({
   hints,
   shakeIncorrect,
   setShakeIncorrect,
-  guessCount
+  guessCount,
+  time,
+  setTime
 }) {
+
+  // const [time, setTime] = useState(0);
 
   return (
     <div className={isModalOpen ? styles.blurred : ""}>
@@ -37,7 +42,7 @@ export default function Game({
           );
         })}
       </div>
-      <Timer gameStarted={gameStarted} />
+      <Timer gameStarted={gameStarted} time={time} setTime={setTime} />
     </div>
   );
 }
