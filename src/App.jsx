@@ -11,6 +11,7 @@ export default function App() {
   const [isModalOpen, setIsModalOpen] = useState(true);
   const [gameStarted, setGameStarted] = useState(false);
   const [gameEnded, setGameEnded] = useState(false);
+  const [time, setTime] = useState(0);
   const [activeInputIndex, setActiveInputIndex] = useState(0);
   const [hints, setHints] = useState([]);
   const [gameNumber, setGameNumber] = useState(0);
@@ -82,6 +83,7 @@ export default function App() {
   }
 
   function endGame() {
+    setGameStarted(false);
     setTimeout(() => {
       setGameEnded(true);
       setIsModalOpen(true);
@@ -148,7 +150,7 @@ export default function App() {
     );
   }
 
-  console.log(guessCount, userGuesses, activeInputIndex);
+  // console.log(guessCount, userGuesses, activeInputIndex);
   return (
     <>
       <Navbar />
@@ -160,6 +162,7 @@ export default function App() {
           guessCount={guessCount}
           currentWordList={currentWordlist}
           gameNumber={gameNumber}
+          time={time}
         />
       )}
       <Game
@@ -173,6 +176,8 @@ export default function App() {
         shakeIncorrect={shakeIncorrect}
         setShakeIncorrect={setShakeIncorrect}
         guessCount={guessCount}
+        time={time}
+        setTime={setTime}
       />
       <Keyboard
         isModalOpen={isModalOpen}
