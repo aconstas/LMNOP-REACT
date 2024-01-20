@@ -48,7 +48,7 @@ export default function App() {
   useEffect(() => {
     setHints(currentWordlist.map((set) => set.hint));
     setGameNumber(currentGame[0].days_since_launch);
-  }, [currentWordlist]);
+  }, []);
 
   const addUserText = (key) => {
     setUserGuesses(
@@ -87,64 +87,58 @@ export default function App() {
   }
 
   const checkGuess = (guess, correctWord) => {
-    hasUserFailed(guess, correctWord);
-    increaseGuessCount(guess, correctWord);
-    //if the user guessed correct on the last word, end game
-    if (guess === correctWord.toUpperCase() && activeInputIndex === 4) {
-      endGame();
-    }
-    // if the user guessed the correct word and the user has more guesses left, move on
-    if (
-      guess === correctWord.toUpperCase() &&
-      guessCount[activeInputIndex] < 3
-    ) {
-      console.log("moving to the next active index!");
-      setActiveInputIndex((prevIndex) => prevIndex + 1);
-      console.log("CORRECT! " + activeInputIndex);
+    const isCorrectGuess = guess === correctWord.toUpperCase();
+    const isLastAttempt = guessCount[activeInputIndex] === 2;
+    const isLastWord = activeInputIndex === 4;
+
+    updateGuessCount();
+    setShakeIncorrect(!isCorrectGuess);
+
+    if (isCorrectGuess) {
+      handleCorrectGuess(isLastWord);
+    } else if (isLastAttempt) {
+      handleLastAttempt(isLastWord);
     }
   };
 
-  function hasUserFailed(guess, correctWord) {
-    if (guess !== correctWord) setShakeIncorrect(true);
-    // if the user did not guess the correct word on the final try of the last input, end game
-    if (
-      guess !== correctWord.toUpperCase() &&
-      guessCount[activeInputIndex] === 2 &&
-      activeInputIndex === 4
-    ) {
-      console.log("you should shake here 1");
-      endGame();
-    }
-    // if the user did not guess the correct word on the final (3rd) try, move on
-    if (
-      guess !== correctWord.toUpperCase() &&
-      guessCount[activeInputIndex] === 2
-    ) {
-      // trying to add 'FAIL' to guessCount if the user maxed out their 3 tries
-      setGuessCount(
-        guessCount.map((item, index) =>
-          index === activeInputIndex ? 'FAIL' : item
-        )
-      );
-      console.log(`FAILED! ${activeInputIndex}`);
-      console.log("you should shake here 2");
-      if (activeInputIndex !== 4)
-        setActiveInputIndex((prevIndex) => prevIndex + 1);
-    }
-  }
-
-  function increaseGuessCount(guess, correctWord) {
-    if (guess !== correctWord.toUpperCase() && guessCount[activeInputIndex] === 2) {
-      setGuessCount(
-        guessCount.map((item, index) =>
-          index === activeInputIndex ? 'FAIL' : item
-        )
-      );
-    }
-    console.log("increasing guess count!");
+  function updateGuessCount() {
+    console.log("updating guess count");
     setGuessCount(
       guessCount.map((item, index) =>
         index === activeInputIndex ? item + 1 : item
+      )
+    );
+  }
+
+  function handleCorrectGuess(isLastWord) {
+    if (isLastWord) {
+      endGame();
+    } else {
+      moveToNextWord();
+    }
+  }
+
+  function handleLastAttempt(isLastWord) {
+    markWordAsFailed();
+    if (!isLastWord) {
+      moveToNextWord();
+    } else {
+      endGame();
+    }
+  }
+
+  function moveToNextWord() {
+    console.log("moving to next word");
+    setTimeout(() => {
+      setActiveInputIndex((prevIndex) => prevIndex + 1);
+    }, 500);
+  }
+
+  function markWordAsFailed() {
+    console.log("marking word as failed");
+    setGuessCount(
+      guessCount.map((item, index) =>
+        index === activeInputIndex ? "FAIL" : item
       )
     );
   }
@@ -157,7 +151,11 @@ export default function App() {
         <Howto closeModal={toggleModal} isModalOpen={isModalOpen} />
       )}
       {gameEnded && (
-        <Results guessCount={guessCount} currentWordList={currentWordlist} gameNumber={gameNumber}/>
+        <Results
+          guessCount={guessCount}
+          currentWordList={currentWordlist}
+          gameNumber={gameNumber}
+        />
       )}
       <Game
         isModalOpen={isModalOpen}
@@ -168,6 +166,8 @@ export default function App() {
         checkGuess={checkGuess}
         hints={hints}
         shakeIncorrect={shakeIncorrect}
+        setShakeIncorrect={setShakeIncorrect}
+        guessCount={guessCount}
       />
       <Keyboard
         isModalOpen={isModalOpen}
