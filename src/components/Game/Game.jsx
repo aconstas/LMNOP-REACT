@@ -25,7 +25,7 @@ export default function Game({
             <GuessInput
               key={wordSet.word}
               userGuess={userGuess[index]}
-              correctWord={wordSet.word}
+              correctWord={wordSet.word.toUpperCase()}
               isActive={index === activeInputIndex}
               checkGuess={checkGuess}
               shakeIncorrect={shakeIncorrect}
