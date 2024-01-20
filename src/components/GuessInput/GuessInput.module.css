@@ -42,22 +42,22 @@ input {
 
 .guess1 {
   background: #b7ed82;
-  border: none;
+  border: 2px solid #FFF;
 }
 
 .guess2 {
   background: #ffe37e;
-  border: none;
+  border: 2px solid #FFF;
 }
 
 .guess3 {
   background: #ffad4e;
-  border: none;
+  border: 2px solid #FFF;
 }
 
 .guessFAIL {
   background: #fe8979;
-  border: none;
+  border: 2px solid #FFF;
 }
 
 @keyframes tilt-shaking {
