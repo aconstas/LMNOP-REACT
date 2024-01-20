@@ -1,8 +1,7 @@
 import styles from "./Timer.module.css";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
-export default function Timer({ gameStarted }) {
-  const [time, setTime] = useState(0);
+export default function Timer({ gameStarted, time, setTime }) {
 
   useEffect(() => {
     let interval;
@@ -11,9 +10,7 @@ export default function Timer({ gameStarted }) {
         interval = setInterval(() => {
             setTime(prevTime => prevTime + 1);
         }, 1000);
-    } else if (!gameStarted && time !== 0) {
-        setTime(0);
-    }
+    } 
     return () => clearInterval(interval);
   }, [gameStarted, time]);
 
