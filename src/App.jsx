@@ -103,11 +103,14 @@ export default function App() {
 
   function updateGuessCount() {
     console.log("updating guess count");
-    setGuessCount(
-      guessCount.map((item, index) =>
-        index === activeInputIndex ? item + 1 : item
-      )
-    );
+    // prevent increase of guessCount after failing
+    if (guessCount[activeInputIndex] < 3) {
+      setGuessCount(
+        guessCount.map((item, index) =>
+          index === activeInputIndex ? item + 1 : item
+        )
+      );
+    }
   }
 
   function handleCorrectGuess(isLastWord) {
