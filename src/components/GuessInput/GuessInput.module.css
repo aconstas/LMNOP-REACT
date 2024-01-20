@@ -29,7 +29,7 @@ input {
   padding: 7px 0 6px 13px;
 }
 
-.active {
+#active {
   background: #F1F1F1; 
 }
 
@@ -58,7 +58,7 @@ input {
   100% { transform: rotate(0deg); }
 }
 
-.active.shaking {
+#active.shaking {
   animation: tilt-shaking 0.3s;
 }
 
