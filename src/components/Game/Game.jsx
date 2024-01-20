@@ -32,6 +32,7 @@ export default function Game({
               setShakeIncorrect={setShakeIncorrect}
               guessCount={guessCount}
               activeInputIndex={activeInputIndex}
+              wordSetIndex={index}
             />
           );
         })}
@@ -40,6 +41,3 @@ export default function Game({
     </div>
   );
 }
-
-// i think i will need to utilize the data and map over the word list to render the guess inputs
-// GuessInput will need to have correctWord state, and guessText
