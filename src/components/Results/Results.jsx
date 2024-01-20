@@ -3,7 +3,7 @@ import styles from "../../shared/styles/modal.module.css";
 export default function Results({ guessCount, currentWordList, gameNumber }) {
   const convertGuessCountToEmoji = (guessCount) => {
     const colorMap = {
-      'fail': "🟥",
+      'FAIL': "🟥",
       1: "🟩",
       2: "🟨",
       3: "🟧",
