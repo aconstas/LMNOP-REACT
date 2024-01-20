@@ -1,6 +1,6 @@
 import styles from "../../shared/styles/modal.module.css";
 
-export default function Results({ guessCount, currentWordList, gameNumber }) {
+export default function Results({ guessCount, currentWordList, gameNumber, time }) {
   const convertGuessCountToEmoji = (guessCount) => {
     const colorMap = {
       'FAIL': "🟥",
@@ -11,13 +11,19 @@ export default function Results({ guessCount, currentWordList, gameNumber }) {
     const emojiString = guessCount.map(value => colorMap[value] || '?').join('');
     return emojiString;
   }
+
+  const formatTime = (totalSeconds) => {
+    const minutes = Math.floor(totalSeconds / 60);
+    const seconds = totalSeconds % 60;
+    return `${minutes}:${seconds.toString().padStart(2, '0')}`
+  }
   
   const scoreEmojiString = convertGuessCountToEmoji(guessCount);
   const lettersString = currentWordList.map(set => set.word[0].toUpperCase()).join('   ');
+  const formattedTime = formatTime(time);
 
   const sendResults = () => {
-    const time = "1:25";
-    window.location.href = `sms:&body=LMNOP #${gameNumber} ⏱️${time}%0A${scoreEmojiString}%0A ${lettersString}`;
+    window.location.href = `sms:&body=LMNOP #${gameNumber} ⏱️${formattedTime}%0A${scoreEmojiString}%0A ${lettersString}`;
   };
 
   return (
@@ -25,7 +31,7 @@ export default function Results({ guessCount, currentWordList, gameNumber }) {
       <div className={styles.modalContainer}>
         <h2 className={styles.modalTitle}>RESULTS</h2>
         <div>
-          <h2 className={styles.modalHeading}>1:25</h2>
+          <h2 className={styles.modalHeading}>{formattedTime}</h2>
           <div className={styles.resultsBoard}>
             {currentWordList.map((set, index) => {
               return (
