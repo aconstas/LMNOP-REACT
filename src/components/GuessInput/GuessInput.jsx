@@ -7,6 +7,9 @@ export default function GuessInput({
   isActive,
   checkGuess,
   shakeIncorrect,
+  setShakeIncorrect,
+  guessCount,
+  activeInputIndex,
 }) {
   const inputRef = useRef(null);
 
@@ -17,13 +20,14 @@ export default function GuessInput({
   }, [isActive]);
 
   const onAnimationEnd = () => {
-    setIsCorrect(false);
+    setShakeIncorrect(false);
   };
 
   return (
     <div className={styles.container}>
       <div
-        className={`${styles.letterBox} ${isActive ? styles.active : undefined} ${
+        id={isActive ? styles.active : undefined}
+        className={`${styles.letterBox}  ${
           shakeIncorrect ? styles.shaking : undefined
         }`}
         onAnimationEnd={onAnimationEnd}
@@ -37,7 +41,7 @@ export default function GuessInput({
         autoComplete="off"
         readOnly
         value={isActive ? userGuess : ""}
-        className={isActive ? styles.active : undefined}
+        id={isActive ? styles.active : undefined}
       ></input>
     </div>
   );
