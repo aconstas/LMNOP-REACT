@@ -131,7 +131,7 @@ export default function App() {
     console.log("moving to next word");
     setTimeout(() => {
       setActiveInputIndex((prevIndex) => prevIndex + 1);
-    }, 500);
+    }, 400);
   }
 
   function markWordAsFailed() {
