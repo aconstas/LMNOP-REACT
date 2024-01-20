@@ -57,7 +57,7 @@ export default function GuessInput({
         enterKeyHint="go"
         autoComplete="off"
         readOnly
-        value={isActive ? userGuess : ""}
+        value={isActive ? userGuess : guessCount[wordSetIndex] !== 0 ? correctWord : ""}
         id={isActive ? styles.active : undefined}
       ></input>
     </div>
