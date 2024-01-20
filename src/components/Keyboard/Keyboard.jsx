@@ -1,7 +1,6 @@
 import styles from "./Keyboard.module.css";
 import backspace from "../../assets/backspace.png";
 import Key from "../Key/Key";
-import { useState } from "react";
 
 export default function Keyboard({ isModalOpen, addUserText, handleBackspace, userGuess, checkGuess, activeGuess, correctWord }) {
   const keys1 = ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"];
@@ -9,7 +8,6 @@ export default function Keyboard({ isModalOpen, addUserText, handleBackspace, us
   const keys3 = ["Z", "X", "C", "V", "B", "N", "M"];
 
   const handleEnter = () => {
-    console.log(activeGuess, correctWord);
     checkGuess(activeGuess, correctWord);
   }
 
