@@ -33,7 +33,7 @@
   font-family: "Space Grotesk", sans-serif;
   font-size: 32px;
   font-weight: 700;
-  margin: 30px auto 82px auto;
+  margin: 30px auto 70px auto;
   display: block;
   color: black;
 }
@@ -81,7 +81,6 @@
   background: #FFAD4E;
 }
 
-/* change to fail? */
 .guessFAIL {
   background: #FE8979;
 }
@@ -99,4 +98,11 @@
   font-family: 'Space Grotesk', sans-serif;
   font-weight: 400;
   font-size: 18px;
+}
+
+#closeIcon {
+  position: absolute;
+  top: 1%;
+  right: 3%;
+  width: 30px;
 }
