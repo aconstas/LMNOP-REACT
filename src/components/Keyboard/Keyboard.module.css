@@ -13,7 +13,7 @@
   font-weight: 400;
   position: absolute;
   bottom: 0;
-  padding: 5px 0;
+  padding: 2px 0;
 }
 
 .line1,
@@ -35,7 +35,7 @@
   place-items: center;
   font-size: 14px;
   cursor: pointer;
-  height: 41px;
+  height: 48px;
   width: 55px;
   border-radius: 5px;
   user-select: none;
@@ -47,7 +47,7 @@
   background: #fff;
   place-items: center;
   cursor: pointer;
-  height: 41px;
+  height: 48px;
   width: 55px;
   border-radius: 5px;
   user-select: none;
