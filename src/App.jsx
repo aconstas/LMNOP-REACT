@@ -10,7 +10,7 @@ import wordlists from "./constants/wordlists.json";
 export default function App() {
   const [isModalOpen, setIsModalOpen] = useState(true);
   const [gameStarted, setGameStarted] = useState(false);
-  const [gameEnded, setGameEnded] = useState(false);
+  const [showResults, setShowResults] = useState(false);
   const [time, setTime] = useState(0);
   const [activeInputIndex, setActiveInputIndex] = useState(0);
   const [hints, setHints] = useState([]);
@@ -86,7 +86,7 @@ export default function App() {
     setActiveInputIndex(null);
     setGameStarted(false);
     setTimeout(() => {
-      setGameEnded(true);
+      setShowResults(true);
       setIsModalOpen(true);
     }, 1250)
   }
@@ -158,12 +158,14 @@ export default function App() {
       {isModalOpen && (
         <Howto closeModal={toggleModal} isModalOpen={isModalOpen} />
       )}
-      {gameEnded && (
+      {showResults && (
         <Results
           guessCount={guessCount}
           currentWordList={currentWordlist}
           gameNumber={gameNumber}
           time={time}
+          setShowResults={setShowResults}
+          setIsModalOpen={setIsModalOpen}
         />
       )}
       <Game
