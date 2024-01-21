@@ -83,6 +83,7 @@ export default function App() {
   }
 
   function endGame() {
+    setActiveInputIndex(null);
     setGameStarted(false);
     setTimeout(() => {
       setGameEnded(true);
