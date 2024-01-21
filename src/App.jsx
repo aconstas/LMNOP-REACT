@@ -88,7 +88,7 @@ export default function App() {
     setTimeout(() => {
       setGameEnded(true);
       setIsModalOpen(true);
-    }, 2400)
+    }, 1250)
   }
 
   const checkGuess = (guess, correctWord) => {
