@@ -1,6 +1,7 @@
 import styles from "../../shared/styles/modal.module.css";
+import close from "../../assets/close.png";
 
-export default function Results({ guessCount, currentWordList, gameNumber, time }) {
+export default function Results({ guessCount, currentWordList, gameNumber, time, setShowResults, setIsModalOpen }) {
   const convertGuessCountToEmoji = (guessCount) => {
     const colorMap = {
       'FAIL': "🟥",
@@ -26,9 +27,15 @@ export default function Results({ guessCount, currentWordList, gameNumber, time 
     window.location.href = `sms:&body=LMNOP #${gameNumber} ⏱️${formattedTime}%0A${scoreEmojiString}%0A ${lettersString}`;
   };
 
+  const closeResults = () => {
+    setShowResults(false);
+    setIsModalOpen(false);
+  }
+
   return (
     <>
       <div className={styles.modalContainer}>
+        <img id={styles.closeIcon} src={close} onClick={closeResults}/>
         <h2 className={styles.modalTitle}>RESULTS</h2>
         <div>
           <h2 className={styles.modalHeading}>{formattedTime}</h2>
