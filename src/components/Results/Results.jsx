@@ -32,6 +32,43 @@ export default function Results({ guessCount, currentWordList, gameNumber, time,
     setIsModalOpen(false);
   }
 
+  function calculateTotalGuesses(guessCount) {
+    let totalGuesses = 0;
+
+    for (const guess of guessCount) {
+        if (guess === 'FAIL') {
+            totalGuesses += 3; // Add 3 for a 'FAIL'
+        } else {
+            totalGuesses += guess; // Add the numeric value
+        }
+    }
+
+    return totalGuesses;
+}
+
+function calculateCorrectGuesses(guessCount) {
+  let correctGuesses = 0;
+
+  for (const guess of guessCount) {
+      if (typeof guess === 'number') {
+          correctGuesses++; // Increment for each numeric value
+      }
+  }
+
+  return correctGuesses;
+}
+
+function calculateAccuracy(guessCount) {
+  const percentage = (((calculateCorrectGuesses(guessCount)) / (calculateTotalGuesses(guessCount))) * 100);
+  if (percentage % 1 === 0) {
+    return percentage + '%';
+  } else {
+    return percentage.toFixed(1) + '%';
+  }
+}
+
+const accuracy = calculateAccuracy(guessCount);
+
   return (
     <>
       <div className={styles.modalContainer}>
@@ -57,7 +94,7 @@ export default function Results({ guessCount, currentWordList, gameNumber, time,
               <p className={styles.statsDescription}>played</p>
             </div>
             <div>
-              <h3 className={styles.modalHeading}>87%</h3>
+              <h3 className={styles.modalHeading}>{accuracy}</h3>
               <p className={styles.statsDescription}>accuracy</p>
             </div>
             <div>
