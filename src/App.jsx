@@ -43,9 +43,7 @@ export default function App() {
     (game) => game.days_since_launch === daysSinceLaunch
   );
   const currentWordlist = currentGame[0].wordlist;
-  const [userGuesses, setUserGuesses] = useState(
-    Array(currentWordlist.length).fill("")
-  );
+  const [userGuesses, setUserGuesses] = useState("");
   const [guessCount, setGuessCount] = useState(
     Array(currentWordlist.length).fill(0)
   );
@@ -56,25 +54,11 @@ export default function App() {
   }, []);
 
   const addUserText = (key) => {
-    setUserGuesses(
-      userGuesses.map((guess, index) => {
-        if (index === activeInputIndex) {
-          return guess + key;
-        }
-        return guess;
-      })
-    );
+    setUserGuesses(prevGuess => prevGuess + key);
   };
 
   const handleBackspace = () => {
-    setUserGuesses(
-      userGuesses.map((guess, index) => {
-        if (index === activeInputIndex) {
-          return guess.slice(0, -1);
-        }
-        return guess;
-      })
-    );
+    setUserGuesses(prevGuess => prevGuess.slice(0, -1));
   };
 
   const toggleModal = () => {
@@ -151,6 +135,7 @@ export default function App() {
 
   function moveToNextWord() {
     setTimeout(() => {
+      setUserGuesses("");
       setActiveInputIndex((prevIndex) => prevIndex + 1);
     }, 400);
   }
@@ -198,7 +183,7 @@ export default function App() {
         addUserText={addUserText}
         handleBackspace={handleBackspace}
         checkGuess={checkGuess}
-        activeGuess={userGuesses[activeInputIndex]}
+        activeGuess={userGuesses}
         correctWord={currentWordlist[activeInputIndex]?.word}
       />
     </>
