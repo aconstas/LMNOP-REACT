@@ -1,8 +1,12 @@
 import styles from "../../shared/styles/modal.module.css";
 import close from "../../assets/close.png";
 import useLocalStorage from "../../hooks/useLocalStorage";
+import { useEffect } from "react";
 
 export default function Results({ guessCount, currentWordList, gameNumber, time, setShowResults, setIsModalOpen }) {
+  
+  const [lastGameState, setLastGameState] = useLocalStorage('lastGameState', []);
+  
   const convertGuessCountToEmoji = (guessCount) => {
     const colorMap = {
       'FAIL': "🟥",
@@ -67,6 +71,10 @@ function calculateAccuracy(guessCount) {
     return percentage.toFixed(1) + '%';
   }
 }
+
+useEffect(() => {
+  setLastGameState(guessCount);
+}, [])
 
 const accuracy = calculateAccuracy(guessCount);
 const played = useLocalStorage('gamesPlayed')[0].length;
