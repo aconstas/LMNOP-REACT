@@ -5,11 +5,9 @@ export default function GuessInput({
   userGuess,
   correctWord,
   isActive,
-  checkGuess,
   shakeIncorrect,
   setShakeIncorrect,
   guessCount,
-  activeInputIndex,
   wordSetIndex,
 }) {
   const inputRef = useRef(null);
