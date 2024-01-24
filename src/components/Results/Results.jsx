@@ -1,5 +1,6 @@
 import styles from "../../shared/styles/modal.module.css";
 import close from "../../assets/close.png";
+import useLocalStorage from "../../hooks/useLocalStorage";
 
 export default function Results({ guessCount, currentWordList, gameNumber, time, setShowResults, setIsModalOpen }) {
   const convertGuessCountToEmoji = (guessCount) => {
@@ -68,6 +69,7 @@ function calculateAccuracy(guessCount) {
 }
 
 const accuracy = calculateAccuracy(guessCount);
+const played = useLocalStorage('gamesPlayed')[0].length;
 
   return (
     <>
@@ -90,7 +92,7 @@ const accuracy = calculateAccuracy(guessCount);
           </div>
           <div id={styles.stats}>
             <div>
-              <h3 className={styles.modalHeading}>5</h3>
+              <h3 className={styles.modalHeading}>{played}</h3>
               <p className={styles.statsDescription}>played</p>
             </div>
             <div>
