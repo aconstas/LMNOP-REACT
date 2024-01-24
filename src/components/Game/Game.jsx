@@ -29,14 +29,12 @@ export default function Game({
           return (
             <GuessInput
               key={wordSet.word}
-              userGuess={userGuess[index]}
+              userGuess={userGuess}
               correctWord={wordSet.word.toUpperCase()}
               isActive={index === activeInputIndex}
-              checkGuess={checkGuess}
               shakeIncorrect={shakeIncorrect}
               setShakeIncorrect={setShakeIncorrect}
               guessCount={guessCount}
-              activeInputIndex={activeInputIndex}
               wordSetIndex={index}
             />
           );
