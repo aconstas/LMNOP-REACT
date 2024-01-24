@@ -6,6 +6,7 @@ import Results from "./components/Results/Results.jsx";
 import Game from "./components/Game/Game.jsx";
 import Keyboard from "./components/Keyboard/Keyboard.jsx";
 import wordlists from "./constants/wordlists.json";
+import useLocalStorage from "./hooks/useLocalStorage.jsx";
 
 export default function App() {
   const [isModalOpen, setIsModalOpen] = useState(true);
@@ -16,6 +17,9 @@ export default function App() {
   const [hints, setHints] = useState([]);
   const [gameNumber, setGameNumber] = useState(0);
   const [shakeIncorrect, setShakeIncorrect] = useState(false);
+
+  const [lastPlayed, setLastPlayed] = useLocalStorage('lastPlayed', null);
+  const [gamesPlayed, setGamesPlayed] = useLocalStorage('gamesPlayed', []);
 
   const launchDate = new Date("2024-01-17T00:00:00"); // This is in UTC
 
@@ -29,7 +33,7 @@ export default function App() {
   currentDate.setMinutes(
     currentDate.getMinutes() - pstOffset + currentDate.getTimezoneOffset()
   );
-
+// console.log(currentDate, lastPlayed);
   const daysSinceLaunch = Math.floor(
     (currentDate - launchDate) / (1000 * 60 * 60 * 24)
   );
@@ -85,10 +89,21 @@ export default function App() {
   function endGame() {
     setActiveInputIndex(null);
     setGameStarted(false);
+    updateLocalStorage(currentDate, gameNumber);
     setTimeout(() => {
       setShowResults(true);
       setIsModalOpen(true);
     }, 1250)
+  }
+
+  function updateLocalStorage(currentDate, gameNumber) {
+    setLastPlayed(currentDate);
+    addGameNumber(gameNumber);
+  }
+
+  function addGameNumber(gameNumber) {
+    const updatedGamesPlayed = [...gamesPlayed, gameNumber];
+    setGamesPlayed(updatedGamesPlayed);
   }
 
   const checkGuess = (guess, correctWord) => {
@@ -107,7 +122,6 @@ export default function App() {
   };
 
   function updateGuessCount() {
-    console.log("updating guess count");
     // prevent increase of guessCount after failing
     if (guessCount[activeInputIndex] < 3) {
       setGuessCount(
@@ -136,14 +150,12 @@ export default function App() {
   }
 
   function moveToNextWord() {
-    console.log("moving to next word");
     setTimeout(() => {
       setActiveInputIndex((prevIndex) => prevIndex + 1);
     }, 400);
   }
 
   function markWordAsFailed() {
-    console.log("marking word as failed");
     setGuessCount(
       guessCount.map((item, index) =>
         index === activeInputIndex ? "FAIL" : item
@@ -151,7 +163,6 @@ export default function App() {
     );
   }
 
-  // console.log(guessCount, userGuesses, activeInputIndex);
   return (
     <>
       <Navbar />
