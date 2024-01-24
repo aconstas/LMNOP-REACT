@@ -89,10 +89,10 @@ export default function App() {
   function endGame() {
     setActiveInputIndex(null);
     setGameStarted(false);
-    updateLocalStorage(currentDate, gameNumber);
     setTimeout(() => {
       setShowResults(true);
       setIsModalOpen(true);
+      updateLocalStorage(currentDate, gameNumber);
     }, 1250)
   }
 
