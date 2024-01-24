@@ -338,5 +338,195 @@
       { "word": "observer", "hint": "witness" },
       { "word": "please", "hint": "satisfy" }
     ]
+  },
+  {
+    "days_since_launch": 34,
+    "wordlist": [
+      { "word": "leap", "hint": "jump" },
+      { "word": "mark", "hint": "check" },
+      { "word": "note", "hint": "annotation" },
+      { "word": "open", "hint": "unlocked" },
+      { "word": "provide", "hint": "give" }
+    ]
+  },
+  {
+    "days_since_launch": 35,
+    "wordlist": [
+      { "word": "grieve", "hint": "lament" },
+      { "word": "home", "hint": "house" },
+      { "word": "igloo", "hint": "snow" },
+      { "word": "jealous", "hint": "envious" },
+      { "word": "kick", "hint": "karate" }
+    ]
+  },
+  {
+    "days_since_launch": 36,
+    "wordlist": [
+      { "word": "quilt", "hint": "blanket" },
+      { "word": "rest", "hint": "nap" },
+      { "word": "slope", "hint": "ski" },
+      { "word": "trace", "hint": "draw" },
+      { "word": "undertake", "hint": "attempt" }
+    ]
+  },
+  {
+    "days_since_launch": 37,
+    "wordlist": [
+      { "word": "equal", "hint": "even" },
+      { "word": "fad", "hint": "trend" },
+      { "word": "ginger", "hint": "root" },
+      { "word": "hack", "hint": "computer" },
+      { "word": "illegal", "hint": "unlawful" }
+    ]
+  },
+  {
+    "days_since_launch": 38,
+    "wordlist": [
+      { "word": "ample", "hint": "plenty" },
+      { "word": "bunny", "hint": "Easter" },
+      { "word": "candy", "hint": "sweets" },
+      { "word": "dandelion", "hint": "weed" },
+      { "word": "enough", "hint": "ample" }
+    ]
+  },
+  {
+    "days_since_launch": 39,
+    "wordlist": [
+      { "word": "barf", "hint": "vomit" },
+      { "word": "cloth", "hint": "material" },
+      { "word": "dread", "hint": "fear" },
+      { "word": "even", "hint": "odd" },
+      { "word": "familiar", "hint": "acquainted" }
+    ]
+  },
+  {
+    "days_since_launch": 40,
+    "wordlist": [
+      { "word": "class", "hint": "school" },
+      { "word": "drama", "hint": "play" },
+      { "word": "effort", "hint": "try" },
+      { "word": "foreign", "hint": "unfamiliar" },
+      { "word": "glasses", "hint": "spectacles" }
+    ]
+  },
+  {
+    "days_since_launch": 41,
+    "wordlist": [
+      { "word": "dream", "hint": "sleep" },
+      { "word": "empty", "hint": "full" },
+      { "word": "fog", "hint": "dense" },
+      { "word": "giant", "hint": "enormous" },
+      { "word": "hilarious", "hint": "funny" }
+    ]
+  },
+  {
+    "days_since_launch": 42,
+    "wordlist": [
+      { "word": "arrogant", "hint": "humble" },
+      { "word": "boots", "hint": "shoes" },
+      { "word": "chef", "hint": "cook" },
+      { "word": "dancer", "hint": "ballet" },
+      { "word": "energy", "hint": "power" }
+    ]
+  },
+  {
+    "days_since_launch": 43,
+    "wordlist": [
+      { "word": "inhale", "hint": "breathe" },
+      { "word": "jacks", "hint": "game" },
+      { "word": "kite", "hint": "fly" },
+      { "word": "loser", "hint": "winner" },
+      { "word": "miniature", "hint": "tiny" }
+    ]
+  },
+  {
+    "days_since_launch": 44,
+    "wordlist": [
+      { "word": "jolly", "hint": "Santa" },
+      { "word": "kennel", "hint": "dog" },
+      { "word": "leave", "hint": "exit" },
+      { "word": "month", "hint": "calendar" },
+      { "word": "nothing", "hint": "nil" }
+    ]
+  },
+  {
+    "days_since_launch": 45,
+    "wordlist": [
+      { "word": "keen", "hint": "clever" },
+      { "word": "left", "hint": "right" },
+      { "word": "monster", "hint": "beast" },
+      { "word": "notes", "hint": "annotations" },
+      { "word": "old", "hint": "new" }
+    ]
+  },
+  {
+    "days_since_launch": 46,
+    "wordlist": [
+      { "word": "paper", "hint": "pencil" },
+      { "word": "quaint", "hint": "peculiar" },
+      { "word": "random", "hint": "chance" },
+      { "word": "school", "hint": "elementary" },
+      { "word": "target", "hint": "aim" }
+    ]
+  },
+  {
+    "days_since_launch": 47,
+    "wordlist": [
+      { "word": "quiz", "hint": "test" },
+      { "word": "reel", "hint": "rod" },
+      { "word": "start", "hint": "finish" },
+      { "word": "truth", "hint": "honest" },
+      { "word": "unruly", "hint": "disobedient" }
+    ]
+  },
+  {
+    "days_since_launch": 48,
+    "wordlist": [
+      { "word": "victory", "hint": "win" },
+      { "word": "wonder", "hint": "curiosity" },
+      { "word": "xylograph", "hint": "engraving" },
+      { "word": "yank", "hint": "tug" },
+      { "word": "zeal", "hint": "passion" }
+    ]
+  },
+  {
+    "days_since_launch": 49,
+    "wordlist": [
+      { "word": "abdomen", "hint": "stomach" },
+      { "word": "bold", "hint": "daring" },
+      { "word": "clammy", "hint": "sweaty" },
+      { "word": "drag", "hint": "pull" },
+      { "word": "eat", "hint": "consume" }
+    ]
+  },
+  {
+    "days_since_launch": 50,
+    "wordlist": [
+      { "word": "blade", "hint": "switch" },
+      { "word": "common", "hint": "usual" },
+      { "word": "dot", "hint": "spot" },
+      { "word": "early", "hint": "late" },
+      { "word": "fresh", "hint": "new" }
+    ]
+  },
+  {
+    "days_since_launch": 51,
+    "wordlist": [
+      { "word": "concise", "hint": "succinct" },
+      { "word": "dub", "hint": "nickname" },
+      { "word": "experiment", "hint": "lab" },
+      { "word": "flag", "hint": "pole" },
+      { "word": "grace", "hint": "beauty" }
+    ]
+  },
+  {
+    "days_since_launch": 52,
+    "wordlist": [
+      { "word": "endanger", "hint": "hazard" },
+      { "word": "flood", "hint": "water" },
+      { "word": "grumpy", "hint": "cranky" },
+      { "word": "hunt", "hint": "predator" },
+      { "word": "intent", "hint": "purpose" }
+    ]
   }
 ]
