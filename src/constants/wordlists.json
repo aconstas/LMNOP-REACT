@@ -528,5 +528,147 @@
       { "word": "hunt", "hint": "predator" },
       { "word": "intent", "hint": "purpose" }
     ]
+  },
+  {
+    "days_since_launch": 53,
+    "wordlist": [
+      {"word": "joke", "hint": "funny"},
+      {"word": "kiln", "hint": "pottery"},
+      {"word": "language", "hint": "communicate"},
+      {"word": "massage", "hint": "spa"},
+      {"word": "night", "hint": "day"}
+    ]
+  },
+  {
+    "days_since_launch": 54,
+    "wordlist": [
+      {"word": "literature", "hint": "writing"},
+      {"word": "monitor", "hint": "computer"},
+      {"word": "never", "hint": "always"},
+      {"word": "outlet", "hint": "electrical"},
+      {"word": "pear", "hint": "fruit"}
+    ]
+  },
+  {
+    "days_since_launch": 55,
+    "wordlist": [
+      {"word": "quail", "hint": "bird"},
+      {"word": "revenge", "hint": "retribution"},
+      {"word": "stop", "hint": "start"},
+      {"word": "tally", "hint": "mark"},
+      {"word": "utilize", "hint": "apply"}
+    ]
+  },
+  {
+    "days_since_launch": 56,
+    "wordlist": [
+      {"word": "movie", "hint": "watch"},
+      {"word": "nachos", "hint": "snack"},
+      {"word": "oblong", "hint": "elliptical"},
+      {"word": "prize", "hint": "win"},
+      {"word": "quit", "hint": "relinquish"}
+    ]
+  },
+  {
+    "days_since_launch": 57,
+    "wordlist": [
+      {"word": "avalanche", "hint": "snow"},
+      {"word": "bland","hint": "spicy"},
+      {"word": "catch", "hint": "ball"},
+      {"word": "drill", "hint": "tool"},
+      {"word": "event", "hint": "ceremony"}
+    ]
+  },
+  {
+    "days_since_launch": 58,
+    "wordlist": [
+      {"word": "blonde", "hint": "brunette"},
+      {"word": "clam", "hint": "shell"},
+      {"word": "deal", "hint": "shuffle"},
+      {"word": "eleven", "hint": "number"},
+      {"word": "fruit", "hint": "apple"}
+    ]
+  },
+  {
+    "days_since_launch": 59,
+    "wordlist": [
+      {"word": "chess", "hint": "game"},
+      {"word": "different", "hint": "same"},
+      {"word": "esquire", "hint": "man"},
+      {"word": "fuel", "hint": "gas"},
+      {"word": "glad", "hint": "happy"}
+    ]
+  },
+  {
+    "days_since_launch": 60,
+    "wordlist": [
+
+    ]
+  },
+  {
+    "days_since_launch": 61,
+    "wordlist": [
+
+    ]
+  },
+  {
+    "days_since_launch": 62,
+    "wordlist": [
+
+    ]
+  },
+  {
+    "days_since_launch": 63,
+    "wordlist": [
+
+    ]
+  },
+  {
+    "days_since_launch": 64,
+    "wordlist": [
+
+    ]
+  },
+  {
+    "days_since_launch": 65,
+    "wordlist": [
+
+    ]
+  },
+  {
+    "days_since_launch": 66,
+    "wordlist": [
+
+    ]
+  },
+  {
+    "days_since_launch": 67,
+    "wordlist": [
+
+    ]
+  },
+  {
+    "days_since_launch": 68,
+    "wordlist": [
+
+    ]
+  },
+  {
+    "days_since_launch": 69,
+    "wordlist": [
+
+    ]
+  },
+  {
+    "days_since_launch": 70,
+    "wordlist": [
+
+    ]
+  },
+  {
+    "days_since_launch": 71,
+    "wordlist": [
+
+    ]
   }
 ]
