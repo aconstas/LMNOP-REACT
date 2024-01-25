@@ -1,3 +1,4 @@
+import dayjs from "dayjs";
 import { useEffect, useState } from "react";
 import "./App.css";
 import Howto from "./components/Howto/Howto.jsx";
@@ -18,25 +19,14 @@ export default function App() {
   const [gameNumber, setGameNumber] = useState(0);
   const [shakeIncorrect, setShakeIncorrect] = useState(false);
 
-  const [lastPlayed, setLastPlayed] = useLocalStorage('lastPlayed', null);
-  const [gamesPlayed, setGamesPlayed] = useLocalStorage('gamesPlayed', []);
+  const [lastPlayed, setLastPlayed] = useLocalStorage("lastPlayed", null);
+  const [gamesPlayed, setGamesPlayed] = useLocalStorage("gamesPlayed", []);
 
-  const launchDate = new Date("2024-01-17T00:00:00"); // This is in UTC
+  const launchDate = dayjs("2024-01-17");
 
-  const pstOffset = 8 * 60; // PST is UTC-8
-  const currentOffset = launchDate.getTimezoneOffset();
-
-  // Adjust the launch date to PST
-  launchDate.setMinutes(launchDate.getMinutes() - pstOffset + currentOffset);
-
-  const currentDate = new Date();
-  currentDate.setMinutes(
-    currentDate.getMinutes() - pstOffset + currentDate.getTimezoneOffset()
-  );
-// console.log(currentDate, lastPlayed);
-  const daysSinceLaunch = Math.floor(
-    (currentDate - launchDate) / (1000 * 60 * 60 * 24)
-  );
+  let now = dayjs();
+  const currentDate = now.format("YYYY-MM-DD");
+  const daysSinceLaunch = now.diff(launchDate, "days");
 
   // get today's game from .json file
   const currentGame = wordlists.filter(
@@ -54,11 +44,11 @@ export default function App() {
   }, []);
 
   const addUserText = (key) => {
-    setUserGuesses(prevGuess => prevGuess + key);
+    setUserGuesses((prevGuess) => prevGuess + key);
   };
 
   const handleBackspace = () => {
-    setUserGuesses(prevGuess => prevGuess.slice(0, -1));
+    setUserGuesses((prevGuess) => prevGuess.slice(0, -1));
   };
 
   const toggleModal = () => {
@@ -77,7 +67,7 @@ export default function App() {
       setShowResults(true);
       setIsModalOpen(true);
       updateLocalStorage(currentDate, gameNumber);
-    }, 1250)
+    }, 1250);
   }
 
   function updateLocalStorage(currentDate, gameNumber) {
