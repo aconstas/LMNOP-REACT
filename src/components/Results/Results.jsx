@@ -6,7 +6,9 @@ import { useEffect } from "react";
 export default function Results({ guessCount, currentWordList, gameNumber, time, setShowResults, setIsModalOpen }) {
   
   const [lastGameState, setLastGameState] = useLocalStorage('lastGameState', []);
-  
+  const [lastGameTime, setLastGameTime] = useLocalStorage('lastGameTime', 0);
+  // const [streak, setStreak] = useLocalStorage('streak', 0);
+
   const convertGuessCountToEmoji = (guessCount) => {
     const colorMap = {
       'FAIL': "🟥",
@@ -74,6 +76,7 @@ function calculateAccuracy(guessCount) {
 
 useEffect(() => {
   setLastGameState(guessCount);
+  setLastGameTime(time);
 }, [])
 
 const accuracy = calculateAccuracy(guessCount);
