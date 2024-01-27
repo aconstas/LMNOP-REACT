@@ -4,7 +4,7 @@ import useLocalStorage from "../../hooks/useLocalStorage";
 import { useEffect } from "react";
 import dayjs from "dayjs";
 
-export default function Results({ guessCount, currentWordList, gameNumber, time, setShowResults, setIsModalOpen, currentDate }) {
+export default function Results({ guessCount, currentWordList, gameNumber, time, setShowResults, setIsModalOpen }) {
   
   const [lastGameState, setLastGameState] = useLocalStorage('lastGameState', []);
   const [lastGameTime, setLastGameTime] = useLocalStorage('lastGameTime', 0);
