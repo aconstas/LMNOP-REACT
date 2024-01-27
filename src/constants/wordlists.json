@@ -602,71 +602,172 @@
   {
     "days_since_launch": 60,
     "wordlist": [
-
+      {"word": "direction", "hint": "north"},
+      {"word": "elegant", "hint": "classy"},
+      {"word": "flow", "hint": "river"},
+      {"word": "grass", "hint": "turf"},
+      {"word": "halo", "hint": "ring"}
     ]
   },
   {
     "days_since_launch": 61,
     "wordlist": [
-
+      {"word": "easel", "hint": "tripod"},
+      {"word": "forever", "hint": "always"},
+      {"word": "gopher", "hint": "rodent"},
+      {"word": "hay", "hint": "horse"},
+      {"word": "icicle", "hint": "frozen"}
     ]
   },
   {
     "days_since_launch": 62,
     "wordlist": [
-
+      {"word": "flame", "hint": "fire"},
+      {"word": "glacier", "hint": "iceberg"},
+      {"word": "hollow", "hint": "excavated"},
+      {"word": "ignore", "hint": "avoid"},
+      {"word": "jello", "hint": "jiggle"}
     ]
   },
   {
     "days_since_launch": 63,
     "wordlist": [
-
+      {"word": "karate", "hint": "fight"},
+      {"word": "leaf", "hint": "tree"},
+      {"word": "monkey", "hint": "banana"},
+      {"word": "need", "hint": "want"},
+      {"word": "orange", "hint": "color"}
     ]
   },
   {
     "days_since_launch": 64,
     "wordlist": [
-
+      {"word": "letter", "hint": "alphabet"},
+      {"word": "mean", "hint": "kind"},
+      {"word": "nose", "hint": "smell"},
+      {"word": "one", "hint": "number"},
+      {"word": "placemat", "hint": "dining"}
     ]
   },
   {
     "days_since_launch": 65,
     "wordlist": [
-
+      {"word": "memory", "hint": "remember"},
+      {"word": "naked", "hint": "clothes"},
+      {"word": "olive", "hint": "martini"},
+      {"word": "plate", "hint": "dinner"},
+      {"word": "question", "hint": "inquire"}
     ]
   },
   {
     "days_since_launch": 66,
     "wordlist": [
-
+      {"word": "normal", "hint": "ordinary"},
+      {"word": "orderly", "hint": "neat"},
+      {"word": "porcupine", "hint": "quill"},
+      {"word": "queue", "hint": "line"},
+      {"word": "relay", "hint": "race"}
     ]
   },
   {
     "days_since_launch": 67,
     "wordlist": [
-
+      {"word": "oak", "hint": "tree"},
+      {"word": "peacock", "hint": "bird"},
+      {"word": "quad", "hint": "four"},
+      {"word": "road", "hint": "street"},
+      {"word": "sober", "hint": "drunk"}
     ]
   },
   {
     "days_since_launch": 68,
     "wordlist": [
-
+      {"word": "pulp", "hint": "OJ"},
+      {"word": "quench", "hint": "thirst"},
+      {"word": "rub", "hint": "massage"},
+      {"word": "square", "hint": "shape"},
+      {"word": "trace", "hint": "draw"}
     ]
   },
   {
     "days_since_launch": 69,
     "wordlist": [
-
+      {"word": "announce", "hint": "declare"},
+      {"word": "base", "hint": "acid"},
+      {"word": "clear", "hint": "transparent"},
+      {"word": "dirty", "hint": "clean"},
+      {"word": "evict", "hint": "landlord"}
     ]
   },
   {
     "days_since_launch": 70,
     "wordlist": [
-
+      {"word": "blind", "hint": "unsighted"},
+      {"word": "color", "hint": "hue"},
+      {"word": "donkey", "hint": "mule"},
+      {"word": "elevator", "hint": "lift"},
+      {"word": "forward", "hint": "backward"}
     ]
   },
   {
     "days_since_launch": 71,
+    "wordlist": [
+      {"word": "clasp", "hint": "buckle"},
+      {"word": "drive", "hint": "car"},
+      {"word": "everywhere", "hint": "omnipresent"},
+      {"word": "fluorescent", "hint": "bright"},
+      {"word": "glory", "hint": "honor"}
+
+    ]
+  },
+  {
+    "days_since_launch": 72,
+    "wordlist": [
+      {"word": "deliver", "hint": "distribute"},
+      {"word": "ear", "hint": "listen"},
+      {"word": "forge", "hint": "falsify"},
+      {"word": "grape", "hint": "wine"},
+      {"word": "hill", "hint": "knoll"}
+    ]
+  },
+  {
+    "days_since_launch": 73,
+    "wordlist": [
+      {"word": "eagle", "hint": "bird"},
+      {"word": "flea", "hint": "pest"},
+      {"word": "granny", "hint": "grandma"},
+      {"word": "help", "hint": "assist"},
+      {"word": "inmate", "hint": "prisoner"}
+    ]
+  },
+  {
+    "days_since_launch": 74,
+    "wordlist": [
+      {"word": "flaunt", "hint": "showoff"},
+      {"word": "grand", "hint": "lofty"},
+      {"word": "hassle", "hint": "inconvenience"},
+      {"word": "ingot", "hint": "gold"},
+      {"word": "juggle", "hint": "circus"}
+    ]
+  },
+  {
+    "days_since_launch": 75,
+    "wordlist": [
+      {"word": "grease", "hint": "oil"},
+      {"word": "habit", "hint": "obsession"},
+      {"word": "idea", "hint": "concept"},
+      {"word": "jockey", "hint": "disc"},
+      {"word": "kabob", "hint": "meat"}
+    ]
+  },
+  {
+    "days_since_launch": 76,
+    "wordlist": [
+
+    ]
+  },
+  {
+    "days_since_launch": 77,
     "wordlist": [
 
     ]
