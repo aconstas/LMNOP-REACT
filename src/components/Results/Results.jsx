@@ -2,12 +2,14 @@ import styles from "../../shared/styles/modal.module.css";
 import close from "../../assets/close.png";
 import useLocalStorage from "../../hooks/useLocalStorage";
 import { useEffect } from "react";
+import dayjs from "dayjs";
 
-export default function Results({ guessCount, currentWordList, gameNumber, time, setShowResults, setIsModalOpen }) {
+export default function Results({ guessCount, currentWordList, gameNumber, time, setShowResults, setIsModalOpen, currentDate }) {
   
   const [lastGameState, setLastGameState] = useLocalStorage('lastGameState', []);
   const [lastGameTime, setLastGameTime] = useLocalStorage('lastGameTime', 0);
-  // const [streak, setStreak] = useLocalStorage('streak', 0);
+  const [streak, setStreak] = useLocalStorage('streak', 1);
+  const [lastPlayed, setLastPlayed] = useLocalStorage('lastPlayed');
 
   const convertGuessCountToEmoji = (guessCount) => {
     const colorMap = {
@@ -74,9 +76,19 @@ function calculateAccuracy(guessCount) {
   }
 }
 
+function updateStreak(lastPlayed) {
+  if (lastPlayed === dayjs().subtract(1, 'day').format('YYYY-MM-DD')) {
+    const updatedStreak = streak + 1;
+    setStreak(updatedStreak);
+  } else {
+    setStreak(1);
+  }
+}
+
 useEffect(() => {
   setLastGameState(guessCount);
   setLastGameTime(time);
+  updateStreak(currentDate, lastPlayed);
 }, [])
 
 const accuracy = calculateAccuracy(guessCount);
