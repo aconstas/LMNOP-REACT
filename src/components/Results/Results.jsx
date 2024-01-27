@@ -85,7 +85,7 @@ const played = useLocalStorage('gamesPlayed')[0].length;
   return (
     <>
       <div className={styles.modalContainer}>
-        <img id={styles.closeIcon} src={close} onClick={closeResults}/>
+        <img id={styles.closeIcon} src={close} onClick={closeResults} alt="close button"/>
         <h2 className={styles.modalTitle}>RESULTS</h2>
         <div>
           <h2 className={styles.modalHeading}>{formattedTime}</h2>

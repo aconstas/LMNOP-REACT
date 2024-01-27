@@ -64,7 +64,7 @@ export default function Keyboard({ isModalOpen, addUserText, handleBackspace, us
           return <Key keyVal={key} key={key} addUserText={() => addUserText(key)} />;
         })}
         <div id={styles.backspaceKey} onClick={handleBackspace}>
-          <img src={backspace} />
+          <img src={backspace} alt="backspace key"/>
         </div>
       </div>
     </div>
