@@ -88,7 +88,7 @@ function updateStreak(lastPlayed) {
 useEffect(() => {
   setLastGameState(guessCount);
   setLastGameTime(time);
-  updateStreak(currentDate, lastPlayed);
+  updateStreak(lastPlayed);
 }, [])
 
 const accuracy = calculateAccuracy(guessCount);
