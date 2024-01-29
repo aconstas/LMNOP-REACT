@@ -3,6 +3,7 @@ import settings from '../../assets/settings.png';
 import help from '../../assets/help.png';
 
 export default function Navbar() {
+    console.log('navbar re-rendered');
     return (
         <header id={styles.header}>
             <h1 id={styles.title}>LMNOP</h1>
