@@ -1,15 +1,16 @@
-import React, { createContext, useState, useEffect, useContext } from 'react';
+import { createContext, useState, useEffect, useContext } from 'react';
 
 const StopwatchContext = createContext();
 
 export const StopwatchProvider = ({ children }) => {
     const [time, setTime] = useState(0);
-    const [isRunning, setIsRunning] = useState(true);
+    const [isRunning, setIsRunning] = useState(false);
 
     useEffect(() => {
         let interval;
 
         if (isRunning) {
+            console.log('stopwatch running');
             interval = setInterval(() => {
                 setTime((prevTime) => prevTime + 1);
             }, 1000);
