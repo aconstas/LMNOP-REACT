@@ -3,12 +3,12 @@ import backspace from "../../assets/backspace.png";
 import Key from "../Key/Key";
 import { useCallback, useEffect } from "react";
 
-export default function Keyboard({ isModalOpen, addUserText, handleBackspace, userGuess, checkGuess, activeGuess, correctWord }) {
+export default function Keyboard({ addUserText, handleBackspace, checkGuess, activeGuess, correctWord }) {
   const keys1 = ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"];
   const keys2 = ["A", "S", "D", "F", "G", "H", "J", "K", "L"];
   const keys3 = ["Z", "X", "C", "V", "B", "N", "M"];
 
-  const handleKeyboard = useCallback((event) => {
+  const handleKeyboard = useCallback(() => {
     if (event.key === "Enter") {
       checkGuess(activeGuess, correctWord);
     } else if (event.key === "Backspace") {
@@ -30,7 +30,7 @@ export default function Keyboard({ isModalOpen, addUserText, handleBackspace, us
         }
       })
     }
-  })
+  }, [activeGuess, addUserText, checkGuess, correctWord, handleBackspace]);
 
   useEffect(() => {
     document.addEventListener("keydown", handleKeyboard)
@@ -42,10 +42,12 @@ export default function Keyboard({ isModalOpen, addUserText, handleBackspace, us
 
   const handleEnter = () => {
     checkGuess(activeGuess, correctWord);
-  }
+  };
+
+  console.log('keyboard has re-rendered');
 
   return (
-    <div id={styles.keyboard} className={isModalOpen ? styles.blurred : null} onKeyDown={handleKeyboard}>
+    <div id={styles.keyboard} onKeyDown={handleKeyboard}>
       <div className={styles.line1}>
         {keys1.map((key) => {
           return (
