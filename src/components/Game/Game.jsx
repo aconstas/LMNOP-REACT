@@ -2,28 +2,22 @@ import CurrentHint from "../CurrentHint/CurrentHint";
 import GuessInput from "../GuessInput/GuessInput";
 import Timer from "../Timer/Timer";
 import styles from "./Game.module.css";
-// import { useState } from "react";
 
 export default function Game({
-  isModalOpen,
   gameStarted,
   userGuess,
   currentWordlist,
   activeInputIndex,
-  checkGuess,
   hints,
   shakeIncorrect,
   setShakeIncorrect,
   guessCount,
-  time,
-  setTime
 }) {
-
-  // const [time, setTime] = useState(0);
+  console.log('game rendered');
 
   return (
-    <div className={isModalOpen ? styles.blurred : ""}>
-      <CurrentHint hints={hints} activeInputIndex={activeInputIndex}/>
+    <div>
+      <CurrentHint hints={hints} activeInputIndex={activeInputIndex} />
       <div id={styles.guessInputContainer}>
         {currentWordlist.map((wordSet, index) => {
           return (
@@ -40,7 +34,7 @@ export default function Game({
           );
         })}
       </div>
-      <Timer gameStarted={gameStarted} time={time} setTime={setTime} />
+        <Timer gameStarted={gameStarted} />
     </div>
   );
 }
