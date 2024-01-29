@@ -4,32 +4,48 @@ import useLocalStorage from "../../hooks/useLocalStorage";
 import { useEffect } from "react";
 import dayjs from "dayjs";
 
-export default function Results({ guessCount, currentWordList, gameNumber, time, setShowResults, setIsModalOpen }) {
-  
-  const [lastGameState, setLastGameState] = useLocalStorage('lastGameState', []);
-  const [lastGameTime, setLastGameTime] = useLocalStorage('lastGameTime', 0);
-  const [streak, setStreak] = useLocalStorage('streak', 1);
-  const [lastPlayed, setLastPlayed] = useLocalStorage('lastPlayed');
+import { useStopwatch } from "../../contexts/stopwatchContext";
+
+export default function Results({
+  guessCount,
+  currentWordList,
+  gameNumber,
+  setShowResults,
+  setIsModalOpen,
+}) {
+  const { time } = useStopwatch();
+  console.log(time);
+  const [lastGameState, setLastGameState] = useLocalStorage(
+    "lastGameState",
+    []
+  );
+  const [lastGameTime, setLastGameTime] = useLocalStorage("lastGameTime", 0);
+  const [streak, setStreak] = useLocalStorage("streak", 1);
+  const [lastPlayed, setLastPlayed] = useLocalStorage("lastPlayed");
 
   const convertGuessCountToEmoji = (guessCount) => {
     const colorMap = {
-      'FAIL': "🟥",
+      FAIL: "🟥",
       1: "🟩",
       2: "🟨",
       3: "🟧",
     };
-    const emojiString = guessCount.map(value => colorMap[value] || '?').join('');
+    const emojiString = guessCount
+      .map((value) => colorMap[value] || "?")
+      .join("");
     return emojiString;
-  }
+  };
 
   const formatTime = (totalSeconds) => {
     const minutes = Math.floor(totalSeconds / 60);
     const seconds = totalSeconds % 60;
-    return `${minutes}:${seconds.toString().padStart(2, '0')}`
-  }
-  
+    return `${minutes}:${seconds.toString().padStart(2, "0")}`;
+  };
+
   const scoreEmojiString = convertGuessCountToEmoji(guessCount);
-  const lettersString = currentWordList.map(set => set.word[0].toUpperCase()).join('   ');
+  const lettersString = currentWordList
+    .map((set) => set.word[0].toUpperCase())
+    .join("   ");
   const formattedTime = formatTime(time);
 
   const sendResults = () => {
@@ -39,65 +55,74 @@ export default function Results({ guessCount, currentWordList, gameNumber, time,
   const closeResults = () => {
     setShowResults(false);
     setIsModalOpen(false);
-  }
+  };
 
   function calculateTotalGuesses(guessCount) {
     let totalGuesses = 0;
 
     for (const guess of guessCount) {
-        if (guess === 'FAIL') {
-            totalGuesses += 3; // Add 3 for a 'FAIL'
-        } else {
-            totalGuesses += guess; // Add the numeric value
-        }
+      if (guess === "FAIL") {
+        totalGuesses += 3; // Add 3 for a 'FAIL'
+      } else {
+        totalGuesses += guess; // Add the numeric value
+      }
     }
 
     return totalGuesses;
-}
+  }
 
-function calculateCorrectGuesses(guessCount) {
-  let correctGuesses = 0;
+  function calculateCorrectGuesses(guessCount) {
+    let correctGuesses = 0;
 
-  for (const guess of guessCount) {
-      if (typeof guess === 'number') {
-          correctGuesses++; // Increment for each numeric value
+    for (const guess of guessCount) {
+      if (typeof guess === "number") {
+        correctGuesses++; // Increment for each numeric value
       }
+    }
+
+    return correctGuesses;
   }
 
-  return correctGuesses;
-}
-
-function calculateAccuracy(guessCount) {
-  const percentage = (((calculateCorrectGuesses(guessCount)) / (calculateTotalGuesses(guessCount))) * 100);
-  if (percentage % 1 === 0) {
-    return percentage + '%';
-  } else {
-    return percentage.toFixed(1) + '%';
+  function calculateAccuracy(guessCount) {
+    const percentage =
+      (calculateCorrectGuesses(guessCount) /
+        calculateTotalGuesses(guessCount)) *
+      100;
+    if (percentage % 1 === 0) {
+      return percentage + "%";
+    } else {
+      return percentage.toFixed(1) + "%";
+    }
   }
-}
 
-function updateStreak(lastPlayed) {
-  if (lastPlayed === dayjs().subtract(1, 'day').format('YYYY-MM-DD')) {
-    const updatedStreak = streak + 1;
-    setStreak(updatedStreak);
-  } else {
-    setStreak(1);
+  function updateStreak(lastPlayed) {
+    if (lastPlayed === dayjs().subtract(1, "day").format("YYYY-MM-DD")) {
+      const updatedStreak = streak + 1;
+      setStreak(updatedStreak);
+    } else {
+      setStreak(1);
+    }
   }
-}
 
-useEffect(() => {
-  setLastGameState(guessCount);
-  setLastGameTime(time);
-  updateStreak(lastPlayed);
-}, [])
+  useEffect(() => {
+    setLastGameState(guessCount);
+    setLastGameTime(time);
+    updateStreak(lastPlayed);
+  }, []);
 
-const accuracy = calculateAccuracy(guessCount);
-const played = useLocalStorage('gamesPlayed')[0].length;
+  const accuracy = calculateAccuracy(guessCount);
+  const played = useLocalStorage("gamesPlayed")[0].length;
 
   return (
     <>
+      <div className={styles.modalBackground}></div>
       <div className={styles.modalContainer}>
-        <img id={styles.closeIcon} src={close} onClick={closeResults} alt="close button"/>
+        <img
+          id={styles.closeIcon}
+          src={close}
+          onClick={closeResults}
+          alt="close button"
+        />
         <h2 className={styles.modalTitle}>RESULTS</h2>
         <div>
           <h2 className={styles.modalHeading}>{formattedTime}</h2>
