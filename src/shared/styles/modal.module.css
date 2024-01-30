@@ -17,7 +17,6 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
 }
 
 .modalTitle {
@@ -119,4 +118,64 @@
 
 #closeIcon:hover {
   cursor: pointer;
+}
+
+
+#instructionsContainer {
+  /* 5vh is height of NavBar */
+  height: calc(100vh - 5vh);
+  z-index: 101;
+  width: 100vw;
+  max-width: 600px;
+  background: #FFF;
+  position: absolute;
+}
+
+#instructions {
+  z-index: 1000;
+}
+
+#rulesContainer {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 16px;
+}
+
+#examplesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;;
+}
+
+.exampleContainer {
+  display: flex;
+  margin-left: 9%;
+  gap: 5px;
+}
+
+.exampleLetterbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+}
+
+.exampleHeading {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 18px;
+  margin-left: 9%;
+  margin-bottom: 5px;
+}
+
+.spaceFont {
+  font-family: 'Space Grotesk', sans-serif;
+  margin-left: 2%;
+}
+
+#bottomText {
+  font-family: 'Space Grotesk', sans-serif;
+  margin: 9%;
 }
