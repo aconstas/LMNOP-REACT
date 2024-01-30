@@ -20,8 +20,8 @@ export default function Instructions({
           onClick={toggleInstructions}
           alt="close button"
         />
-        <h2 className={styles.modalTitle}>INSTRUCTIONS</h2>
-        <p className={styles.modalText}>
+        <h2 id={styles.instructionsTitle}>INSTRUCTIONS</h2>
+        <p className={styles.instructionsText}>
           Guess 5 words using one hint and the first letter of the word in the
           shortest amount of time.
         </p>
@@ -52,7 +52,7 @@ export default function Instructions({
           </div>
           <div className={styles.exampleContainer}>
             <div className={`${styles.exampleLetterbox} ${styles.guessFAIL}`}>A</div>
-            <p className={styles.spaceFont}>Fourth guess was correct.</p>
+            <p className={styles.spaceFont}>Incorrect after three guesses.</p>
           </div>
         </div>
         <p id={styles.bottomText}>A new puzzle is released daily at midnight.</p>
