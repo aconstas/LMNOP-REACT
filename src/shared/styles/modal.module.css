@@ -129,6 +129,7 @@
   max-width: 600px;
   background: #FFF;
   position: absolute;
+  border-top: 2px solid #8C8C8C;
 }
 
 #instructions {
@@ -146,7 +147,7 @@
   width: 300px; 
   font-family: 'Space Grotesk', sans-serif;
   text-align: left;
-  margin: 5px 28px 22px 9%;
+  margin: 5px 28px 0 9%;
 }
 
 #rulesContainer {
