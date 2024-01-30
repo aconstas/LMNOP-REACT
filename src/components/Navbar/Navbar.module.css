@@ -14,6 +14,10 @@
   line-height: normal;
 }
 
+.blurred {
+  filter: blur(10px);
+}
+
 .icons {
   width: 36px;
   margin-left: 15px;
