@@ -9,6 +9,7 @@ import Keyboard from "./components/Keyboard/Keyboard.jsx";
 import wordlists from "./constants/wordlists.json";
 import useLocalStorage from "./hooks/useLocalStorage.jsx";
 import { StopwatchProvider } from "./contexts/stopwatchContext.jsx";
+import Instructions from "./components/Instructions/Instructions.jsx";
 
 export default function App() {
   console.log("app.jsx re-rendered");
@@ -23,6 +24,8 @@ export default function App() {
 
   const [lastPlayed, setLastPlayed] = useLocalStorage("lastPlayed", null);
   const [gamesPlayed, setGamesPlayed] = useLocalStorage("gamesPlayed", []);
+
+  const [showInstructions, setShowInstructions] = useState(false);
 
   const launchDate = dayjs("2024-01-17");
 
@@ -160,7 +163,8 @@ export default function App() {
 
   return (
     <>
-      <Navbar />
+      <Navbar showInstructions={showInstructions} setShowInstructions={setShowInstructions}/>
+      {showInstructions && <Instructions showInstructions={showInstructions} setShowInstructions={setShowInstructions}/>}
       <StopwatchProvider>
         {isModalOpen && (
           <Howto closeModal={toggleModal} isModalOpen={isModalOpen} />
