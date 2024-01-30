@@ -9,7 +9,7 @@ export default function Navbar({showInstructions, setShowInstructions}) {
         setShowInstructions(!showInstructions);
     }
     return (
-        <header id={styles.header}>
+        <header id={styles.header} className={showInstructions ? styles.blurred : undefined}>
             <h1 id={styles.title}>LMNOP</h1>
             <div id={styles.buttons}>
                 <img src={settings} className={styles.icons} alt='settings icon'/>
