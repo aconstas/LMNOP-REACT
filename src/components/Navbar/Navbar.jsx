@@ -12,7 +12,7 @@ export default function Navbar({showInstructions, setShowInstructions, showSetti
         setShowInstructions(!showInstructions);
     }
     return (
-        <header id={styles.header} className={showInstructions ? styles.blurred : undefined}>
+        <header id={styles.header} className={(showInstructions || showSettings) ? styles.blurred : undefined}>
             <h1 id={styles.title}>LMNOP</h1>
             <div id={styles.buttons}>
                 <img src={settings} className={styles.icons} onClick={toggleSettings} alt='settings icon'/>
