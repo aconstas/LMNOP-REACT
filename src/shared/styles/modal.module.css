@@ -45,6 +45,8 @@
   margin: 30px auto 70px auto;
   display: block;
   color: black;
+  text-decoration: none;
+  text-align: center;
 }
 
 .modalButton:hover {
