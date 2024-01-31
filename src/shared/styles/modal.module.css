@@ -128,10 +128,11 @@
   height: calc(100vh - 5vh);
   z-index: 101;
   width: 100vw;
-  max-width: 600px;
+  /* max-width: 600px; */
   background: #FFF;
   position: absolute;
   border-top: 2px solid #8C8C8C;
+  justify-content: center;
 }
 
 #instructions {
@@ -146,7 +147,8 @@
 }
 
 .instructionsText {
-  width: 300px; 
+  width: 300px;
+  max-width: 300px;
   font-family: 'Space Grotesk', sans-serif;
   text-align: left;
   margin: 5px 28px 0 9%;
@@ -156,12 +158,13 @@
   font-family: 'Space Grotesk', sans-serif;
   font-size: 16px;
   width: 300px;
+  max-width: 340px;
 }
 
 #examplesContainer {
   display: flex;
   flex-direction: column;
-  gap: 8px;;
+  gap: 8px;
 }
 
 .exampleContainer {
@@ -198,4 +201,37 @@
   margin-top: 5px;
   margin-left: 9%;
   font-weight: bold;
+}
+
+@media (min-width: 500px) {
+  #instructionsTitle {
+    margin: 2% auto 3% auto;
+    text-align: center;
+  }
+
+  .instructionsText {
+    margin: 1vh auto 0 auto;
+  }
+
+  #rulesContainer {
+    margin: 1vh auto 0 auto;
+  }
+
+  .exampleHeading {
+    text-align: center;
+    margin-left: -250px;
+    margin-top: 1vh;
+  }
+
+  #examplesContainer {
+    display: flex;
+    justify-content: center;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+
+  #bottomText {
+    margin: 1vh auto 0 auto;
+    text-align: center;
+  }
 }
