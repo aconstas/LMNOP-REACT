@@ -6,7 +6,6 @@ export default function Instructions({
   setShowInstructions,
 }) {
   const toggleInstructions = () => {
-    console.log("clicked!");
     setShowInstructions(!showInstructions);
   };
 
