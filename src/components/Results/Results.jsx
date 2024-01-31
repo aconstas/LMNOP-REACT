@@ -43,13 +43,33 @@ export default function Results({
   };
 
   const scoreEmojiString = convertGuessCountToEmoji(guessCount);
+
   const lettersString = currentWordList
     .map((set) => set.word[0].toUpperCase())
     .join("   ");
-  const formattedTime = formatTime(time);
 
+  const formattedTime = formatTime(time);
+  const resultsText = `LMNOP #${gameNumber} ⏱️${formattedTime}\n${scoreEmojiString}\n ${lettersString}`;
+  
   const sendResults = () => {
-    window.location.href = `sms:&body=LMNOP #${gameNumber} ⏱️${formattedTime}%0A${scoreEmojiString}%0A ${lettersString}`;
+    // window.location.href = `sms:&body=LMNOP #${gameNumber} ⏱️${formattedTime}%0A${scoreEmojiString}%0A ${lettersString}`;
+    if (navigator.share) {
+      navigator
+        .share({
+          text: resultsText,
+        })
+        .then(() => console.log("Share was successful."))
+        .catch((err) => console.error("Sharing failed ", err));
+    } else {
+      navigator.clipboard.writeText(resultsText)
+      .then(() => {
+        console.log('Text copied to clipboard')
+        // display modal?
+      })
+      .catch(err => {
+        console.error('Failed to copy text: ', err);
+      })
+    }
   };
 
   const closeResults = () => {
