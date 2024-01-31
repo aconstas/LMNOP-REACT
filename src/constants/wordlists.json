@@ -763,11 +763,247 @@
   {
     "days_since_launch": 76,
     "wordlist": [
-
+      {"word": "habitat", "hint": "environment"},
+      {"word": "invest", "hint": "stocks"},
+      {"word": "jar", "hint": "container"},
+      {"word": "kilt", "hint": "skirt"},
+      {"word": "live", "hint": "reside"}
     ]
   },
   {
     "days_since_launch": 77,
+    "wordlist": [
+      {"word": "inform", "hint": "tell"},
+      {"word": "juxtapose", "hint": "pair"},
+      {"word": "key", "hint": "unlock"},
+      {"word": "luster", "hint": "shine"},
+      {"word": "minor", "hint": "major"}
+    ]
+  },
+  {
+    "days_since_launch": 78,
+    "wordlist": [
+      {"word": "jaded", "hint": "bored"},
+      {"word": "keeper", "hint": "guard"},
+      {"word": "leftovers", "hint": "tidbits"},
+      {"word": "mild", "hint": "spicy"},
+      {"word": "nail", "hint": "hammer"}
+    ]
+  },
+  {
+    "days_since_launch": 79,
+    "wordlist": [
+      {"word": "knuckle", "hint": "finger"},
+      {"word": "lover", "hint": "admirer"},
+      {"word": "moist", "hint": "wet"},
+      {"word": "novel", "hint": "book"},
+      {"word": "money", "hint": "cash"}
+    ]
+  },
+  {
+    "days_since_launch": 80,
+    "wordlist": [
+      {"word": "loyal", "hint": "dutiful"},
+      {"word": "mist", "hint": "spray"},
+      {"word": "notice", "hint": "observe"},
+      {"word": "orchestra", "hint": "symphony"},
+      {"word": "parody", "hint": "imitation"}
+    ]
+  },
+  {
+    "days_since_launch": 81,
+    "wordlist": [
+      {"word": "query", "hint": "inquire"},
+      {"word": "retain", "hint": "keep"},
+      {"word": "sluggish", "hint": "slow"},
+      {"word": "tight", "hint": "constricting"},
+      {"word": "undercover", "hint": "secretive"}
+    ]
+  },
+  {
+    "days_since_launch": 82,
+    "wordlist": [
+      {"word": "alimony", "hint": "divorce"},
+      {"word": "buy", "hint": "purchase"},
+      {"word": "commence", "hint": "start"},
+      {"word": "demonstrate", "hint": "show"},
+      {"word": "easy", "hint": "effortless"}
+    ]
+  },
+  {
+    "days_since_launch": 83,
+    "wordlist": [
+      {"word": "belch", "hint": "burp"},
+      {"word": "climb", "hint": "ascend"},
+      {"word": "desire", "hint": "want"},
+      {"word": "expensive", "hint": "costly"},
+      {"word": "filthy", "hint": "dirty"}
+    ]
+  },
+  {
+    "days_since_launch": 84,
+    "wordlist": [
+      {"word": "careful", "hint": "cautious"},
+      {"word": "delicious", "hint": "tasty"},
+      {"word": "escalator", "hint": "staircase"},
+      {"word": "flat", "hint": "level"},
+      {"word": "glamor", "hint": "charisma"}
+    ]
+  },
+  {
+    "days_since_launch": 85,
+    "wordlist": [
+      {"word": "demon", "hint": "monster"},
+      {"word": "era", "hint": "age"},
+      {"word": "flee", "hint": "run"},
+      {"word": "go", "hint": "depart"},
+      {"word": "hemisphere", "hint": "half"}
+    ]
+  },
+  {
+    "days_since_launch": 86,
+    "wordlist": [
+      {"word": "extra", "hint": "more"},
+      {"word": "fur", "hint": "animal"},
+      {"word": "gifted", "hint": "talented"},
+      {"word": "hemp", "hint": "cannabis"},
+      {"word": "informal", "hint": "casual"}
+    ]
+  },
+  {
+    "days_since_launch": 87,
+    "wordlist": [
+      {"word": "future", "hint": "past"},
+      {"word": "get", "hint": "obtain"},
+      {"word": "helmet", "hint": "motorcycle"},
+      {"word": "insecure", "hint": "unstable"},
+      {"word": "journey", "hint": "trip"}
+    ]
+  },
+  {
+    "days_since_launch": 88,
+    "wordlist": [
+      {"word": "generous", "hint": "cheap"},
+      {"word": "hippy", "hint": "freebird"},
+      {"word": "indigo", "hint": "blue"},
+      {"word": "jet", "hint": "plane"},
+      {"word": "kitty", "hint": "cat"}
+    ]
+  },
+  {
+    "days_since_launch": 89,
+    "wordlist": [
+      {"word": "hover", "hint": "float"},
+      {"word": "inch", "hint": "measurement"},
+      {"word": "jaywalk", "hint": "cross"},
+      {"word": "kaput", "hint": "destroyed"},
+      {"word": "lounge", "hint": "relax"}
+    ]
+  },
+  {
+    "days_since_launch": 90,
+    "wordlist": [
+      {"word": "ideal", "hint": "optimal"},
+      {"word": "jetstream", "hint": "wind"},
+      {"word": "killjoy", "hint": "spoiler"},
+      {"word": "lizard", "hint": "reptile"},
+      {"word": "mouth", "hint": "lips"}
+    ]
+  },
+  {
+    "days_since_launch": 91,
+    "wordlist": [
+      {"word": "jaunt", "hint": "stroll"},
+      {"word": "khaki", "hint": "color"},
+      {"word": "leak", "hint": "drip"},
+      {"word": "manatee", "hint": "mammal"},
+      {"word": "narcotic", "hint": "drug"}
+    ]
+  },
+  {
+    "days_since_launch": 92,
+    "wordlist": [
+      {"word": "odd", "hint": "even"},
+      {"word": "pencil", "hint": "pen"},
+      {"word": "quirk", "hint": "idiosyncrasy"},
+      {"word": "relax", "hint": "chill"},
+      {"word": "scorpion", "hint": "insect"}
+    ]
+  },
+  {
+    "days_since_launch": 93,
+    "wordlist": [
+      {"word": "pyramid", "hint": "Egypt"},
+      {"word": "quince", "hint": "fruit"},
+      {"word": "recite", "hint": "repeat"},
+      {"word": "sandal", "hint": "shoe"},
+      {"word": "tribe", "hint": "group"}
+    ]
+  },
+  {
+    "days_since_launch": 94,
+    "wordlist": [
+      {"word": "quantity", "hint": "sum"},
+      {"word": "ravage", "hint": "plunder"},
+      {"word": "scrap", "hint": "fragment"},
+      {"word": "tattle", "hint": "narc"},
+      {"word": "ultimate", "hint": "extreme"}
+    ]
+  },
+  {
+    "days_since_launch": 95,
+    "wordlist": [
+      {"word": "rain", "hint": "precipitation"},
+      {"word": "science", "hint": "subject"},
+      {"word": "tangle", "hint": "knot"},
+      {"word": "umpire", "hint": "referee"},
+      {"word": "vacation", "hint": "holiday"}
+    ]
+  },
+  {
+    "days_since_launch": 96,
+    "wordlist": [
+
+    ]
+  },
+  {
+    "days_since_launch": 97,
+    "wordlist": [
+
+    ]
+  },
+  {
+    "days_since_launch": 98,
+    "wordlist": [
+
+    ]
+  },
+  {
+    "days_since_launch": 99,
+    "wordlist": [
+
+    ]
+  },
+  {
+    "days_since_launch": 100,
+    "wordlist": [
+
+    ]
+  },
+  {
+    "days_since_launch": 101,
+    "wordlist": [
+
+    ]
+  },
+  {
+    "days_since_launch": 102,
+    "wordlist": [
+
+    ]
+  },
+  {
+    "days_since_launch": 103,
     "wordlist": [
 
     ]
