@@ -15,7 +15,7 @@ const toggleSettings = () => {
           onClick={toggleSettings}
           alt="close button"
         />
-        <p className={styles.modalText}> Got some feedback for us?</p>
+        <p className={styles.modalText} style={{textAlign: 'center'}}> Got some feedback for us?</p>
         <a href="https://forms.gle/gskhE39PCuBP41Ty7" target="_blank" rel="noreferrer" style={{textDecoration: 'none'}}>
             <button className={styles.modalButton} style={{fontSize: '24px'}}>GIVE FEEDBACK</button>
         </a>
