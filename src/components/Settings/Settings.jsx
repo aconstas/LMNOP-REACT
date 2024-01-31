@@ -17,7 +17,7 @@ const toggleSettings = () => {
         />
         <p className={styles.modalText}> Got some feedback for us?</p>
         <a href="https://forms.gle/gskhE39PCuBP41Ty7" target="_blank" rel="noreferrer" style={{textDecoration: 'none'}}>
-            <button className={styles.modalButton}>GIVE FEEDBACK</button>
+            <button className={styles.modalButton} style={{fontSize: '24px'}}>GIVE FEEDBACK</button>
         </a>
       </div>
     </>
