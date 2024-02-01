@@ -963,25 +963,41 @@
   {
     "days_since_launch": 96,
     "wordlist": [
-
+      {"word": "sturdy", "hint": "strong"},
+      {"word": "taboo", "hint": "forbidden"},
+      {"word": "unusual", "hint": "strange"},
+      {"word": "vanish", "hint": "disappear"},
+      {"word": "warm", "hint": "cold"}
     ]
   },
   {
     "days_since_launch": 97,
     "wordlist": [
-
+      {"word": "alarm", "hint": "signal"},
+      {"word": "burn", "hint": "scorch"},
+      {"word": "credible", "hint": "believable"},
+      {"word": "disguise", "hint": "camouflage"},
+      {"word": "expect", "hint": "await"}
     ]
   },
   {
     "days_since_launch": 98,
     "wordlist": [
-
+      {"word": "baby", "hint": "infant"},
+      {"word": "clog", "hint": "drain"},
+      {"word": "defeat", "hint": "conquer"},
+      {"word": "expand", "hint": "broaden"},
+      {"word": "foil", "hint": "tin"}
     ]
   },
   {
     "days_since_launch": 99,
     "wordlist": [
-
+      {"word": "construction", "hint": "building"},
+      {"word": "dwarf", "hint": "midget"},
+      {"word": "exchange", "hint": "barter"},
+      {"word": "firm", "hint": "rigid"},
+      {"word": "grill", "hint": "barbeque"}
     ]
   },
   {
