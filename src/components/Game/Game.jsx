@@ -19,7 +19,7 @@ export default function Game({
 
   return (
     <div>
-      <CurrentHint hints={hints} activeInputIndex={activeInputIndex} />
+      <CurrentHint hints={hints} activeInputIndex={activeInputIndex} lastPlayed={lastPlayed} currentDate={currentDate}/>
       <div id={styles.guessInputContainer}>
         {currentWordlist.map((wordSet, index) => {
           return (
@@ -38,7 +38,7 @@ export default function Game({
           );
         })}
       </div>
-        <Timer gameStarted={gameStarted} />
+        <Timer gameStarted={gameStarted} lastPlayed={lastPlayed} currentDate={currentDate} />
     </div>
   );
 }
