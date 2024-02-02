@@ -1003,23 +1003,175 @@
   {
     "days_since_launch": 100,
     "wordlist": [
-
+      {"word": "dagger", "hint": "knife"},
+      {"word": "elect", "hint": "vote"},
+      {"word": "frame", "hint": "picture"},
+      {"word": "globe", "hint": "sphere"},
+      {"word": "hand", "hint": "foot"}
     ]
   },
   {
     "days_since_launch": 101,
     "wordlist": [
-
+      {"word": "elbow", "hint": "arm"},
+      {"word": "final", "hint": "end"},
+      {"word": "grant", "hint": "scholarship"},
+      {"word": "helpless", "hint": "defenseless"},
+      {"word": "iron", "hint": "metal"}
     ]
   },
   {
     "days_since_launch": 102,
     "wordlist": [
-
+      {"word": "forget", "hint": "remember"},
+      {"word": "gap", "hint": "chasm"},
+      {"word": "haphazard", "hint": "careless"},
+      {"word": "interview", "hint": "job"},
+      {"word": "jersey", "hint": "uniform"}
     ]
   },
   {
     "days_since_launch": 103,
+    "wordlist": [
+      {"word": "groan", "hint": "moan"},
+      {"word": "horse", "hint": "colt"},
+      {"word": "immerse", "hint": "submerge"},
+      {"word": "journal", "hint": "diary"},
+      {"word": "keel", "hint": "ship"}
+    ]
+  },
+  {
+    "days_since_launch": 104,
+    "wordlist": [
+      {"word": "hire", "hint": "employ"},
+      {"word": "ivory", "hint": "white"},
+      {"word": "judo", "hint": "defense"},
+      {"word": "kayak", "hint": "canoe"},
+      {"word": "lazy", "hint": "unmotivated"}
+    ]
+  },
+  {
+    "days_since_launch": 105,
+    "wordlist": [
+      {"word": "icon", "hint": "symbol"},
+      {"word": "judge", "hint": "court"},
+      {"word": "kid", "hint": "child"},
+      {"word": "lard", "hint": "fat"},
+      {"word": "macaroni", "hint": "noodle"}
+    ]
+  },
+  {
+    "days_since_launch": 106,
+    "wordlist": [
+      {"word": "jot", "hint": "note"},
+      {"word": "kidney", "hint": "organ"},
+      {"word": "low", "hint": "high"},
+      {"word": "medium", "hint": "size"},
+      {"word": "nomad", "hint": "wandered"}
+    ]
+  },
+  {
+    "days_since_launch": 107,
+    "wordlist": [
+      {"word": "kneel", "hint": "bow"},
+      {"word": "lecture", "hint": "speech"},
+      {"word": "mushroom", "hint": "fungus"},
+      {"word": "noose", "hint": "hang"},
+      {"word": "offense", "hint": "defense"}
+    ]
+  },
+  {
+    "days_since_launch": 108,
+    "wordlist": [
+      {"word": "ladybug", "hint": "insect"},
+      {"word": "motorcycle", "hint": "scooter"},
+      {"word": "neither", "hint": "nor"},
+      {"word": "often", "hint": "seldom"},
+      {"word": "publish", "hint": "print"}
+    ]
+  },
+  {
+    "days_since_launch": 109,
+    "wordlist": [
+      {"word": "mail", "hint": "letter"},
+      {"word": "nine", "hint": "number"},
+      {"word": "ostrich", "hint": "bird"},
+      {"word": "puff", "hint": "smoke"},
+      {"word": "quote", "hint": "cite"}
+    ]
+  },
+  {
+    "days_since_launch": 110,
+    "wordlist": [
+      {"word": "net", "hint": "fishing"},
+      {"word": "overtime", "hint": "work"},
+      {"word": "pace", "hint": "step"},
+      {"word": "quip", "hint": "remark"},
+      {"word": "route", "hint": "direction"}
+    ]
+  },
+  {
+    "days_since_launch": 111,
+    "wordlist": [
+      {"word": "ox", "hint": "bovine"},
+      {"word": "punch", "hint": "hit"},
+      {"word": "quiver", "hint": "shake"},
+      {"word": "royal", "hint": "noble"},
+      {"word": "sage", "hint": "herb"}
+    ]
+  },
+  {
+    "days_since_launch": 112,
+    "wordlist": [
+      {"word": "putter", "hint": "golf"},
+      {"word": "quiet", "hint": "loud"},
+      {"word": "reek", "hint": "smell"},
+      {"word": "skid", "hint": "slide"},
+      {"word": "tear", "hint": "cry"}
+    ]
+  },
+  {
+    "days_since_launch": 113,
+    "wordlist": [
+      {"word": "quality", "hint": "excellence"},
+      {"word": "read", "hint": "book"},
+      {"word": "saint", "hint": "angel"},
+      {"word": "tender", "hint": "soft"},
+      {"word": "untold", "hint": "secretive"}
+    ]
+  },
+  {
+    "days_since_launch": 114,
+    "wordlist": [
+
+    ]
+  },
+  {
+    "days_since_launch": 115,
+    "wordlist": [
+
+    ]
+  },
+  {
+    "days_since_launch": 116,
+    "wordlist": [
+
+    ]
+  },
+  {
+    "days_since_launch": 117,
+    "wordlist": [
+
+    ]
+  },
+  {
+    "days_since_launch": 118,
+    "wordlist": [
+
+    ]
+  },
+  {
+    "days_since_launch": 119,
     "wordlist": [
 
     ]
