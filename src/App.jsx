@@ -14,6 +14,9 @@ import Settings from "./components/Settings/Settings.jsx";
 
 export default function App() {
   console.log("app.jsx re-rendered");
+  const [lastPlayed, setLastPlayed] = useLocalStorage("lastPlayed", null);
+  const [gamesPlayed, setGamesPlayed] = useLocalStorage("gamesPlayed", []);
+
   const [isModalOpen, setIsModalOpen] = useState(true);
   const [gameStarted, setGameStarted] = useState(false);
   const [showResults, setShowResults] = useState(false);
@@ -23,8 +26,6 @@ export default function App() {
   const [gameNumber, setGameNumber] = useState(0);
   const [shakeIncorrect, setShakeIncorrect] = useState(false);
 
-  const [lastPlayed, setLastPlayed] = useLocalStorage("lastPlayed", null);
-  const [gamesPlayed, setGamesPlayed] = useLocalStorage("gamesPlayed", []);
 
   const [showInstructions, setShowInstructions] = useState(false);
   const [showSettings, setShowSettings] = useState(false);
@@ -48,7 +49,11 @@ export default function App() {
   useEffect(() => {
     setHints(currentWordlist.map((set) => set.hint));
     setGameNumber(currentGame[0].days_since_launch);
-  }, []);
+
+    if (lastPlayed === currentDate) {
+      setShowResults(true);
+    }
+  }, [currentDate, lastPlayed]);
 
   const addUserText = useCallback((key) => {
     setUserGuesses((prevGuess) => prevGuess + key);
@@ -75,23 +80,25 @@ export default function App() {
     [gamesPlayed, setGamesPlayed]
   );
 
-  const updateLocalStorage = useCallback(
-    (currentDate, gameNumber) => {
-      setLastPlayed(currentDate);
-      addGameNumber(gameNumber);
-    },
-    [addGameNumber, setLastPlayed]
-  );
+  // const updateLocalStorage = useCallback(
+  //   (currentDate, gameNumber) => {
+  //     setLastPlayed(currentDate);
+  //     addGameNumber(gameNumber);
+  //   },
+  //   [addGameNumber, setLastPlayed]
+  // );
 
   const endGame = useCallback(() => {
     setActiveInputIndex(null);
     setGameStarted(false);
     setTimeout(() => {
+      addGameNumber(gameNumber);
       setShowResults(true);
-      // setIsModalOpen(true);
-      updateLocalStorage(currentDate, gameNumber);
+      setLastPlayed(currentDate);
+      setIsModalOpen(true);
+      // updateLocalStorage(currentDate, gameNumber);
     }, 1250);
-  }, [currentDate, gameNumber, updateLocalStorage]);
+  }, [currentDate, setLastPlayed]);
 
   const updateGuessCount = useCallback(() => {
     // prevent increase of guessCount after failing
@@ -163,20 +170,28 @@ export default function App() {
     );
   }
 
+
   return (
     <>
       <Navbar showInstructions={showInstructions} setShowInstructions={setShowInstructions} showSettings={showSettings} setShowSettings={setShowSettings}/>
       {showInstructions && <Instructions showInstructions={showInstructions} setShowInstructions={setShowInstructions}/>}
       {showSettings && <Settings showSettings={showSettings} setShowSettings={setShowSettings}/>}
       <StopwatchProvider>
-        {isModalOpen && (
+        {(lastPlayed !== currentDate && isModalOpen) && (
           <Howto closeModal={toggleModal} isModalOpen={isModalOpen} />
         )}
-        {showResults && <Results
+        {/* display <Results/> if end of game (showResults === true) OR user already played */}
+        {(showResults || lastPlayed === currentDate) && <Results
           guessCount={guessCount}
           currentWordList={currentWordlist}
           gameNumber={gameNumber}
+          showResults={showResults}
           setShowResults={setShowResults}
+          currentDate={currentDate}
+          lastPlayed={lastPlayed}
+          setLastPlayed={setLastPlayed}
+          gamesPlayed={gamesPlayed}
+          setIsModalOpen={setIsModalOpen}
         />}
       <Game
         gameStarted={gameStarted}
@@ -188,15 +203,17 @@ export default function App() {
         shakeIncorrect={shakeIncorrect}
         setShakeIncorrect={setShakeIncorrect}
         guessCount={guessCount}
+        lastPlayed={lastPlayed}
+        currentDate={currentDate}
         />
       </StopwatchProvider>
-      <Keyboard
+      {lastPlayed !== currentDate && <Keyboard
         addUserText={addUserText}
         handleBackspace={handleBackspace}
         checkGuess={checkGuess}
         activeGuess={userGuesses}
         correctWord={currentWordlist[activeInputIndex]?.word}
-      />
+      />}
     </>
   );
 }
