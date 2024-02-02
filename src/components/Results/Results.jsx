@@ -85,36 +85,24 @@ export default function Results({
     setIsModalOpen(false);
   };
 
-  function calculateTotalGuesses(guessCount) {
-    let totalGuesses = 0;
+  function calculateTotalPoints(guessCount) {
+    let totalPoints = 0;
 
     for (const guess of guessCount) {
       if (guess === "FAIL") {
-        totalGuesses += 3; // Add 3 for a 'FAIL'
+        continue;
       } else {
-        totalGuesses += guess; // Add the numeric value
+        totalPoints += (4 - guess);
       }
     }
 
-    return totalGuesses;
-  }
-
-  function calculateCorrectGuesses(guessCount) {
-    let correctGuesses = 0;
-
-    for (const guess of guessCount) {
-      if (typeof guess === "number") {
-        correctGuesses++; // Increment for each numeric value
-      }
-    }
-
-    return correctGuesses;
+    return totalPoints;
   }
 
   function calculateAccuracy(guessCount) {
     const percentage =
-      (calculateCorrectGuesses(guessCount) /
-        calculateTotalGuesses(guessCount)) *
+      (calculateTotalPoints(guessCount) /
+        15) *
       100;
     if (percentage % 1 === 0) {
       return percentage + "%";
