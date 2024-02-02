@@ -12,6 +12,8 @@ export default function Game({
   shakeIncorrect,
   setShakeIncorrect,
   guessCount,
+  lastPlayed,
+  currentDate,
 }) {
   console.log('game rendered');
 
@@ -30,6 +32,8 @@ export default function Game({
               setShakeIncorrect={setShakeIncorrect}
               guessCount={guessCount}
               wordSetIndex={index}
+              lastPlayed={lastPlayed}
+              currentDate={currentDate}
             />
           );
         })}
