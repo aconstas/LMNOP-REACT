@@ -5,6 +5,7 @@ import useLocalStorage from "../../hooks/useLocalStorage";
 
 export default function Timer({gameStarted, lastPlayed, currentDate}) {
   const {time, isRunning, setIsRunning} = useStopwatch();
+  const [lastTime] = useLocalStorage('lastGameTime');
 
   useEffect(() => {
     if (!gameStarted) {
@@ -21,7 +22,6 @@ export default function Timer({gameStarted, lastPlayed, currentDate}) {
   }
 
   if (lastPlayed === currentDate) {
-    const [lastTime] = useLocalStorage('lastGameTime')
     return <h5 id={styles.timer}>{formatTime(lastTime)}</h5>;
   }
 
