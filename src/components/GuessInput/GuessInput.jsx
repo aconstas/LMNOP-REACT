@@ -9,6 +9,8 @@ export default function GuessInput({
   setShakeIncorrect,
   guessCount,
   wordSetIndex,
+  lastPlayed,
+  currentDate,
 }) {
   const inputRef = useRef(null);
 
@@ -41,7 +43,7 @@ export default function GuessInput({
   return (
     <div className={styles.container}>
       <div
-        id={isActive ? styles.active : undefined}
+        id={(lastPlayed === currentDate) ? undefined : isActive ? styles.active : undefined}
         className={`${styles.letterBox} ${getGuessStyle()} ${
           shakeIncorrect ? styles.shaking : undefined
         }`}
@@ -55,7 +57,7 @@ export default function GuessInput({
         enterKeyHint="go"
         autoComplete="off"
         readOnly
-        value={isActive ? userGuess : guessCount[wordSetIndex] !== 0 ? correctWord : ""}
+        value={(lastPlayed === currentDate) ? correctWord : isActive ? userGuess : guessCount[wordSetIndex] !== 0 ? correctWord : ""}
         id={isActive ? styles.active : undefined}
       ></input>
     </div>
