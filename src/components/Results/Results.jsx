@@ -1,27 +1,35 @@
 import styles from "../../shared/styles/modal.module.css";
 import close from "../../assets/close.png";
 import useLocalStorage from "../../hooks/useLocalStorage";
-import { useEffect } from "react";
+import { useEffect, useCallback } from "react";
 import dayjs from "dayjs";
 
 import { useStopwatch } from "../../contexts/stopwatchContext";
+import PastResults from "../PastResults/PastResults";
 
 export default function Results({
   guessCount,
   currentWordList,
   gameNumber,
+  showResults,
   setShowResults,
   setIsModalOpen,
+  currentDate,
+  lastPlayed,
+  setLastPlayed,
+  gamesPlayed,
 }) {
   const { time } = useStopwatch();
-  console.log(time);
   const [lastGameState, setLastGameState] = useLocalStorage(
     "lastGameState",
     []
   );
   const [lastGameTime, setLastGameTime] = useLocalStorage("lastGameTime", 0);
+  const [lastGameAccuracy, setLastGameAccuracy] = useLocalStorage(
+    "lastGameAccuracy",
+    0
+  );
   const [streak, setStreak] = useLocalStorage("streak", 1);
-  const [lastPlayed, setLastPlayed] = useLocalStorage("lastPlayed");
 
   const convertGuessCountToEmoji = (guessCount) => {
     const colorMap = {
@@ -50,9 +58,8 @@ export default function Results({
 
   const formattedTime = formatTime(time);
   const resultsText = `LMNOP #${gameNumber} ⏱️${formattedTime}\n${scoreEmojiString}\n ${lettersString}`;
-  
+
   const sendResults = () => {
-    // window.location.href = `sms:&body=LMNOP #${gameNumber} ⏱️${formattedTime}%0A${scoreEmojiString}%0A ${lettersString}`;
     if (navigator.share) {
       navigator
         .share({
@@ -61,14 +68,15 @@ export default function Results({
         .then(() => console.log("Share was successful."))
         .catch((err) => console.error("Sharing failed ", err));
     } else {
-      navigator.clipboard.writeText(resultsText)
-      .then(() => {
-        console.log('Text copied to clipboard')
-        // display modal?
-      })
-      .catch(err => {
-        console.error('Failed to copy text: ', err);
-      })
+      navigator.clipboard
+        .writeText(resultsText)
+        .then(() => {
+          console.log("Text copied to clipboard");
+          // display modal?
+        })
+        .catch((err) => {
+          console.error("Failed to copy text: ", err);
+        });
     }
   };
 
@@ -115,23 +123,59 @@ export default function Results({
     }
   }
 
-  function updateStreak(lastPlayed) {
-    if (lastPlayed === dayjs().subtract(1, "day").format("YYYY-MM-DD")) {
-      const updatedStreak = streak + 1;
-      setStreak(updatedStreak);
-    } else {
-      setStreak(1);
-    }
-  }
+  // const addGameNumber = useCallback(
+  //   (gameNumber) => {
+  //     const updatedGamesPlayed = [...gamesPlayed, gameNumber];
+  //     setGamesPlayed(updatedGamesPlayed);
+  //   },
+  //   [gamesPlayed, setGamesPlayed]
+  // );
 
   useEffect(() => {
-    setLastGameState(guessCount);
-    setLastGameTime(time);
-    updateStreak(lastPlayed);
+    function updateStreak(lastPlayed) {
+      if (lastPlayed === dayjs().subtract(1, "day").format("YYYY-MM-DD")) {
+        const updatedStreak = streak + 1;
+        setStreak(updatedStreak);
+      } else {
+        setStreak(1);
+      }
+    }
+    const lastGameNumber = gamesPlayed.at(-1);
+    if (!lastGameNumber || gameNumber === lastGameNumber) {
+      setLastGameState(guessCount);
+      setLastGameTime(time);
+      setLastGameAccuracy(accuracy);
+      updateStreak(lastPlayed);
+    }
   }, []);
 
   const accuracy = calculateAccuracy(guessCount);
   const played = useLocalStorage("gamesPlayed")[0].length;
+
+  useEffect(() => {
+    if (lastPlayed === currentDate) {
+      console.log("already played");
+    }
+  }, [lastPlayed, currentDate]);
+
+  if (!time && lastPlayed === currentDate) {
+    return (
+      <PastResults
+        lastPlayed={lastPlayed}
+        lastGameState={lastGameState}
+        currentWordList={currentWordList}
+        lastGameAccuracy={lastGameAccuracy}
+        gamesPlayed={gamesPlayed}
+        lettersString={lettersString}
+        gameNumber={gameNumber}
+        showResults={showResults}
+      />
+    );
+  }
+
+  if (!showResults) {
+    return null;
+  }
 
   return (
     <>
