@@ -1,21 +1,17 @@
 import styles from "./Timer.module.css";
 import { useStopwatch } from "../../contexts/stopwatchContext";
+import { useEffect } from "react";
 
 export default function Timer({gameStarted}) {
   const {time, isRunning, setIsRunning} = useStopwatch();
-  if (!gameStarted) {
-    setIsRunning(false);
-  }
-  // useEffect(() => {
-  //   let interval;
 
-  //   if (gameStarted) {
-  //       interval = setInterval(() => {
-  //           setTime(prevTime => prevTime + 1);
-  //       }, 1000);
-  //   } 
-  //   return () => clearInterval(interval);
-  // }, [gameStarted, time]);
+  useEffect(() => {
+    if (!gameStarted) {
+      setIsRunning(false);
+    } else {
+      setIsRunning(true);
+    }
+  }, [gameStarted, setIsRunning]);
 
   const formatTime = (totalSeconds) => {
     const minutes = Math.floor(totalSeconds / 60);
