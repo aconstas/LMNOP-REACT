@@ -57,7 +57,7 @@ export default function Results({
     .join("   ");
 
   const formattedTime = formatTime(time);
-  const resultsText = `LMNOP #${gameNumber} ⏱️${formattedTime}\n${scoreEmojiString}\n ${lettersString}`;
+  const resultsText = `LMNOP #${gameNumber} ⏱️${formattedTime}\n${scoreEmojiString}\n ${lettersString}\n https://lmnopgame.com`;
 
   const sendResults = () => {
     if (navigator.share) {
