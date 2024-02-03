@@ -53,6 +53,7 @@ export default function GuessInput({
       </div>
       <input
         ref={inputRef}
+        aria-label="input box"
         type="text"
         enterKeyHint="go"
         autoComplete="off"
