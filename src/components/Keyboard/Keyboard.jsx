@@ -46,24 +46,28 @@ export default function Keyboard({ addUserText, handleBackspace, checkGuess, act
 
   console.log('keyboard has re-rendered');
 
+  const handleKeyPress = useCallback((key) => {
+    addUserText(key);
+  }, [addUserText]);
+
   return (
     <div id={styles.keyboard} onKeyDown={handleKeyboard}>
       <div className={styles.line1}>
         {keys1.map((key) => {
           return (
-            <Key keyVal={key} key={key} addUserText={() => addUserText(key)} />
+            <Key keyVal={key} key={key} onKeyPress={handleKeyPress} />
           );
         })}
       </div>
       <div className={styles.line2}>
         {keys2.map((key) => {
-          return <Key keyVal={key} key={key} addUserText={() => addUserText(key)} />;
+          return <Key keyVal={key} key={key} onKeyPress={handleKeyPress} />;
         })}
       </div>
       <div className={styles.line3}>
         <div id={styles.enterKey} onClick={handleEnter}>ENTER</div>
         {keys3.map((key) => {
-          return <Key keyVal={key} key={key} addUserText={() => addUserText(key)} />;
+          return <Key keyVal={key} key={key} onKeyPress={handleKeyPress} />;
         })}
         <div id={styles.backspaceKey} onClick={handleBackspace}>
           <img src={backspace} alt="backspace key"/>
