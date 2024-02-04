@@ -29,7 +29,7 @@ export default function Results({
     "lastGameAccuracy",
     0
   );
-  const [streak, setStreak] = useLocalStorage("streak", 1);
+  const [streak] = useLocalStorage("streak");
   const [isAlertVisible, setIsAlertVisible] = useState(false);
 
   const convertGuessCountToEmoji = (guessCount) => {
@@ -127,20 +127,23 @@ export default function Results({
   // );
 
   useEffect(() => {
-    function updateStreak(lastPlayed) {
-      if (lastPlayed === dayjs().subtract(1, "day").format("YYYY-MM-DD")) {
-        const updatedStreak = streak + 1;
-        setStreak(updatedStreak);
-      } else {
-        setStreak(1);
-      }
-    }
+    // function updateStreak(lastPlayed) {
+    //   console.log(lastPlayed, dayjs().subtract(1, "day").format("YYYY-MM-DD"));
+    //   if (lastPlayed === dayjs().subtract(1, "day").format("YYYY-MM-DD")) {
+    //     const updatedStreak = streak + 1;
+    //     setStreak(updatedStreak);
+    //     console.log('updating streak');
+    //   } else {
+    //     console.log('resetting streak');
+    //     setStreak(1);
+    //   }
+    // }
     const lastGameNumber = gamesPlayed.at(-1);
     if (!lastGameNumber || gameNumber === lastGameNumber) {
       setLastGameState(guessCount);
       setLastGameTime(time);
       setLastGameAccuracy(accuracy);
-      updateStreak(lastPlayed);
+      // updateStreak(lastPlayed);
     }
   }, []);
 
@@ -208,7 +211,7 @@ export default function Results({
               <p className={styles.statsDescription}>accuracy</p>
             </div>
             <div>
-              <h3 className={styles.modalHeading}>1</h3>
+              <h3 className={styles.modalHeading}>{streak}</h3>
               <p className={styles.statsDescription}>streak</p>
             </div>
           </div>
