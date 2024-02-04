@@ -1,7 +1,7 @@
 import styles from "../../shared/styles/modal.module.css";
 import close from "../../assets/close.png";
 import useLocalStorage from "../../hooks/useLocalStorage";
-import { useEffect, useCallback } from "react";
+import { useEffect, useCallback, useState } from "react";
 import dayjs from "dayjs";
 
 import { useStopwatch } from "../../contexts/stopwatchContext";
@@ -30,6 +30,7 @@ export default function Results({
     0
   );
   const [streak, setStreak] = useLocalStorage("streak", 1);
+  const [isAlertVisible, setIsAlertVisible] = useState(false);
 
   const convertGuessCountToEmoji = (guessCount) => {
     const colorMap = {
@@ -59,6 +60,13 @@ export default function Results({
   const formattedTime = formatTime(time);
   const resultsText = `LMNOP #${gameNumber} ⏱️${formattedTime}\n${scoreEmojiString}\n ${lettersString}\n https://lmnopgame.com`;
 
+  const showAlert = () => {
+    setIsAlertVisible(true);
+    setTimeout(() => {
+      setIsAlertVisible(false);
+    }, 1200);
+  }
+  
   const sendResults = () => {
     if (navigator.share) {
       navigator
@@ -71,8 +79,7 @@ export default function Results({
       navigator.clipboard
         .writeText(resultsText)
         .then(() => {
-          console.log("Text copied to clipboard");
-          // display modal?
+          showAlert();
         })
         .catch((err) => {
           console.error("Failed to copy text: ", err);
@@ -168,6 +175,7 @@ export default function Results({
   return (
     <>
       <div className={styles.modalBackground}></div>
+      {isAlertVisible && <div id={styles.miniPopUp}>Copied to clipboard</div>}
       <div className={styles.modalContainer}>
         <img
           id={styles.closeIcon}
