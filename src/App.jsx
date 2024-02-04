@@ -113,6 +113,7 @@ export default function App() {
 
   const checkGuess = useCallback(
     (guess, correctWord) => {
+      if (guess === "") return;
       const isCorrectGuess = guess === correctWord.toUpperCase();
       const isLastAttempt = guessCount[activeInputIndex] === 2;
       const isLastWord = activeInputIndex === 4;
