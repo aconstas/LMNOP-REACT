@@ -15,6 +15,8 @@ export default function PastResults({
 }) {
   const [closePastResults, setClosePastResults] = useState(false);
   const [isAlertVisible, setIsAlertVisible] = useState(false);
+
+  const [streak] = useLocalStorage("streak");
   const [lastTime] = useLocalStorage("lastGameTime");
   const togglePastResults = () => {
     setClosePastResults(!closePastResults);
@@ -42,7 +44,7 @@ export default function PastResults({
   const scoreEmojiString = convertGuessCountToEmoji(lastGameState);
 
   const formattedLastGameTime = formatLastGameTime(lastTime);
-  const pastResultsText = `LMNOP #${gameNumber} ⏱️${formattedLastGameTime}\n${scoreEmojiString}\n ${lettersString}`;
+  const pastResultsText = `LMNOP #${gameNumber} ⏱️${formattedLastGameTime}\n${scoreEmojiString}\n ${lettersString}\n https://lmnopgame.com`;
 
   const showAlert = () => {
     setIsAlertVisible(true);
@@ -113,7 +115,7 @@ export default function PastResults({
               <p className={styles.statsDescription}>accuracy</p>
             </div>
             <div>
-              <h3 className={styles.modalHeading}>1</h3>
+              <h3 className={styles.modalHeading}>{streak}</h3>
               <p className={styles.statsDescription}>streak</p>
             </div>
           </div>
