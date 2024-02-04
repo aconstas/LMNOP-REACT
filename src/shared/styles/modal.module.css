@@ -61,6 +61,14 @@
   margin-top: 12px;
 }
 
+.modalSubHeading {
+  text-align: center;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  margin-top: 12px;
+}
+
 .resultsBoard {
   display: flex;
   justify-content: center;
