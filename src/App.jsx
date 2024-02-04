@@ -16,6 +16,7 @@ export default function App() {
   console.log("app.jsx re-rendered");
   const [lastPlayed, setLastPlayed] = useLocalStorage("lastPlayed", null);
   const [gamesPlayed, setGamesPlayed] = useLocalStorage("gamesPlayed", []);
+  const [streak, setStreak] = useLocalStorage("streak", 1);
 
   const [isModalOpen, setIsModalOpen] = useState(true);
   const [gameStarted, setGameStarted] = useState(false);
@@ -88,11 +89,25 @@ export default function App() {
   //   [addGameNumber, setLastPlayed]
   // );
 
+    const updateSteak = (lastPlayed) => {
+      console.log(lastPlayed, dayjs().subtract(1, "day").format("YYYY-MM-DD"));
+      if (lastPlayed === dayjs().subtract(1, "day").format("YYYY-MM-DD")) {
+        const updatedStreak = streak + 1;
+        setStreak(updatedStreak);
+        console.log('updating streak');
+      } else {
+        console.log('resetting streak');
+        setStreak(1);
+      }
+    }
+
+
   const endGame = useCallback(() => {
     setActiveInputIndex(null);
     setGameStarted(false);
     setTimeout(() => {
       addGameNumber(gameNumber);
+      updateSteak(lastPlayed);
       setShowResults(true);
       setLastPlayed(currentDate);
       setIsModalOpen(true);
