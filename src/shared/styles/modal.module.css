@@ -211,6 +211,23 @@
   font-weight: bold;
 }
 
+#miniPopUp {
+  background-color: #696969;
+  color: white;
+  border-radius: 4px;
+  padding: 8px 5px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 18px;
+  position: absolute;
+  top: 10vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60vw;
+  max-width: 200px;
+  z-index: 10000;
+  text-align: center;
+}
+
 @media (min-width: 500px) {
   #instructionsTitle {
     margin: 2% auto 3% auto;
