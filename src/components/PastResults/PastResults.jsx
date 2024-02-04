@@ -14,6 +14,7 @@ export default function PastResults({
   showResults
 }) {
   const [closePastResults, setClosePastResults] = useState(false);
+  const [isAlertVisible, setIsAlertVisible] = useState(false);
   const [lastTime] = useLocalStorage("lastGameTime");
   const togglePastResults = () => {
     setClosePastResults(!closePastResults);
@@ -43,6 +44,13 @@ export default function PastResults({
   const formattedLastGameTime = formatLastGameTime(lastTime);
   const pastResultsText = `LMNOP #${gameNumber} ⏱️${formattedLastGameTime}\n${scoreEmojiString}\n ${lettersString}`;
 
+  const showAlert = () => {
+    setIsAlertVisible(true);
+    setTimeout(() => {
+      setIsAlertVisible(false);
+    }, 1200);
+  }
+
   const sendResults = () => {
     if (navigator.share) {
       navigator
@@ -55,8 +63,7 @@ export default function PastResults({
       navigator.clipboard
         .writeText(pastResultsText)
         .then(() => {
-          console.log("Text copied to clipboard");
-          // display modal?
+          showAlert();
         })
         .catch((err) => {
           console.error("Failed to copy text: ", err);
@@ -71,6 +78,7 @@ export default function PastResults({
   return (
     <>
       <div className={styles.modalBackground}></div>
+      {isAlertVisible && <div id={styles.miniPopUp}>Copied to clipboard</div>}
       <div className={styles.modalContainer}>
         <img
           id={styles.closeIcon}
