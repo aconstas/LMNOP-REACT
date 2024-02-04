@@ -1,10 +1,24 @@
 import close from "../../assets/close.png";
 import styles from "../../shared/styles/modal.module.css";
+import { useState } from "react";
+import PrivacyPolicy from "../PrivacyPolicy/PrivacyPolicy";
+
 export default function Settings({showSettings, setShowSettings}) {
+
+const [showPrivacyPolicy, setShowPrivacyPolicy] = useState(false);
 
 const toggleSettings = () => {
     setShowSettings(!showSettings);
 }
+
+const togglePrivacyPolicy = () => {
+    setShowPrivacyPolicy(!showPrivacyPolicy);
+}
+
+if (showPrivacyPolicy) {
+    return <PrivacyPolicy togglePrivacyPolicy={togglePrivacyPolicy}/>
+}
+
   return (
     <>
       <div className={styles.modalBackground}></div>
@@ -19,6 +33,7 @@ const toggleSettings = () => {
         <a href="https://forms.gle/gskhE39PCuBP41Ty7" target="_blank" rel="noreferrer" style={{textDecoration: 'none'}}>
             <button className={styles.modalButton} style={{fontSize: '24px'}}>GIVE FEEDBACK</button>
         </a>
+      <p style={{fontFamily:'Space Grotesk, sans-serif', position:'absolute', bottom:'0', left:'50%', transform:'translate(-50%, -50%)'}} onClick={togglePrivacyPolicy}><u>Privacy Policy</u></p>
       </div>
     </>
   );
