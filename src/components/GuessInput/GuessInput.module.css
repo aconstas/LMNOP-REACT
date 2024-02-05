@@ -8,8 +8,10 @@
 }
 
 .letterBox {
-  width: 59px;
-  height: 59px;
+  width: 10vh;
+  height: 10vh;
+  max-width: 59px;
+  max-height: 59px;
   background-color: #fff;
   border: 2px solid #8c8c8c;
   font-family: "Space Grotesk", sans-serif;
@@ -23,6 +25,8 @@ input {
   border-radius: 10px;
   width: 60vw;
   max-width: 500px;
+  height: 5vh;
+  max-height: 30px;
   border: 2px solid #8c8c8c;
   font-family: "Space Grotesk", sans-serif;
   font-size: 24px;
@@ -30,14 +34,16 @@ input {
 }
 
 #active {
-  background: #F1F1F1; 
+  background: #F1F1F1;
 }
 
 #active.letterBox {
   background: #D9D9D9;
   border: none;
-  width: 62px;
-  height: 62px;
+  width: 10vh;
+  height: 10vh;
+  max-width: 62px;
+  max-height: 62px;
 }
 
 .guess1 {
