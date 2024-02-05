@@ -15,7 +15,7 @@ export default function Game({
   lastPlayed,
   currentDate,
 }) {
-  console.log('game rendered');
+  // console.log('game rendered');
 
   return (
     <div>

@@ -3,12 +3,11 @@ import settings from '../../assets/settings.png';
 import help from '../../assets/help.png';
 
 export default function Navbar({showInstructions, setShowInstructions, showSettings, setShowSettings}) {
-    console.log('navbar re-rendered');
+    // console.log('navbar re-rendered');
     const toggleSettings = () => {
         setShowSettings(!showSettings);
     }
     const toggleInstructions = () => {
-        console.log('clicked!')
         setShowInstructions(!showInstructions);
     }
     return (

@@ -44,7 +44,7 @@ export default function Keyboard({ addUserText, handleBackspace, checkGuess, act
     checkGuess(activeGuess, correctWord);
   };
 
-  console.log('keyboard has re-rendered');
+  // console.log('keyboard has re-rendered');
 
   const handleKeyPress = useCallback((key) => {
     addUserText(key);

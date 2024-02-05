@@ -10,7 +10,6 @@ export const StopwatchProvider = ({ children }) => {
         let interval;
 
         if (isRunning) {
-            console.log('stopwatch running');
             interval = setInterval(() => {
                 setTime((prevTime) => prevTime + 1);
             }, 1000);

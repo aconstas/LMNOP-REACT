@@ -13,7 +13,6 @@ import Instructions from "./components/Instructions/Instructions.jsx";
 import Settings from "./components/Settings/Settings.jsx";
 
 export default function App() {
-  console.log("app.jsx re-rendered");
   const [lastPlayed, setLastPlayed] = useLocalStorage("lastPlayed", null);
   const [gamesPlayed, setGamesPlayed] = useLocalStorage("gamesPlayed", []);
   const [streak, setStreak] = useLocalStorage("streak", 1);
@@ -90,13 +89,13 @@ export default function App() {
   // );
 
     const updateSteak = (lastPlayed) => {
-      console.log(lastPlayed, dayjs().subtract(1, "day").format("YYYY-MM-DD"));
+      // console.log(lastPlayed, dayjs().subtract(1, "day").format("YYYY-MM-DD"));
       if (lastPlayed === dayjs().subtract(1, "day").format("YYYY-MM-DD")) {
         const updatedStreak = streak + 1;
         setStreak(updatedStreak);
-        console.log('updating streak');
+        // console.log('updating streak');
       } else {
-        console.log('resetting streak');
+        // console.log('resetting streak');
         setStreak(1);
       }
     }
