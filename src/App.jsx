@@ -134,7 +134,7 @@ export default function App() {
 
       updateGuessCount();
       setShakeIncorrect(!isCorrectGuess);
-
+      if (!isCorrectGuess) setUserGuesses("");
       if (isCorrectGuess) {
         handleCorrectGuess(isLastWord);
       } else if (isLastAttempt) {
