@@ -29,15 +29,17 @@ if (showPrivacyPolicy) {
           onClick={toggleSettings}
           alt="close button"
         />
-        <p className={styles.modalText} style={{textAlign: 'center'}}> Got some feedback for us?</p>
-        <a href="https://forms.gle/gskhE39PCuBP41Ty7" target="_blank" rel="noreferrer" style={{textDecoration: 'none'}}>
-            <button className={styles.modalButton} style={{fontSize: '24px'}}>GIVE FEEDBACK</button>
-        </a>
-        <p className={styles.modalText} style={{textAlign: 'center'}}>Something else?</p>
-        <a href="mailto:lmnopgame@gmail.com" style={{textDecoration: 'none'}}>
-            <button className={styles.modalButton} style={{fontSize: '24px'}}>EMAIL US</button>
-        </a>
-      <p style={{fontFamily:'Space Grotesk, sans-serif', position:'absolute', bottom:'0', left:'50%', transform:'translate(-50%, -50%)'}} onClick={togglePrivacyPolicy}><u>Privacy Policy</u></p>
+        <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+          <p className={styles.modalText} style={{textAlign: 'center'}}> Got some feedback for us?</p>
+          <a href="https://forms.gle/gskhE39PCuBP41Ty7" target="_blank" rel="noreferrer" style={{textDecoration: 'none'}}>
+              <button className={styles.modalButton} style={{fontSize: '24px'}}>GIVE FEEDBACK</button>
+          </a>
+          <p className={styles.modalText} style={{textAlign: 'center'}}>Something else?</p>
+          <a href="mailto:lmnopgame@gmail.com" style={{textDecoration: 'none'}}>
+              <button className={styles.modalButton} style={{fontSize: '24px'}}>EMAIL US</button>
+          </a>
+          <p style={{fontFamily:'Space Grotesk, sans-serif', position:'absolute', bottom:'0', left:'50%', transform:'translate(-50%, -50%)'}} onClick={togglePrivacyPolicy}><u>Privacy Policy</u></p>
+        </div>
       </div>
     </>
   );

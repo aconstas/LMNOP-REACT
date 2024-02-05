@@ -3,7 +3,7 @@ import close from "../../assets/close.png";
 
 export default function PrivacyPolicy({ togglePrivacyPolicy }) {
   return (
-    <div id={styles.instructionsContainer}>
+    <div id={styles.privacyPolicyContainer}>
       <img
         id={styles.closeIcon}
         src={close}
