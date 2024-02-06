@@ -245,6 +245,26 @@
   text-align: center;
 }
 
+#feedbackButton {
+  width: 276px;
+  height: 58px;
+  border-radius: 10px;
+  border: none;
+  background: #D9D9D9;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  margin: -60px auto 20px auto;
+  display: block;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+#feedbackButton:hover {
+  cursor: pointer;
+}
+
 @media (min-width: 500px) {
   #instructionsTitle {
     margin: 2% auto 3% auto;

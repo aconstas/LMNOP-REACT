@@ -219,6 +219,9 @@ export default function Results({
         <button className={styles.modalButton} onClick={sendResults}>
           SHARE
         </button>
+        <a href="https://forms.gle/gskhE39PCuBP41Ty7" target="_blank" rel="noreferrer" style={{textDecoration: 'none'}}>
+              <button id={styles.feedbackButton} style={{fontSize: '24px'}}>GIVE FEEDBACK</button>
+        </a>
       </div>
     </>
   );
