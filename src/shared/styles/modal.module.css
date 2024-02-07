@@ -297,3 +297,13 @@
     text-align: center;
   }
 }
+
+@media (max-width: 500px) {
+  .modalBackground {
+    height: 95vh;
+  }
+
+  #instructionsContainer {
+    height: 95vh;
+  }
+}
