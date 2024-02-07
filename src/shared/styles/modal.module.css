@@ -2,7 +2,7 @@
   position: absolute;
   z-index: 90;
   width: 100%;
-  height: 100vh;
+  height: 92vh;
   background: rgba(255, 255, 255, 0.10); 
   backdrop-filter: blur(10px); 
 }
@@ -135,7 +135,7 @@
 
 #instructionsContainer {
   /* 5vh is height of NavBar */
-  height: 95vh;
+  height: 92vh;
   z-index: 101;
   width: 100vw;
   /* max-width: 600px; */
