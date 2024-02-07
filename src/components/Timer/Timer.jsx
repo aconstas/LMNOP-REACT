@@ -22,7 +22,7 @@ export default function Timer({gameStarted, lastPlayed, currentDate}) {
   }
 
   if (lastPlayed === currentDate) {
-    return <h5 id={styles.timer}>{formatTime(lastTime)}</h5>;
+    return null;
   }
 
   return <h5 id={styles.timer}>{formatTime(time)}</h5>;
