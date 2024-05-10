@@ -1199,5 +1199,188 @@
       {"word": "guys", "hint": "gals"},
       {"word": "hey", "hint": "exclamation"}
     ]
+  },
+  {
+    "days_since_launch": 120,
+    "wordlist": [
+      {"word": "eject", "hint": "dismiss"},
+      {"word": "flakey", "hint": "layers"},
+      {"word": "gorge", "hint": "canyon"},
+      {"word": "hop", "hint": "jump"},
+      {"word": "imitate", "hint": "copy"}
+    ]
+  },
+  {
+    "days_since_launch": 121,
+    "wordlist": [
+      {"word": "fun", "hint": "amusement"},
+      {"word": "glass", "hint": "breakable"},
+      {"word": "hysterical", "hint": "emotional"},
+      {"word": "ignorant", "hint": "uneducated"},
+      {"word": "juvenile", "hint": "young"}
+    ]
+  },
+  {
+    "days_since_launch": 122,
+    "wordlist": [
+      {"word": "global", "hint": "worldly"},
+      {"word": "health", "hint": "wellness"},
+      {"word": "immense", "hint": "enormous"},
+      {"word": "jamb", "hint": "doorway"},
+      {"word": "knock", "hint": "strike"}
+    ]
+  },
+  {
+    "days_since_launch": 123,
+    "wordlist": [
+      {"word": "hello", "hint": "goodbye"},
+      {"word": "information", "hint": "knowledge"},
+      {"word": "jail", "hint": "prison"},
+      {"word": "knoll", "hint": "hill"},
+      {"word": "lettuce", "hint": "tomato"}
+    ]
+  },
+  {
+    "days_since_launch": 124,
+    "wordlist": [
+      {"word": "irritate", "hint": "annoy"},
+      {"word": "jackhammer", "hint": "drill"},
+      {"word": "kelp", "hint": "seaweed"},
+      {"word": "lemur", "hint": "primate"},
+      {"word": "mole", "hint": "blemish "}
+    ]
+  },
+  {
+    "days_since_launch": 125,
+    "wordlist": [
+      {"word": "job", "hint": "employment"},
+      {"word": "killer", "hint": "murderer"},
+      {"word": "loose", "hint": "tight"},
+      {"word": "mountaineer", "hint": "climber"},
+      {"word": "novice", "hint": "beginner"}
+    ]
+  },
+  {
+    "days_since_launch": 126,
+    "wordlist": [
+      {"word": "lumber", "hint": "trudge"},
+      {"word": "moment", "hint": "period"},
+      {"word": "nimble", "hint": "quick"},
+      {"word": "operation", "hint": "surgery"},
+      {"word": "photo", "hint": "picture"}
+    ]
+  },
+  {
+    "days_since_launch": 127,
+    "wordlist": [
+      {"word": "mother", "hint": "father"},
+      {"word": "needle", "hint": "sewing"},
+      {"word": "other", "hint": "additional"},
+      {"word": "perfect", "hint": "flawless"},
+      {"word": "qualify", "hint": "meet"}
+    ]
+  },
+  {
+    "days_since_launch": 128,
+    "wordlist": [
+      {"word": "next", "hint": "following"},
+      {"word": "origin", "hint": "beginning"},
+      {"word": "premier", "hint": "leading"},
+      {"word": "quack", "hint": "duck"},
+      {"word": "roll", "hint": "turn"}
+    ]
+  },
+  {
+    "days_since_launch": 129,
+    "wordlist": [
+      {"word": "officer", "hint": "police"},
+      {"word": "pulse", "hint": "heartbeat"},
+      {"word": "queer", "hint": "odd"},
+      {"word": "rally", "hint": "gather"},
+      {"word": "stick", "hint": "bat"}
+    ]
+  },
+  {
+    "days_since_launch": 130,
+    "wordlist": [
+      {"word": "progress", "hint": "advancement"},
+      {"word": "quintuplet", "hint": "five"},
+      {"word": "remove", "hint": "delete"},
+      {"word": "sunny", "hint": "bright"},
+      {"word": "total", "hint": "sum"}
+    ]
+  },
+  {
+    "days_since_launch": 131,
+    "wordlist": [
+      {"word": "rodent", "hint": "rat"},
+      {"word": "salve", "hint": "ointment"},
+      {"word": "tent", "hint": "camping"},
+      {"word": "uterus", "hint": "womb"},
+      {"word": "violin", "hint": "instrument"}
+    ]
+  },
+  {
+    "days_since_launch": 132,
+    "wordlist": [
+      {"word": "slant", "hint": "lean"},
+      {"word": "twelve", "hint": "dozen"},
+      {"word": "useless", "hint": "futile"},
+      {"word": "valley", "hint": "canyon"},
+      {"word": "wish", "hint": "hope"}
+    ]
+  },
+  {
+    "days_since_launch": 133,
+    "wordlist": [
+      {"word": "arrow", "hint": "bow"},
+      {"word": "basic", "hint": "simple"},
+      {"word": "cast", "hint": "throw"},
+      {"word": "doorbell", "hint": "chime"},
+      {"word": "eight", "hint": "number"}
+    ]
+  },
+  {
+    "days_since_launch": 134,
+    "wordlist": [
+      {"word": "bum", "hint": "drifter"},
+      {"word": "curb", "hint": "hinder"},
+      {"word": "drape", "hint": "hang"},
+      {"word": "expend", "hint": "consume"},
+      {"word": "frequent", "hint": "seldom"}
+    ]
+  },
+  {
+    "days_since_launch": 135,
+    "wordlist": [
+      {"word": "clerk", "hint": "salesperson"},
+      {"word": "driver", "hint": "passenger"},
+      {"word": "envelop", "hint": "surround"},
+      {"word": "foul", "hint": "rotten"},
+      {"word": "grapes", "hint": "wine"}
+    ]
+  },
+  {
+    "days_since_launch": 136,
+    "wordlist": [
+      {"word": "drop", "hint": "rain"},
+      {"word": "espresso", "hint": "coffee"},
+      {"word": "formula", "hint": "algorithm"},
+      {"word": "gray", "hint": "ashy"},
+      {"word": "host", "hint": "entertain"}
+    ]
+  },
+  {
+    "days_since_launch": 137,
+    "wordlist": [
+ 
+    ]
+  },
+  {
+    "days_since_launch": 138,
+    "wordlist": [
+ 
+    ]
   }
+
 ]
