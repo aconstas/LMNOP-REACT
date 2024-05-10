@@ -1143,37 +1143,61 @@
   {
     "days_since_launch": 114,
     "wordlist": [
-
+      {"word": "reverse", "hint": "forward"},
+      {"word": "saliva", "hint": "spit"},
+      {"word": "teepee", "hint": "tent"},
+      {"word": "universe", "hint": "cosmos"},
+      {"word": "virus", "hint": "Corona"}
     ]
   },
   {
     "days_since_launch": 115,
     "wordlist": [
-
+      {"word": "stale", "hint": "fresh"},
+      {"word": "tripod", "hint": "three"},
+      {"word": "us", "hint": "pronoun"},
+      {"word": "viral", "hint": "growing"},
+      {"word": "went", "hint": "gone"}
     ]
   },
   {
     "days_since_launch": 116,
     "wordlist": [
-
+      {"word": "alligator", "hint": "crocodile"},
+      {"word": "below", "hint": "above"},
+      {"word": "call", "hint": "phone"},
+      {"word": "direct", "hint": "explicit"},
+      {"word": "eliminate", "hint": "cancel"}
     ]
   },
   {
     "days_since_launch": 117,
     "wordlist": [
-
+      {"word": "blow", "hint": "suck"},
+      {"word": "create", "hint": "design"},
+      {"word": "duck", "hint": "fowl"},
+      {"word": "enlarge", "hint": "increase"},
+      {"word": "form", "hint": "application"}
     ]
   },
   {
     "days_since_launch": 118,
     "wordlist": [
-
+      {"word": "clutter", "hint": "junk"},
+      {"word": "declare", "hint": "proclaim"},
+      {"word": "elaborate", "hint": "explain"},
+      {"word": "fish", "hint": "gills"},
+      {"word": "glow", "hint": "radiance"}
     ]
   },
   {
     "days_since_launch": 119,
     "wordlist": [
-
+      {"word": "dock", "hint": "boat"},
+      {"word": "eager", "hint": "ambitious"},
+      {"word": "fleece", "hint": "wool"},
+      {"word": "guys", "hint": "gals"},
+      {"word": "hey", "hint": "exclamation"}
     ]
   }
 ]
