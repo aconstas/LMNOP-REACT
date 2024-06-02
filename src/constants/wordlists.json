@@ -1373,7 +1373,11 @@
   {
     "days_since_launch": 137,
     "wordlist": [
- 
+      {"word": "sugar", "hint": "cane"},
+      {"word": "talk", "hint": "converse"},
+      {"word": "unfaithful", "hint": "disloyal"},
+      {"word": "valet", "hint": "parking"},
+      {"word": "worth", "hint": "value"}
     ]
   },
   {
