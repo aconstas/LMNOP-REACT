@@ -1,1 +1,1 @@
-## [Live Preview](https://lmnopgame.com)
+## [Live Site](https://lmnopgame.com)
