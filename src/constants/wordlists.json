@@ -1383,8 +1383,227 @@
   {
     "days_since_launch": 138,
     "wordlist": [
+      {"word": "asleep", "hint": "dormant"},
+      {"word": "bulky", "hint": "massive"},
+      {"word": "cure", "hint": "remedy"},
+      {"word": "dog", "hint": "cat"},
+      {"word": "entrance", "hint": "doorway"}
+    ]
+  },
+  {
+    "days_since_launch": 139,
+    "wordlist": [
+      {"word": "booze", "hint": "liquor"},
+      {"word": "calf", "hint": "bovine"},
+      {"word": "dent", "hint": "depression"},
+      {"word": "element", "hint": "component"},
+      {"word": "frank", "hint": "candid"}
+    ]
+  },
+  {
+    "days_since_launch": 140,
+    "wordlist": [
+      {"word": "calm", "hint": "still"},
+      {"word": "delete", "hint": "erase"},
+      {"word": "exercise", "hint": "workout"},
+      {"word": "formal", "hint": "prom"},
+      {"word": "guard", "hint": "protect"}
+    ]
+  },
+  {
+    "days_since_launch": 141,
+    "wordlist": [
+      {"word": "deer", "hint": "doe"},
+      {"word": "environment", "hint": "surroundings"},
+      {"word": "flavor", "hint": "taste"},
+      {"word": "great", "hint": "good"},
+      {"word": "hyper", "hint": "excitable"}
+    ]
+  },
+  {
+    "days_since_launch": 142,
+    "wordlist": [
+      {"word": "exile", "hint": "banish"},
+      {"word": "forest", "hint": "trees"},
+      {"word": "gasoline", "hint": "petrol"},
+      {"word": "heist", "hint": "burglary"},
+      {"word": "insist", "hint": "demand"}
+    ]
+  },
+  {
+    "days_since_launch": 143,
+    "wordlist": [
+      {"word": "flesh", "hint": "meat"},
+      {"word": "goblet", "hint": "glass"},
+      {"word": "horizontal", "hint": "parallel"},
+      {"word": "intruder", "hint": "trespasser"},
+      {"word": "jab", "hint": "stab"}
+    ]
+  },
+  {
+    "days_since_launch": 144,
+    "wordlist": [
+      {"word": "gruesome", "hint": "horrific"},
+      {"word": "humor", "hint": "comedy"},
+      {"word": "interfere", "hint": "meddle"},
+      {"word": "jolt", "hint": "shock"},
+      {"word": "knob", "hint": "door"}
+    ]
+  },
+  {
+    "days_since_launch": 145,
+    "wordlist": [
+      {"word": "launch", "hint": "rocket"},
+      {"word": "mint", "hint": "pristine"},
+      {"word": "nonsense", "hint": "rubbish"},
+      {"word": "octagon", "hint": "eight"},
+      {"word": "pleat", "hint": "fold"}
+    ]
+  },
+  {
+    "days_since_launch": 146,
+    "wordlist": [
+      {"word": "minus", "hint": "subtract"},
+      {"word": "nut", "hint": "cashew"},
+      {"word": "ornament", "hint": "adornment"},
+      {"word": "placate", "hint": "soothe"},
+      {"word": "quart", "hint": "unit"}
+    ]
+  },
+  {
+    "days_since_launch": 147,
+    "wordlist": [
+      {"word": "neat", "hint": "tidy"},
+      {"word": "outsider", "hint": "stranger"},
+      {"word": "pair", "hint": "couple"},
+      {"word": "quaver", "hint": "tremble"},
+      {"word": "raw", "hint": "uncooked"}
+    ]
+  },
+  {
+    "days_since_launch": 148,
+    "wordlist": [
+      {"word": "outcry", "hint": "scream"},
+      {"word": "pantry", "hint": "cupboard"},
+      {"word": "quandary", "hint": "dilemma"},
+      {"word": "race", "hint": "compete"},
+      {"word": "sushi", "hint": "raw"}
+    ]
+  },
+  {
+    "days_since_launch": 149,
+    "wordlist": [
+      {"word": "pancake", "hint": "syrup"},
+      {"word": "quell", "hint": "calm"},
+      {"word": "radio", "hint": "music"},
+      {"word": "stationary", "hint": "motionless"},
+      {"word": "true", "hint": "false"}
+    ]
+  },
+  {
+    "days_since_launch": 150,
+    "wordlist": [
+      {"word": "quay", "hint": "wharf"},
+      {"word": "restroom", "hint": "toilet"},
+      {"word": "static", "hint": "immobile"},
+      {"word": "truce", "hint": "peace"},
+      {"word": "unclad", "hint": "exposed"}
+    ]
+  },
+  {
+    "days_since_launch": 151,
+    "wordlist": [
+ 
+    ]
+  },
+  {
+    "days_since_launch": 152,
+    "wordlist": [
+ 
+    ]
+  },
+  {
+    "days_since_launch": 153,
+    "wordlist": [
+ 
+    ]
+  },
+  {
+    "days_since_launch": 154,
+    "wordlist": [
+ 
+    ]
+  },
+  {
+    "days_since_launch": 155,
+    "wordlist": [
+ 
+    ]
+  },
+  {
+    "days_since_launch": 156,
+    "wordlist": [
+ 
+    ]
+  },
+  {
+    "days_since_launch": 157,
+    "wordlist": [
+ 
+    ]
+  },
+  {
+    "days_since_launch": 158,
+    "wordlist": [
+ 
+    ]
+  },
+  {
+    "days_since_launch": 159,
+    "wordlist": [
+ 
+    ]
+  },
+  {
+    "days_since_launch": 160,
+    "wordlist": [
+ 
+    ]
+  },
+  {
+    "days_since_launch": 161,
+    "wordlist": [
+ 
+    ]
+  },
+  {
+    "days_since_launch": 162,
+    "wordlist": [
+ 
+    ]
+  },
+  {
+    "days_since_launch": 163,
+    "wordlist": [
+ 
+    ]
+  },
+  {
+    "days_since_launch": 164,
+    "wordlist": [
+ 
+    ]
+  },
+  {
+    "days_since_launch": 165,
+    "wordlist": [
+ 
+    ]
+  },
+  {
+    "days_since_launch": 166,
+    "wordlist": [
  
     ]
   }
-
 ]
