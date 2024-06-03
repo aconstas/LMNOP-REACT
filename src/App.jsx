@@ -1,5 +1,6 @@
 import dayjs from "dayjs";
 import { useCallback, useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./App.css";
 import Howto from "./components/Howto/Howto.jsx";
 import Navbar from "./components/Navbar/Navbar.jsx";
@@ -41,6 +42,10 @@ export default function App() {
     (game) => game.days_since_launch === daysSinceLaunch
   );
   const currentWordlist = currentGame[0].wordlist;
+  const navigate = useNavigate();
+  if (currentWordlist.length === 0) {
+    navigate("/uh-oh");
+  }
   const [userGuesses, setUserGuesses] = useState("");
   const [guessCount, setGuessCount] = useState(
     Array(currentWordlist.length).fill(0)
