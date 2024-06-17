@@ -1513,13 +1513,21 @@
   {
     "days_since_launch": 151,
     "wordlist": [
- 
+      {"word": "angry", "hint": "mad"},
+      {"word": "bloated", "hint": "swollen"},
+      {"word": "clay", "hint": "ceramic"},
+      {"word": "dull", "hint": "shiney"},
+      {"word": "evening", "hint": "dusk"}
     ]
   },
   {
     "days_since_launch": 152,
     "wordlist": [
- 
+      {"word": "blanket", "hint": "cloak"},
+      {"word": "curly", "hint": "straight"},
+      {"word": "ditch", "hint": "abandon"},
+      {"word": "elderly", "hint": "aging"},
+      {"word": "force", "hint": "coerce"}
     ]
   },
   {
