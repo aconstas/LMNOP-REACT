@@ -1,5 +1,5 @@
 import styles from "./NewsTicker.module.css";
-import logo from "../../assets/icons/Favicon32x32.png";
+import logo from "../../assets/icons/Favicon32x32.PNG";
 
 export default function NewsTicker() {
   return (
