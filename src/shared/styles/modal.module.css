@@ -254,7 +254,7 @@
   font-family: "Space Grotesk", sans-serif;
   font-size: 32px;
   font-weight: 700;
-  margin: -60px auto 20px auto;
+  margin: -65px auto 0 auto; /* Adjusted margin */
   display: block;
   color: black;
   text-decoration: none;
@@ -262,6 +262,26 @@
 }
 
 #feedbackButton:hover {
+  cursor: pointer;
+}
+
+#createButton {
+  width: 276px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background: #ffe37e;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  margin: -5px auto 10px auto; /* Adjusted margin */
+  display: block;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+#createButton:hover {
   cursor: pointer;
 }
 
@@ -306,4 +326,10 @@
   #instructionsContainer {
     height: 95vh;
   }
+}
+
+/* TEMP BUTTONS */
+#tempButtons {
+  display: flex;
+  max-width: 100%;
 }
