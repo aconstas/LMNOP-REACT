@@ -1,0 +1,41 @@
+.rssBlock {
+    font-family: "Space Grotesk", sans-serif;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #ffffff;
+    overflow: hidden;
+    z-index: 99;
+    font-size: 1.5rem; /* Default font size for mobile screens */
+  }
+  
+  .marquee {
+    display: flex;
+    white-space: nowrap;
+    overflow: hidden;
+    will-change: transform; /* Optimize for animation */
+  }
+  
+  .marqueeContent {
+    display: flex;
+    align-items: center;
+    animation: marquee 10s linear infinite;
+    will-change: transform; /* Optimize for animation */
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0); /* Start at the beginning */
+    }
+    100% {
+      transform: translateX(-100%); /* Move to the left end */
+    }
+  }
+  
+  /* Media query for desktop screens */
+  @media (min-width: 768px) {
+    .rssBlock {
+      font-size: 2rem; /* Increased font size for desktop screens */
+    }
+  }
+  
