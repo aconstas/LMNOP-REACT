@@ -1603,7 +1603,11 @@
   {
     "days_since_launch": 160,
     "wordlist": [
- 
+      {"word": "bank", "hint": "money"},
+      {"word": "carpenter", "hint": "nail"},
+      {"word": "diamonds", "hint": "hearts"},
+      {"word": "elephant", "hint": "trunk"},
+      {"word": "frisbee", "hint": "golf"}
     ]
   },
   {
