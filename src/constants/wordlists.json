@@ -1613,19 +1613,31 @@
   {
     "days_since_launch": 161,
     "wordlist": [
- 
+      {"word": "reindeer", "hint": "sleigh"},
+      {"word": "small", "hint": "large"},
+      {"word": "topiary", "hint": "bush"},
+      {"word": "upset", "hint": "defeat"},
+      {"word": "vice", "hint": "tool"}
     ]
   },
   {
     "days_since_launch": 162,
     "wordlist": [
- 
+      {"word": "blue", "hint": "color"},
+      {"word": "cardinal", "hint": "bird"},
+      {"word": "denim", "hint": "fabric"},
+      {"word": "eggs", "hint": "breakfast"},
+      {"word": "fries", "hint": "snack"}
     ]
   },
   {
     "days_since_launch": 163,
     "wordlist": [
- 
+      {"word": "artichoke", "hint": "vegetable"},
+      {"word": "beach", "hint": "life"},
+      {"word": "caramel", "hint": "sundae"},
+      {"word": "determined", "hint": "driven"},
+      {"word": "eggs", "hint": "bacon"}
     ]
   },
   {
