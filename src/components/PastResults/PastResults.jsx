@@ -120,10 +120,31 @@ export default function PastResults({
             </div>
           </div>
         </div>
-        <button className={styles.modalButton} onClick={sendResults}>SHARE</button>
-        <a href="https://forms.gle/gskhE39PCuBP41Ty7" target="_blank" rel="noreferrer" style={{textDecoration: 'none'}}>
-              <button id={styles.feedbackButton} style={{fontSize: '24px'}}>GIVE FEEDBACK</button>
-        </a>
+        <button className={styles.modalButton} onClick={sendResults}>
+          SHARE
+        </button>
+        <div style={{display: "flex", flexDirection: "column", gap: 4}}>
+          <a
+            href="https://forms.gle/gskhE39PCuBP41Ty7"
+            target="_blank"
+            rel="noreferrer"
+            style={{ textDecoration: "none" }}
+          >
+            <button id={styles.feedbackButton} style={{ fontSize: "24px" }}>
+              GIVE FEEDBACK
+            </button>
+          </a>
+          <a
+            href="https://forms.gle/jsuKMKwdkrTRMNQm7"
+            target="_blank"
+            rel="noreferrer"
+            style={{ textDecoration: "none" }}
+          >
+            <button id={styles.createButton} style={{ fontSize: "24px" }}>
+              CREATE
+            </button>
+          </a>
+        </div>
       </div>
     </>
   );
