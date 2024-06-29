@@ -1643,7 +1643,11 @@
   {
     "days_since_launch": 164,
     "wordlist": [
- 
+      {"word": "far", "hint": "near"},
+      {"word": "glass", "hint": "clear"},
+      {"word": "hound", "hint": "dog"},
+      {"word": "incense", "hint": "scent"},
+      {"word": "jungle", "hint": "tropical"}
     ]
   },
   {
