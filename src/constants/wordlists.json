@@ -1653,25 +1653,41 @@
   {
     "days_since_launch": 165,
     "wordlist": [
- 
+      {"word": "catalina", "hint": "island"},
+      {"word": "dinghy", "hint": "boat"},
+      {"word": "exhale", "hint": "relax"},
+      {"word": "fish", "hint": "garibaldi"},
+      {"word": "game", "hint": "frisbee"}
     ]
   },
   {
     "days_since_launch": 166,
     "wordlist": [
- 
+      {"word": "grass", "hint": "lawn"},
+      {"word": "heron", "hint": "bird"},
+      {"word": "intelligent", "hint": "smart"},
+      {"word": "jiggle", "hint": "movement"},
+      {"word": "knave", "hint": "warrior"}
     ]
   },
   {
     "days_since_launch": 167,
     "wordlist": [
-  
+      {"word": "knitting", "hint": "sweater"},
+      {"word": "lemon", "hint": "citrus"},
+      {"word": "master", "hint": "servant"},
+      {"word": "neat", "hint": "messy"},
+      {"word": "opal", "hint": "gem"}
     ]
   },
   {
     "days_since_launch": 168,
     "wordlist": [
-  
+      {"word": "parabola", "hint": "graph"},
+      {"word": "quadratic", "hint": "formula"},
+      {"word": "radical", "hint": "sign"},
+      {"word": "sum", "hint": "add"},
+      {"word": "total", "hint": "sum"}
     ]
   },
   {
