@@ -1693,19 +1693,31 @@
   {
     "days_since_launch": 169,
     "wordlist": [
-  
+      {"word": "apple", "hint": "fruit"},
+      {"word": "banana", "hint": "fruit"},
+      {"word": "cantaloupe", "hint": "fruit"},
+      {"word": "daikon", "hint": "vegetable"},
+      {"word": "eggs", "hint": "protein"}
     ]
   },
   {
     "days_since_launch": 170,
     "wordlist": [
-  
+      {"word": "gray", "hint": "color"},
+      {"word": "hibiscus", "hint": "flower"},
+      {"word": "ivory", "hint": "ebony"},
+      {"word": "jasmine", "hint": "flower"},
+      {"word": "kaleidoscope", "hint": "colors"}
     ]
   },
   {
     "days_since_launch": 171,
     "wordlist": [
-  
+      {"word": "honey", "hint": "sweet"},
+      {"word": "igloo", "hint": "house"},
+      {"word": "junk", "hint": "trash"},
+      {"word": "key", "hint": "lock"},
+      {"word": "lion", "hint": "cat"}
     ]
   },
   {
