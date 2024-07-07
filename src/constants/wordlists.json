@@ -1723,61 +1723,101 @@
   {
     "days_since_launch": 172,
     "wordlist": [
-  
+      {"word": "vulture", "hint": "scavenger"},
+      {"word": "wind", "hint": "gust"},
+      {"word": "xylophone", "hint": "instrument"},
+      {"word": "yell", "hint": "shout"},
+      {"word": "zebra", "hint": "striped"}
     ]
   },
   {
     "days_since_launch": 173,
     "wordlist": [
-  
+      {"word": "farmer", "hint": "occupation"},
+      {"word": "grass", "hint": "lawn"},
+      {"word": "helicopter", "hint": "vehicle"},
+      {"word": "inner", "hint": "outer"},
+      {"word": "junk", "hint": "trash"}
     ]
   },
   {
     "days_since_launch": 174,
     "wordlist": [
-  
+      {"word": "green", "hint": "color"},
+      {"word": "halo", "hint": "angel"},
+      {"word": "internet", "hint": "surf"},
+      {"word": "jasmine", "hint": "flower"},
+      {"word": "kimono", "hint": "outfit"}
     ]
   },
   {
     "days_since_launch": 175,
     "wordlist": [
-  
+      {"word": "artichoke", "hint": "vegetable"},
+      {"word": "banana", "hint": "fruit"},
+      {"word": "custard", "hint": "dessert"},
+      {"word": "dominoes", "hint": "game"},
+      {"word": "elastic", "hint": "stretch"}
     ]
   },
   {
     "days_since_launch": 176,
     "wordlist": [
-  
+      {"word": "gum", "hint": "chewy"},
+      {"word": "havarti", "hint": "cheese"},
+      {"word": "incense", "hint": "aroma"},
+      {"word": "june", "hint": "month"},
+      {"word": "knitting", "hint": "hobby"}
     ]
   },
   {
     "days_since_launch": 177,
     "wordlist": [
-  
+      {"word": "dark", "hint": "light"},
+      {"word": "eighty", "hint": "seventy"},
+      {"word": "fawn", "hint": "deer"},
+      {"word": "gram", "hint": "measurement"},
+      {"word": "haunted", "hint": "spooky"}
     ]
   },
   {
     "days_since_launch": 178,
     "wordlist": [
-  
+      {"word": "coins", "hint": "dollar"},
+      {"word": "diamonds", "hint": "stones"},
+      {"word": "entrance", "hint": "exit"},
+      {"word": "float", "hint": "sink"},
+      {"word": "gnat", "hint": "bug"}
     ]
   },
   {
     "days_since_launch": 179,
     "wordlist": [
-  
+      {"word": "monkey", "hint": "animal"},
+      {"word": "nylon", "hint": "material"},
+      {"word": "obey", "hint": "follow"},
+      {"word": "punch", "hint": "drink"},
+      {"word": "quince", "hint": "fruit"}
     ]
   },
   {
     "days_since_launch": 180,
     "wordlist": [
-  
+      {"word": "seller", "hint": "vendor"},
+      {"word": "tether", "hint": "leash"},
+      {"word": "under", "hint": "below"},
+      {"word": "vanquish", "hint": "defeat"},
+      {"word": "winner", "hint": "champion"}
     ]
   },
   {
     "days_since_launch": 181,
     "wordlist": [
-  
+      {"word": "after", "hint": "before"},
+      {"word": "beach", "hint": "waves"},
+      {"word": "colon", "hint": "organ"},
+      {"word": "dasher", "hint": "reindeer"},
+      {"word": "egg", "hint": "protein"}
     ]
   },
   {
