@@ -1823,73 +1823,121 @@
   {
     "days_since_launch": 182,
     "wordlist": [
-  
+      {"word": "olympics", "hint": "event"},
+      {"word": "parakeet", "hint": "bird"},
+      {"word": "quiet", "hint": "silent"},
+      {"word": "raspberry", "hint": "fruit"},
+      {"word": "swiftly", "hint": "quickly"}
     ]
   },
   {
     "days_since_launch": 183,
     "wordlist": [
-  
+      {"word": "green", "hint": "grass"},
+      {"word": "happy", "hint": "sad"},
+      {"word": "igloo", "hint": "house"},
+      {"word": "jelly", "hint": "peanut butter"},
+      {"word": "kiwi", "hint": "fruit"}
     ]
   },
   {
     "days_since_launch": 184,
     "wordlist": [
-  
+      {"word": "pretzel", "hint": "snack"},
+      {"word": "quilt", "hint": "cover"},
+      {"word": "rubber", "hint": "material"},
+      {"word": "sloth", "hint": "animal"},
+      {"word": "tart", "hint": "dessert"}
     ]
   },
   {
     "days_since_launch": 185,
     "wordlist": [
-  
+      {"word": "always", "hint": "Never"},
+      {"word": "breakfast", "hint": "Meal"},
+      {"word": "crunchy", "hint": "Texture"},
+      {"word": "duet", "hint": "Solo"},
+      {"word": "elf", "hint": "Santa"}
     ]
   },
   {
     "days_since_launch": 186,
     "wordlist": [
-  
+      {"word": "never", "hint": "always"},
+      {"word": "olive", "hint": "martini"},
+      {"word": "pretzel", "hint": "twisted"},
+      {"word": "queue", "hint": "line"},
+      {"word": "rapidly", "hint": "quickly"}
     ]
   },
   {
     "days_since_launch": 187,
     "wordlist": [
-  
+      {"word": "dance", "hint": "Art"},
+      {"word": "ebony", "hint": "Ivory"},
+      {"word": "finger", "hint": "Digit"},
+      {"word": "groundhog", "hint": "Phil"},
+      {"word": "hamburger", "hint": "Sandwich"}
     ]
   },
   {
     "days_since_launch": 188,
     "wordlist": [
-  
+      {"word": "arrow", "hint": "Bow"},
+      {"word": "blonde", "hint": "Hair"},
+      {"word": "cupcake", "hint": "Dessert"},
+      {"word": "dollar", "hint": "Cash"},
+      {"word": "envelope", "hint": "Letter"}
     ]
   },
   {
     "days_since_launch": 189,
     "wordlist": [
-  
+      {"word": "film", "hint": "Movie"},
+      {"word": "grade", "hint": "Score"},
+      {"word": "happy", "hint": "Sad"},
+      {"word": "idea", "hint": "Thought"},
+      {"word": "jail", "hint": "Prison"}
     ]
   },
   {
     "days_since_launch": 190,
     "wordlist": [
-  
+      {"word": "cold", "hint": "Hot"},
+      {"word": "dark", "hint": "Light"},
+      {"word": "every", "hint": "None"},
+      {"word": "free", "hint": "Expensive"},
+      {"word": "glad", "hint": "Sad"}
     ]
   },
   {
     "days_since_launch": 191,
     "wordlist": [
-  
+      {"word": "fruit", "hint": "Vegetable"},
+      {"word": "gravel", "hint": "Rocks"},
+      {"word": "house", "hint": "Dwelling"},
+      {"word": "invent", "hint": "Create"},
+      {"word": "jab", "hint": "Stick"}
     ]
   },
   {
     "days_since_launch": 192,
     "wordlist": [
-  
+      {"word": "lemon", "hint": "Lime"},
+      {"word": "minutes", "hint": "Time"},
+      {"word": "nosh", "hint": "Eat"},
+      {"word": "onion", "hint": "Layers"},
+      {"word": "phalanges", "hint": "Fingers"}
     ]
   },
   {
     "days_since_launch": 193,
     "wordlist": [
-  
+      {"word": "golf", "hint": "Sport"},
+      {"word": "handsome", "hint": "Pretty"},
+      {"word": "inch", "hint": "Measurement"},
+      {"word": "jewelry", "hint": "jewels"},
+      {"word": "kangaroo", "hint": "Animal"}
     ]
   },
   {
