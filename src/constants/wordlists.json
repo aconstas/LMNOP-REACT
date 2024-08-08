@@ -532,1454 +532,1511 @@
   {
     "days_since_launch": 53,
     "wordlist": [
-      {"word": "joke", "hint": "funny"},
-      {"word": "kiln", "hint": "pottery"},
-      {"word": "language", "hint": "communicate"},
-      {"word": "massage", "hint": "spa"},
-      {"word": "night", "hint": "day"}
+      { "word": "joke", "hint": "funny" },
+      { "word": "kiln", "hint": "pottery" },
+      { "word": "language", "hint": "communicate" },
+      { "word": "massage", "hint": "spa" },
+      { "word": "night", "hint": "day" }
     ]
   },
   {
     "days_since_launch": 54,
     "wordlist": [
-      {"word": "literature", "hint": "writing"},
-      {"word": "monitor", "hint": "computer"},
-      {"word": "never", "hint": "always"},
-      {"word": "outlet", "hint": "electrical"},
-      {"word": "pear", "hint": "fruit"}
+      { "word": "literature", "hint": "writing" },
+      { "word": "monitor", "hint": "computer" },
+      { "word": "never", "hint": "always" },
+      { "word": "outlet", "hint": "electrical" },
+      { "word": "pear", "hint": "fruit" }
     ]
   },
   {
     "days_since_launch": 55,
     "wordlist": [
-      {"word": "quail", "hint": "bird"},
-      {"word": "revenge", "hint": "retribution"},
-      {"word": "stop", "hint": "start"},
-      {"word": "tally", "hint": "mark"},
-      {"word": "utilize", "hint": "apply"}
+      { "word": "quail", "hint": "bird" },
+      { "word": "revenge", "hint": "retribution" },
+      { "word": "stop", "hint": "start" },
+      { "word": "tally", "hint": "mark" },
+      { "word": "utilize", "hint": "apply" }
     ]
   },
   {
     "days_since_launch": 56,
     "wordlist": [
-      {"word": "movie", "hint": "watch"},
-      {"word": "nachos", "hint": "snack"},
-      {"word": "oblong", "hint": "elliptical"},
-      {"word": "prize", "hint": "win"},
-      {"word": "quit", "hint": "relinquish"}
+      { "word": "movie", "hint": "watch" },
+      { "word": "nachos", "hint": "snack" },
+      { "word": "oblong", "hint": "elliptical" },
+      { "word": "prize", "hint": "win" },
+      { "word": "quit", "hint": "relinquish" }
     ]
   },
   {
     "days_since_launch": 57,
     "wordlist": [
-      {"word": "avalanche", "hint": "snow"},
-      {"word": "bland","hint": "spicy"},
-      {"word": "catch", "hint": "ball"},
-      {"word": "drill", "hint": "tool"},
-      {"word": "event", "hint": "ceremony"}
+      { "word": "avalanche", "hint": "snow" },
+      { "word": "bland", "hint": "spicy" },
+      { "word": "catch", "hint": "ball" },
+      { "word": "drill", "hint": "tool" },
+      { "word": "event", "hint": "ceremony" }
     ]
   },
   {
     "days_since_launch": 58,
     "wordlist": [
-      {"word": "blonde", "hint": "brunette"},
-      {"word": "clam", "hint": "shell"},
-      {"word": "deal", "hint": "shuffle"},
-      {"word": "eleven", "hint": "number"},
-      {"word": "fruit", "hint": "apple"}
+      { "word": "blonde", "hint": "brunette" },
+      { "word": "clam", "hint": "shell" },
+      { "word": "deal", "hint": "shuffle" },
+      { "word": "eleven", "hint": "number" },
+      { "word": "fruit", "hint": "apple" }
     ]
   },
   {
     "days_since_launch": 59,
     "wordlist": [
-      {"word": "chess", "hint": "game"},
-      {"word": "different", "hint": "same"},
-      {"word": "esquire", "hint": "man"},
-      {"word": "fuel", "hint": "gas"},
-      {"word": "glad", "hint": "happy"}
+      { "word": "chess", "hint": "game" },
+      { "word": "different", "hint": "same" },
+      { "word": "esquire", "hint": "man" },
+      { "word": "fuel", "hint": "gas" },
+      { "word": "glad", "hint": "happy" }
     ]
   },
   {
     "days_since_launch": 60,
     "wordlist": [
-      {"word": "direction", "hint": "north"},
-      {"word": "elegant", "hint": "classy"},
-      {"word": "flow", "hint": "river"},
-      {"word": "grass", "hint": "turf"},
-      {"word": "halo", "hint": "ring"}
+      { "word": "direction", "hint": "north" },
+      { "word": "elegant", "hint": "classy" },
+      { "word": "flow", "hint": "river" },
+      { "word": "grass", "hint": "turf" },
+      { "word": "halo", "hint": "ring" }
     ]
   },
   {
     "days_since_launch": 61,
     "wordlist": [
-      {"word": "easel", "hint": "tripod"},
-      {"word": "forever", "hint": "always"},
-      {"word": "gopher", "hint": "rodent"},
-      {"word": "hay", "hint": "horse"},
-      {"word": "icicle", "hint": "frozen"}
+      { "word": "easel", "hint": "tripod" },
+      { "word": "forever", "hint": "always" },
+      { "word": "gopher", "hint": "rodent" },
+      { "word": "hay", "hint": "horse" },
+      { "word": "icicle", "hint": "frozen" }
     ]
   },
   {
     "days_since_launch": 62,
     "wordlist": [
-      {"word": "flame", "hint": "fire"},
-      {"word": "glacier", "hint": "iceberg"},
-      {"word": "hollow", "hint": "excavated"},
-      {"word": "ignore", "hint": "avoid"},
-      {"word": "jello", "hint": "jiggle"}
+      { "word": "flame", "hint": "fire" },
+      { "word": "glacier", "hint": "iceberg" },
+      { "word": "hollow", "hint": "excavated" },
+      { "word": "ignore", "hint": "avoid" },
+      { "word": "jello", "hint": "jiggle" }
     ]
   },
   {
     "days_since_launch": 63,
     "wordlist": [
-      {"word": "karate", "hint": "fight"},
-      {"word": "leaf", "hint": "tree"},
-      {"word": "monkey", "hint": "banana"},
-      {"word": "need", "hint": "want"},
-      {"word": "orange", "hint": "color"}
+      { "word": "karate", "hint": "fight" },
+      { "word": "leaf", "hint": "tree" },
+      { "word": "monkey", "hint": "banana" },
+      { "word": "need", "hint": "want" },
+      { "word": "orange", "hint": "color" }
     ]
   },
   {
     "days_since_launch": 64,
     "wordlist": [
-      {"word": "letter", "hint": "alphabet"},
-      {"word": "mean", "hint": "kind"},
-      {"word": "nose", "hint": "smell"},
-      {"word": "one", "hint": "number"},
-      {"word": "placemat", "hint": "dining"}
+      { "word": "letter", "hint": "alphabet" },
+      { "word": "mean", "hint": "kind" },
+      { "word": "nose", "hint": "smell" },
+      { "word": "one", "hint": "number" },
+      { "word": "placemat", "hint": "dining" }
     ]
   },
   {
     "days_since_launch": 65,
     "wordlist": [
-      {"word": "memory", "hint": "remember"},
-      {"word": "naked", "hint": "clothes"},
-      {"word": "olive", "hint": "martini"},
-      {"word": "plate", "hint": "dinner"},
-      {"word": "question", "hint": "inquire"}
+      { "word": "memory", "hint": "remember" },
+      { "word": "naked", "hint": "clothes" },
+      { "word": "olive", "hint": "martini" },
+      { "word": "plate", "hint": "dinner" },
+      { "word": "question", "hint": "inquire" }
     ]
   },
   {
     "days_since_launch": 66,
     "wordlist": [
-      {"word": "normal", "hint": "ordinary"},
-      {"word": "orderly", "hint": "neat"},
-      {"word": "porcupine", "hint": "quill"},
-      {"word": "queue", "hint": "line"},
-      {"word": "relay", "hint": "race"}
+      { "word": "normal", "hint": "ordinary" },
+      { "word": "orderly", "hint": "neat" },
+      { "word": "porcupine", "hint": "quill" },
+      { "word": "queue", "hint": "line" },
+      { "word": "relay", "hint": "race" }
     ]
   },
   {
     "days_since_launch": 67,
     "wordlist": [
-      {"word": "oak", "hint": "tree"},
-      {"word": "peacock", "hint": "bird"},
-      {"word": "quad", "hint": "four"},
-      {"word": "road", "hint": "street"},
-      {"word": "sober", "hint": "drunk"}
+      { "word": "oak", "hint": "tree" },
+      { "word": "peacock", "hint": "bird" },
+      { "word": "quad", "hint": "four" },
+      { "word": "road", "hint": "street" },
+      { "word": "sober", "hint": "drunk" }
     ]
   },
   {
     "days_since_launch": 68,
     "wordlist": [
-      {"word": "pulp", "hint": "OJ"},
-      {"word": "quench", "hint": "thirst"},
-      {"word": "rub", "hint": "massage"},
-      {"word": "square", "hint": "shape"},
-      {"word": "trace", "hint": "draw"}
+      { "word": "pulp", "hint": "OJ" },
+      { "word": "quench", "hint": "thirst" },
+      { "word": "rub", "hint": "massage" },
+      { "word": "square", "hint": "shape" },
+      { "word": "trace", "hint": "draw" }
     ]
   },
   {
     "days_since_launch": 69,
     "wordlist": [
-      {"word": "announce", "hint": "declare"},
-      {"word": "base", "hint": "acid"},
-      {"word": "clear", "hint": "transparent"},
-      {"word": "dirty", "hint": "clean"},
-      {"word": "evict", "hint": "landlord"}
+      { "word": "announce", "hint": "declare" },
+      { "word": "base", "hint": "acid" },
+      { "word": "clear", "hint": "transparent" },
+      { "word": "dirty", "hint": "clean" },
+      { "word": "evict", "hint": "landlord" }
     ]
   },
   {
     "days_since_launch": 70,
     "wordlist": [
-      {"word": "blind", "hint": "unsighted"},
-      {"word": "color", "hint": "hue"},
-      {"word": "donkey", "hint": "mule"},
-      {"word": "elevator", "hint": "lift"},
-      {"word": "forward", "hint": "backward"}
+      { "word": "blind", "hint": "unsighted" },
+      { "word": "color", "hint": "hue" },
+      { "word": "donkey", "hint": "mule" },
+      { "word": "elevator", "hint": "lift" },
+      { "word": "forward", "hint": "backward" }
     ]
   },
   {
     "days_since_launch": 71,
     "wordlist": [
-      {"word": "clasp", "hint": "buckle"},
-      {"word": "drive", "hint": "car"},
-      {"word": "everywhere", "hint": "omnipresent"},
-      {"word": "fluorescent", "hint": "bright"},
-      {"word": "glory", "hint": "honor"}
-
+      { "word": "clasp", "hint": "buckle" },
+      { "word": "drive", "hint": "car" },
+      { "word": "everywhere", "hint": "omnipresent" },
+      { "word": "fluorescent", "hint": "bright" },
+      { "word": "glory", "hint": "honor" }
     ]
   },
   {
     "days_since_launch": 72,
     "wordlist": [
-      {"word": "deliver", "hint": "distribute"},
-      {"word": "ear", "hint": "listen"},
-      {"word": "forge", "hint": "falsify"},
-      {"word": "grape", "hint": "wine"},
-      {"word": "hill", "hint": "knoll"}
+      { "word": "deliver", "hint": "distribute" },
+      { "word": "ear", "hint": "listen" },
+      { "word": "forge", "hint": "falsify" },
+      { "word": "grape", "hint": "wine" },
+      { "word": "hill", "hint": "knoll" }
     ]
   },
   {
     "days_since_launch": 73,
     "wordlist": [
-      {"word": "eagle", "hint": "bird"},
-      {"word": "flea", "hint": "pest"},
-      {"word": "granny", "hint": "grandma"},
-      {"word": "help", "hint": "assist"},
-      {"word": "inmate", "hint": "prisoner"}
+      { "word": "eagle", "hint": "bird" },
+      { "word": "flea", "hint": "pest" },
+      { "word": "granny", "hint": "grandma" },
+      { "word": "help", "hint": "assist" },
+      { "word": "inmate", "hint": "prisoner" }
     ]
   },
   {
     "days_since_launch": 74,
     "wordlist": [
-      {"word": "flaunt", "hint": "showoff"},
-      {"word": "grand", "hint": "lofty"},
-      {"word": "hassle", "hint": "inconvenience"},
-      {"word": "ingot", "hint": "gold"},
-      {"word": "juggle", "hint": "circus"}
+      { "word": "flaunt", "hint": "showoff" },
+      { "word": "grand", "hint": "lofty" },
+      { "word": "hassle", "hint": "inconvenience" },
+      { "word": "ingot", "hint": "gold" },
+      { "word": "juggle", "hint": "circus" }
     ]
   },
   {
     "days_since_launch": 75,
     "wordlist": [
-      {"word": "grease", "hint": "oil"},
-      {"word": "habit", "hint": "obsession"},
-      {"word": "idea", "hint": "concept"},
-      {"word": "jockey", "hint": "disc"},
-      {"word": "kabob", "hint": "meat"}
+      { "word": "grease", "hint": "oil" },
+      { "word": "habit", "hint": "obsession" },
+      { "word": "idea", "hint": "concept" },
+      { "word": "jockey", "hint": "disc" },
+      { "word": "kabob", "hint": "meat" }
     ]
   },
   {
     "days_since_launch": 76,
     "wordlist": [
-      {"word": "habitat", "hint": "environment"},
-      {"word": "invest", "hint": "stocks"},
-      {"word": "jar", "hint": "container"},
-      {"word": "kilt", "hint": "skirt"},
-      {"word": "live", "hint": "reside"}
+      { "word": "habitat", "hint": "environment" },
+      { "word": "invest", "hint": "stocks" },
+      { "word": "jar", "hint": "container" },
+      { "word": "kilt", "hint": "skirt" },
+      { "word": "live", "hint": "reside" }
     ]
   },
   {
     "days_since_launch": 77,
     "wordlist": [
-      {"word": "inform", "hint": "tell"},
-      {"word": "juxtapose", "hint": "pair"},
-      {"word": "key", "hint": "unlock"},
-      {"word": "luster", "hint": "shine"},
-      {"word": "minor", "hint": "major"}
+      { "word": "inform", "hint": "tell" },
+      { "word": "juxtapose", "hint": "pair" },
+      { "word": "key", "hint": "unlock" },
+      { "word": "luster", "hint": "shine" },
+      { "word": "minor", "hint": "major" }
     ]
   },
   {
     "days_since_launch": 78,
     "wordlist": [
-      {"word": "jaded", "hint": "bored"},
-      {"word": "keeper", "hint": "guard"},
-      {"word": "leftovers", "hint": "tidbits"},
-      {"word": "mild", "hint": "spicy"},
-      {"word": "nail", "hint": "hammer"}
+      { "word": "jaded", "hint": "bored" },
+      { "word": "keeper", "hint": "guard" },
+      { "word": "leftovers", "hint": "tidbits" },
+      { "word": "mild", "hint": "spicy" },
+      { "word": "nail", "hint": "hammer" }
     ]
   },
   {
     "days_since_launch": 79,
     "wordlist": [
-      {"word": "knuckle", "hint": "finger"},
-      {"word": "lover", "hint": "admirer"},
-      {"word": "moist", "hint": "wet"},
-      {"word": "novel", "hint": "book"},
-      {"word": "money", "hint": "cash"}
+      { "word": "knuckle", "hint": "finger" },
+      { "word": "lover", "hint": "admirer" },
+      { "word": "moist", "hint": "wet" },
+      { "word": "novel", "hint": "book" },
+      { "word": "money", "hint": "cash" }
     ]
   },
   {
     "days_since_launch": 80,
     "wordlist": [
-      {"word": "loyal", "hint": "dutiful"},
-      {"word": "mist", "hint": "spray"},
-      {"word": "notice", "hint": "observe"},
-      {"word": "orchestra", "hint": "symphony"},
-      {"word": "parody", "hint": "imitation"}
+      { "word": "loyal", "hint": "dutiful" },
+      { "word": "mist", "hint": "spray" },
+      { "word": "notice", "hint": "observe" },
+      { "word": "orchestra", "hint": "symphony" },
+      { "word": "parody", "hint": "imitation" }
     ]
   },
   {
     "days_since_launch": 81,
     "wordlist": [
-      {"word": "query", "hint": "inquire"},
-      {"word": "retain", "hint": "keep"},
-      {"word": "sluggish", "hint": "slow"},
-      {"word": "tight", "hint": "constricting"},
-      {"word": "undercover", "hint": "secretive"}
+      { "word": "query", "hint": "inquire" },
+      { "word": "retain", "hint": "keep" },
+      { "word": "sluggish", "hint": "slow" },
+      { "word": "tight", "hint": "constricting" },
+      { "word": "undercover", "hint": "secretive" }
     ]
   },
   {
     "days_since_launch": 82,
     "wordlist": [
-      {"word": "alimony", "hint": "divorce"},
-      {"word": "buy", "hint": "purchase"},
-      {"word": "commence", "hint": "start"},
-      {"word": "demonstrate", "hint": "show"},
-      {"word": "easy", "hint": "effortless"}
+      { "word": "alimony", "hint": "divorce" },
+      { "word": "buy", "hint": "purchase" },
+      { "word": "commence", "hint": "start" },
+      { "word": "demonstrate", "hint": "show" },
+      { "word": "easy", "hint": "effortless" }
     ]
   },
   {
     "days_since_launch": 83,
     "wordlist": [
-      {"word": "belch", "hint": "burp"},
-      {"word": "climb", "hint": "ascend"},
-      {"word": "desire", "hint": "want"},
-      {"word": "expensive", "hint": "costly"},
-      {"word": "filthy", "hint": "dirty"}
+      { "word": "belch", "hint": "burp" },
+      { "word": "climb", "hint": "ascend" },
+      { "word": "desire", "hint": "want" },
+      { "word": "expensive", "hint": "costly" },
+      { "word": "filthy", "hint": "dirty" }
     ]
   },
   {
     "days_since_launch": 84,
     "wordlist": [
-      {"word": "careful", "hint": "cautious"},
-      {"word": "delicious", "hint": "tasty"},
-      {"word": "escalator", "hint": "staircase"},
-      {"word": "flat", "hint": "level"},
-      {"word": "glamor", "hint": "charisma"}
+      { "word": "careful", "hint": "cautious" },
+      { "word": "delicious", "hint": "tasty" },
+      { "word": "escalator", "hint": "staircase" },
+      { "word": "flat", "hint": "level" },
+      { "word": "glamor", "hint": "charisma" }
     ]
   },
   {
     "days_since_launch": 85,
     "wordlist": [
-      {"word": "demon", "hint": "monster"},
-      {"word": "era", "hint": "age"},
-      {"word": "flee", "hint": "run"},
-      {"word": "go", "hint": "depart"},
-      {"word": "hemisphere", "hint": "half"}
+      { "word": "demon", "hint": "monster" },
+      { "word": "era", "hint": "age" },
+      { "word": "flee", "hint": "run" },
+      { "word": "go", "hint": "depart" },
+      { "word": "hemisphere", "hint": "half" }
     ]
   },
   {
     "days_since_launch": 86,
     "wordlist": [
-      {"word": "extra", "hint": "more"},
-      {"word": "fur", "hint": "animal"},
-      {"word": "gifted", "hint": "talented"},
-      {"word": "hemp", "hint": "cannabis"},
-      {"word": "informal", "hint": "casual"}
+      { "word": "extra", "hint": "more" },
+      { "word": "fur", "hint": "animal" },
+      { "word": "gifted", "hint": "talented" },
+      { "word": "hemp", "hint": "cannabis" },
+      { "word": "informal", "hint": "casual" }
     ]
   },
   {
     "days_since_launch": 87,
     "wordlist": [
-      {"word": "future", "hint": "past"},
-      {"word": "get", "hint": "obtain"},
-      {"word": "helmet", "hint": "motorcycle"},
-      {"word": "insecure", "hint": "unstable"},
-      {"word": "journey", "hint": "trip"}
+      { "word": "future", "hint": "past" },
+      { "word": "get", "hint": "obtain" },
+      { "word": "helmet", "hint": "motorcycle" },
+      { "word": "insecure", "hint": "unstable" },
+      { "word": "journey", "hint": "trip" }
     ]
   },
   {
     "days_since_launch": 88,
     "wordlist": [
-      {"word": "generous", "hint": "cheap"},
-      {"word": "hippy", "hint": "freebird"},
-      {"word": "indigo", "hint": "blue"},
-      {"word": "jet", "hint": "plane"},
-      {"word": "kitty", "hint": "cat"}
+      { "word": "generous", "hint": "cheap" },
+      { "word": "hippy", "hint": "freebird" },
+      { "word": "indigo", "hint": "blue" },
+      { "word": "jet", "hint": "plane" },
+      { "word": "kitty", "hint": "cat" }
     ]
   },
   {
     "days_since_launch": 89,
     "wordlist": [
-      {"word": "hover", "hint": "float"},
-      {"word": "inch", "hint": "measurement"},
-      {"word": "jaywalk", "hint": "cross"},
-      {"word": "kaput", "hint": "destroyed"},
-      {"word": "lounge", "hint": "relax"}
+      { "word": "hover", "hint": "float" },
+      { "word": "inch", "hint": "measurement" },
+      { "word": "jaywalk", "hint": "cross" },
+      { "word": "kaput", "hint": "destroyed" },
+      { "word": "lounge", "hint": "relax" }
     ]
   },
   {
     "days_since_launch": 90,
     "wordlist": [
-      {"word": "ideal", "hint": "optimal"},
-      {"word": "jetstream", "hint": "wind"},
-      {"word": "killjoy", "hint": "spoiler"},
-      {"word": "lizard", "hint": "reptile"},
-      {"word": "mouth", "hint": "lips"}
+      { "word": "ideal", "hint": "optimal" },
+      { "word": "jetstream", "hint": "wind" },
+      { "word": "killjoy", "hint": "spoiler" },
+      { "word": "lizard", "hint": "reptile" },
+      { "word": "mouth", "hint": "lips" }
     ]
   },
   {
     "days_since_launch": 91,
     "wordlist": [
-      {"word": "jaunt", "hint": "stroll"},
-      {"word": "khaki", "hint": "color"},
-      {"word": "leak", "hint": "drip"},
-      {"word": "manatee", "hint": "mammal"},
-      {"word": "narcotic", "hint": "drug"}
+      { "word": "jaunt", "hint": "stroll" },
+      { "word": "khaki", "hint": "color" },
+      { "word": "leak", "hint": "drip" },
+      { "word": "manatee", "hint": "mammal" },
+      { "word": "narcotic", "hint": "drug" }
     ]
   },
   {
     "days_since_launch": 92,
     "wordlist": [
-      {"word": "odd", "hint": "even"},
-      {"word": "pencil", "hint": "pen"},
-      {"word": "quirk", "hint": "idiosyncrasy"},
-      {"word": "relax", "hint": "chill"},
-      {"word": "scorpion", "hint": "insect"}
+      { "word": "odd", "hint": "even" },
+      { "word": "pencil", "hint": "pen" },
+      { "word": "quirk", "hint": "idiosyncrasy" },
+      { "word": "relax", "hint": "chill" },
+      { "word": "scorpion", "hint": "insect" }
     ]
   },
   {
     "days_since_launch": 93,
     "wordlist": [
-      {"word": "pyramid", "hint": "Egypt"},
-      {"word": "quince", "hint": "fruit"},
-      {"word": "recite", "hint": "repeat"},
-      {"word": "sandal", "hint": "shoe"},
-      {"word": "tribe", "hint": "group"}
+      { "word": "pyramid", "hint": "Egypt" },
+      { "word": "quince", "hint": "fruit" },
+      { "word": "recite", "hint": "repeat" },
+      { "word": "sandal", "hint": "shoe" },
+      { "word": "tribe", "hint": "group" }
     ]
   },
   {
     "days_since_launch": 94,
     "wordlist": [
-      {"word": "quantity", "hint": "sum"},
-      {"word": "ravage", "hint": "plunder"},
-      {"word": "scrap", "hint": "fragment"},
-      {"word": "tattle", "hint": "narc"},
-      {"word": "ultimate", "hint": "extreme"}
+      { "word": "quantity", "hint": "sum" },
+      { "word": "ravage", "hint": "plunder" },
+      { "word": "scrap", "hint": "fragment" },
+      { "word": "tattle", "hint": "narc" },
+      { "word": "ultimate", "hint": "extreme" }
     ]
   },
   {
     "days_since_launch": 95,
     "wordlist": [
-      {"word": "rain", "hint": "precipitation"},
-      {"word": "science", "hint": "subject"},
-      {"word": "tangle", "hint": "knot"},
-      {"word": "umpire", "hint": "referee"},
-      {"word": "vacation", "hint": "holiday"}
+      { "word": "rain", "hint": "precipitation" },
+      { "word": "science", "hint": "subject" },
+      { "word": "tangle", "hint": "knot" },
+      { "word": "umpire", "hint": "referee" },
+      { "word": "vacation", "hint": "holiday" }
     ]
   },
   {
     "days_since_launch": 96,
     "wordlist": [
-      {"word": "sturdy", "hint": "strong"},
-      {"word": "taboo", "hint": "forbidden"},
-      {"word": "unusual", "hint": "strange"},
-      {"word": "vanish", "hint": "disappear"},
-      {"word": "warm", "hint": "cold"}
+      { "word": "sturdy", "hint": "strong" },
+      { "word": "taboo", "hint": "forbidden" },
+      { "word": "unusual", "hint": "strange" },
+      { "word": "vanish", "hint": "disappear" },
+      { "word": "warm", "hint": "cold" }
     ]
   },
   {
     "days_since_launch": 97,
     "wordlist": [
-      {"word": "alarm", "hint": "signal"},
-      {"word": "burn", "hint": "scorch"},
-      {"word": "credible", "hint": "believable"},
-      {"word": "disguise", "hint": "camouflage"},
-      {"word": "expect", "hint": "await"}
+      { "word": "alarm", "hint": "signal" },
+      { "word": "burn", "hint": "scorch" },
+      { "word": "credible", "hint": "believable" },
+      { "word": "disguise", "hint": "camouflage" },
+      { "word": "expect", "hint": "await" }
     ]
   },
   {
     "days_since_launch": 98,
     "wordlist": [
-      {"word": "baby", "hint": "infant"},
-      {"word": "clog", "hint": "drain"},
-      {"word": "defeat", "hint": "conquer"},
-      {"word": "expand", "hint": "broaden"},
-      {"word": "foil", "hint": "tin"}
+      { "word": "baby", "hint": "infant" },
+      { "word": "clog", "hint": "drain" },
+      { "word": "defeat", "hint": "conquer" },
+      { "word": "expand", "hint": "broaden" },
+      { "word": "foil", "hint": "tin" }
     ]
   },
   {
     "days_since_launch": 99,
     "wordlist": [
-      {"word": "construction", "hint": "building"},
-      {"word": "dwarf", "hint": "midget"},
-      {"word": "exchange", "hint": "barter"},
-      {"word": "firm", "hint": "rigid"},
-      {"word": "grill", "hint": "barbeque"}
+      { "word": "construction", "hint": "building" },
+      { "word": "dwarf", "hint": "midget" },
+      { "word": "exchange", "hint": "barter" },
+      { "word": "firm", "hint": "rigid" },
+      { "word": "grill", "hint": "barbeque" }
     ]
   },
   {
     "days_since_launch": 100,
     "wordlist": [
-      {"word": "dagger", "hint": "knife"},
-      {"word": "elect", "hint": "vote"},
-      {"word": "frame", "hint": "picture"},
-      {"word": "globe", "hint": "sphere"},
-      {"word": "hand", "hint": "foot"}
+      { "word": "dagger", "hint": "knife" },
+      { "word": "elect", "hint": "vote" },
+      { "word": "frame", "hint": "picture" },
+      { "word": "globe", "hint": "sphere" },
+      { "word": "hand", "hint": "foot" }
     ]
   },
   {
     "days_since_launch": 101,
     "wordlist": [
-      {"word": "elbow", "hint": "arm"},
-      {"word": "final", "hint": "end"},
-      {"word": "grant", "hint": "scholarship"},
-      {"word": "helpless", "hint": "defenseless"},
-      {"word": "iron", "hint": "metal"}
+      { "word": "elbow", "hint": "arm" },
+      { "word": "final", "hint": "end" },
+      { "word": "grant", "hint": "scholarship" },
+      { "word": "helpless", "hint": "defenseless" },
+      { "word": "iron", "hint": "metal" }
     ]
   },
   {
     "days_since_launch": 102,
     "wordlist": [
-      {"word": "forget", "hint": "remember"},
-      {"word": "gap", "hint": "chasm"},
-      {"word": "haphazard", "hint": "careless"},
-      {"word": "interview", "hint": "job"},
-      {"word": "jersey", "hint": "uniform"}
+      { "word": "forget", "hint": "remember" },
+      { "word": "gap", "hint": "chasm" },
+      { "word": "haphazard", "hint": "careless" },
+      { "word": "interview", "hint": "job" },
+      { "word": "jersey", "hint": "uniform" }
     ]
   },
   {
     "days_since_launch": 103,
     "wordlist": [
-      {"word": "groan", "hint": "moan"},
-      {"word": "horse", "hint": "colt"},
-      {"word": "immerse", "hint": "submerge"},
-      {"word": "journal", "hint": "diary"},
-      {"word": "keel", "hint": "ship"}
+      { "word": "groan", "hint": "moan" },
+      { "word": "horse", "hint": "colt" },
+      { "word": "immerse", "hint": "submerge" },
+      { "word": "journal", "hint": "diary" },
+      { "word": "keel", "hint": "ship" }
     ]
   },
   {
     "days_since_launch": 104,
     "wordlist": [
-      {"word": "hire", "hint": "employ"},
-      {"word": "ivory", "hint": "white"},
-      {"word": "judo", "hint": "defense"},
-      {"word": "kayak", "hint": "canoe"},
-      {"word": "lazy", "hint": "unmotivated"}
+      { "word": "hire", "hint": "employ" },
+      { "word": "ivory", "hint": "white" },
+      { "word": "judo", "hint": "defense" },
+      { "word": "kayak", "hint": "canoe" },
+      { "word": "lazy", "hint": "unmotivated" }
     ]
   },
   {
     "days_since_launch": 105,
     "wordlist": [
-      {"word": "icon", "hint": "symbol"},
-      {"word": "judge", "hint": "court"},
-      {"word": "kid", "hint": "child"},
-      {"word": "lard", "hint": "fat"},
-      {"word": "macaroni", "hint": "noodle"}
+      { "word": "icon", "hint": "symbol" },
+      { "word": "judge", "hint": "court" },
+      { "word": "kid", "hint": "child" },
+      { "word": "lard", "hint": "fat" },
+      { "word": "macaroni", "hint": "noodle" }
     ]
   },
   {
     "days_since_launch": 106,
     "wordlist": [
-      {"word": "jot", "hint": "note"},
-      {"word": "kidney", "hint": "organ"},
-      {"word": "low", "hint": "high"},
-      {"word": "medium", "hint": "size"},
-      {"word": "nomad", "hint": "wandered"}
+      { "word": "jot", "hint": "note" },
+      { "word": "kidney", "hint": "organ" },
+      { "word": "low", "hint": "high" },
+      { "word": "medium", "hint": "size" },
+      { "word": "nomad", "hint": "wandered" }
     ]
   },
   {
     "days_since_launch": 107,
     "wordlist": [
-      {"word": "kneel", "hint": "bow"},
-      {"word": "lecture", "hint": "speech"},
-      {"word": "mushroom", "hint": "fungus"},
-      {"word": "noose", "hint": "hang"},
-      {"word": "offense", "hint": "defense"}
+      { "word": "kneel", "hint": "bow" },
+      { "word": "lecture", "hint": "speech" },
+      { "word": "mushroom", "hint": "fungus" },
+      { "word": "noose", "hint": "hang" },
+      { "word": "offense", "hint": "defense" }
     ]
   },
   {
     "days_since_launch": 108,
     "wordlist": [
-      {"word": "ladybug", "hint": "insect"},
-      {"word": "motorcycle", "hint": "scooter"},
-      {"word": "neither", "hint": "nor"},
-      {"word": "often", "hint": "seldom"},
-      {"word": "publish", "hint": "print"}
+      { "word": "ladybug", "hint": "insect" },
+      { "word": "motorcycle", "hint": "scooter" },
+      { "word": "neither", "hint": "nor" },
+      { "word": "often", "hint": "seldom" },
+      { "word": "publish", "hint": "print" }
     ]
   },
   {
     "days_since_launch": 109,
     "wordlist": [
-      {"word": "mail", "hint": "letter"},
-      {"word": "nine", "hint": "number"},
-      {"word": "ostrich", "hint": "bird"},
-      {"word": "puff", "hint": "smoke"},
-      {"word": "quote", "hint": "cite"}
+      { "word": "mail", "hint": "letter" },
+      { "word": "nine", "hint": "number" },
+      { "word": "ostrich", "hint": "bird" },
+      { "word": "puff", "hint": "smoke" },
+      { "word": "quote", "hint": "cite" }
     ]
   },
   {
     "days_since_launch": 110,
     "wordlist": [
-      {"word": "net", "hint": "fishing"},
-      {"word": "overtime", "hint": "work"},
-      {"word": "pace", "hint": "step"},
-      {"word": "quip", "hint": "remark"},
-      {"word": "route", "hint": "direction"}
+      { "word": "net", "hint": "fishing" },
+      { "word": "overtime", "hint": "work" },
+      { "word": "pace", "hint": "step" },
+      { "word": "quip", "hint": "remark" },
+      { "word": "route", "hint": "direction" }
     ]
   },
   {
     "days_since_launch": 111,
     "wordlist": [
-      {"word": "ox", "hint": "bovine"},
-      {"word": "punch", "hint": "hit"},
-      {"word": "quiver", "hint": "shake"},
-      {"word": "royal", "hint": "noble"},
-      {"word": "sage", "hint": "herb"}
+      { "word": "ox", "hint": "bovine" },
+      { "word": "punch", "hint": "hit" },
+      { "word": "quiver", "hint": "shake" },
+      { "word": "royal", "hint": "noble" },
+      { "word": "sage", "hint": "herb" }
     ]
   },
   {
     "days_since_launch": 112,
     "wordlist": [
-      {"word": "putter", "hint": "golf"},
-      {"word": "quiet", "hint": "loud"},
-      {"word": "reek", "hint": "smell"},
-      {"word": "skid", "hint": "slide"},
-      {"word": "tear", "hint": "cry"}
+      { "word": "putter", "hint": "golf" },
+      { "word": "quiet", "hint": "loud" },
+      { "word": "reek", "hint": "smell" },
+      { "word": "skid", "hint": "slide" },
+      { "word": "tear", "hint": "cry" }
     ]
   },
   {
     "days_since_launch": 113,
     "wordlist": [
-      {"word": "quality", "hint": "excellence"},
-      {"word": "read", "hint": "book"},
-      {"word": "saint", "hint": "angel"},
-      {"word": "tender", "hint": "soft"},
-      {"word": "untold", "hint": "secretive"}
+      { "word": "quality", "hint": "excellence" },
+      { "word": "read", "hint": "book" },
+      { "word": "saint", "hint": "angel" },
+      { "word": "tender", "hint": "soft" },
+      { "word": "untold", "hint": "secretive" }
     ]
   },
   {
     "days_since_launch": 114,
     "wordlist": [
-      {"word": "reverse", "hint": "forward"},
-      {"word": "saliva", "hint": "spit"},
-      {"word": "teepee", "hint": "tent"},
-      {"word": "universe", "hint": "cosmos"},
-      {"word": "virus", "hint": "Corona"}
+      { "word": "reverse", "hint": "forward" },
+      { "word": "saliva", "hint": "spit" },
+      { "word": "teepee", "hint": "tent" },
+      { "word": "universe", "hint": "cosmos" },
+      { "word": "virus", "hint": "Corona" }
     ]
   },
   {
     "days_since_launch": 115,
     "wordlist": [
-      {"word": "stale", "hint": "fresh"},
-      {"word": "tripod", "hint": "three"},
-      {"word": "us", "hint": "pronoun"},
-      {"word": "viral", "hint": "growing"},
-      {"word": "went", "hint": "gone"}
+      { "word": "stale", "hint": "fresh" },
+      { "word": "tripod", "hint": "three" },
+      { "word": "us", "hint": "pronoun" },
+      { "word": "viral", "hint": "growing" },
+      { "word": "went", "hint": "gone" }
     ]
   },
   {
     "days_since_launch": 116,
     "wordlist": [
-      {"word": "alligator", "hint": "crocodile"},
-      {"word": "below", "hint": "above"},
-      {"word": "call", "hint": "phone"},
-      {"word": "direct", "hint": "explicit"},
-      {"word": "eliminate", "hint": "cancel"}
+      { "word": "alligator", "hint": "crocodile" },
+      { "word": "below", "hint": "above" },
+      { "word": "call", "hint": "phone" },
+      { "word": "direct", "hint": "explicit" },
+      { "word": "eliminate", "hint": "cancel" }
     ]
   },
   {
     "days_since_launch": 117,
     "wordlist": [
-      {"word": "blow", "hint": "suck"},
-      {"word": "create", "hint": "design"},
-      {"word": "duck", "hint": "fowl"},
-      {"word": "enlarge", "hint": "increase"},
-      {"word": "form", "hint": "application"}
+      { "word": "blow", "hint": "suck" },
+      { "word": "create", "hint": "design" },
+      { "word": "duck", "hint": "fowl" },
+      { "word": "enlarge", "hint": "increase" },
+      { "word": "form", "hint": "application" }
     ]
   },
   {
     "days_since_launch": 118,
     "wordlist": [
-      {"word": "clutter", "hint": "junk"},
-      {"word": "declare", "hint": "proclaim"},
-      {"word": "elaborate", "hint": "explain"},
-      {"word": "fish", "hint": "gills"},
-      {"word": "glow", "hint": "radiance"}
+      { "word": "clutter", "hint": "junk" },
+      { "word": "declare", "hint": "proclaim" },
+      { "word": "elaborate", "hint": "explain" },
+      { "word": "fish", "hint": "gills" },
+      { "word": "glow", "hint": "radiance" }
     ]
   },
   {
     "days_since_launch": 119,
     "wordlist": [
-      {"word": "dock", "hint": "boat"},
-      {"word": "eager", "hint": "ambitious"},
-      {"word": "fleece", "hint": "wool"},
-      {"word": "guys", "hint": "gals"},
-      {"word": "hey", "hint": "exclamation"}
+      { "word": "dock", "hint": "boat" },
+      { "word": "eager", "hint": "ambitious" },
+      { "word": "fleece", "hint": "wool" },
+      { "word": "guys", "hint": "gals" },
+      { "word": "hey", "hint": "exclamation" }
     ]
   },
   {
     "days_since_launch": 120,
     "wordlist": [
-      {"word": "eject", "hint": "dismiss"},
-      {"word": "flakey", "hint": "layers"},
-      {"word": "gorge", "hint": "canyon"},
-      {"word": "hop", "hint": "jump"},
-      {"word": "imitate", "hint": "copy"}
+      { "word": "eject", "hint": "dismiss" },
+      { "word": "flakey", "hint": "layers" },
+      { "word": "gorge", "hint": "canyon" },
+      { "word": "hop", "hint": "jump" },
+      { "word": "imitate", "hint": "copy" }
     ]
   },
   {
     "days_since_launch": 121,
     "wordlist": [
-      {"word": "fun", "hint": "amusement"},
-      {"word": "glass", "hint": "breakable"},
-      {"word": "hysterical", "hint": "emotional"},
-      {"word": "ignorant", "hint": "uneducated"},
-      {"word": "juvenile", "hint": "young"}
+      { "word": "fun", "hint": "amusement" },
+      { "word": "glass", "hint": "breakable" },
+      { "word": "hysterical", "hint": "emotional" },
+      { "word": "ignorant", "hint": "uneducated" },
+      { "word": "juvenile", "hint": "young" }
     ]
   },
   {
     "days_since_launch": 122,
     "wordlist": [
-      {"word": "global", "hint": "worldly"},
-      {"word": "health", "hint": "wellness"},
-      {"word": "immense", "hint": "enormous"},
-      {"word": "jamb", "hint": "doorway"},
-      {"word": "knock", "hint": "strike"}
+      { "word": "global", "hint": "worldly" },
+      { "word": "health", "hint": "wellness" },
+      { "word": "immense", "hint": "enormous" },
+      { "word": "jamb", "hint": "doorway" },
+      { "word": "knock", "hint": "strike" }
     ]
   },
   {
     "days_since_launch": 123,
     "wordlist": [
-      {"word": "hello", "hint": "goodbye"},
-      {"word": "information", "hint": "knowledge"},
-      {"word": "jail", "hint": "prison"},
-      {"word": "knoll", "hint": "hill"},
-      {"word": "lettuce", "hint": "tomato"}
+      { "word": "hello", "hint": "goodbye" },
+      { "word": "information", "hint": "knowledge" },
+      { "word": "jail", "hint": "prison" },
+      { "word": "knoll", "hint": "hill" },
+      { "word": "lettuce", "hint": "tomato" }
     ]
   },
   {
     "days_since_launch": 124,
     "wordlist": [
-      {"word": "irritate", "hint": "annoy"},
-      {"word": "jackhammer", "hint": "drill"},
-      {"word": "kelp", "hint": "seaweed"},
-      {"word": "lemur", "hint": "primate"},
-      {"word": "mole", "hint": "blemish "}
+      { "word": "irritate", "hint": "annoy" },
+      { "word": "jackhammer", "hint": "drill" },
+      { "word": "kelp", "hint": "seaweed" },
+      { "word": "lemur", "hint": "primate" },
+      { "word": "mole", "hint": "blemish " }
     ]
   },
   {
     "days_since_launch": 125,
     "wordlist": [
-      {"word": "job", "hint": "employment"},
-      {"word": "killer", "hint": "murderer"},
-      {"word": "loose", "hint": "tight"},
-      {"word": "mountaineer", "hint": "climber"},
-      {"word": "novice", "hint": "beginner"}
+      { "word": "job", "hint": "employment" },
+      { "word": "killer", "hint": "murderer" },
+      { "word": "loose", "hint": "tight" },
+      { "word": "mountaineer", "hint": "climber" },
+      { "word": "novice", "hint": "beginner" }
     ]
   },
   {
     "days_since_launch": 126,
     "wordlist": [
-      {"word": "lumber", "hint": "trudge"},
-      {"word": "moment", "hint": "period"},
-      {"word": "nimble", "hint": "quick"},
-      {"word": "operation", "hint": "surgery"},
-      {"word": "photo", "hint": "picture"}
+      { "word": "lumber", "hint": "trudge" },
+      { "word": "moment", "hint": "period" },
+      { "word": "nimble", "hint": "quick" },
+      { "word": "operation", "hint": "surgery" },
+      { "word": "photo", "hint": "picture" }
     ]
   },
   {
     "days_since_launch": 127,
     "wordlist": [
-      {"word": "mother", "hint": "father"},
-      {"word": "needle", "hint": "sewing"},
-      {"word": "other", "hint": "additional"},
-      {"word": "perfect", "hint": "flawless"},
-      {"word": "qualify", "hint": "meet"}
+      { "word": "mother", "hint": "father" },
+      { "word": "needle", "hint": "sewing" },
+      { "word": "other", "hint": "additional" },
+      { "word": "perfect", "hint": "flawless" },
+      { "word": "qualify", "hint": "meet" }
     ]
   },
   {
     "days_since_launch": 128,
     "wordlist": [
-      {"word": "next", "hint": "following"},
-      {"word": "origin", "hint": "beginning"},
-      {"word": "premier", "hint": "leading"},
-      {"word": "quack", "hint": "duck"},
-      {"word": "roll", "hint": "turn"}
+      { "word": "next", "hint": "following" },
+      { "word": "origin", "hint": "beginning" },
+      { "word": "premier", "hint": "leading" },
+      { "word": "quack", "hint": "duck" },
+      { "word": "roll", "hint": "turn" }
     ]
   },
   {
     "days_since_launch": 129,
     "wordlist": [
-      {"word": "officer", "hint": "police"},
-      {"word": "pulse", "hint": "heartbeat"},
-      {"word": "queer", "hint": "odd"},
-      {"word": "rally", "hint": "gather"},
-      {"word": "stick", "hint": "bat"}
+      { "word": "officer", "hint": "police" },
+      { "word": "pulse", "hint": "heartbeat" },
+      { "word": "queer", "hint": "odd" },
+      { "word": "rally", "hint": "gather" },
+      { "word": "stick", "hint": "bat" }
     ]
   },
   {
     "days_since_launch": 130,
     "wordlist": [
-      {"word": "progress", "hint": "advancement"},
-      {"word": "quintuplet", "hint": "five"},
-      {"word": "remove", "hint": "delete"},
-      {"word": "sunny", "hint": "bright"},
-      {"word": "total", "hint": "sum"}
+      { "word": "progress", "hint": "advancement" },
+      { "word": "quintuplet", "hint": "five" },
+      { "word": "remove", "hint": "delete" },
+      { "word": "sunny", "hint": "bright" },
+      { "word": "total", "hint": "sum" }
     ]
   },
   {
     "days_since_launch": 131,
     "wordlist": [
-      {"word": "rodent", "hint": "rat"},
-      {"word": "salve", "hint": "ointment"},
-      {"word": "tent", "hint": "camping"},
-      {"word": "uterus", "hint": "womb"},
-      {"word": "violin", "hint": "instrument"}
+      { "word": "rodent", "hint": "rat" },
+      { "word": "salve", "hint": "ointment" },
+      { "word": "tent", "hint": "camping" },
+      { "word": "uterus", "hint": "womb" },
+      { "word": "violin", "hint": "instrument" }
     ]
   },
   {
     "days_since_launch": 132,
     "wordlist": [
-      {"word": "slant", "hint": "lean"},
-      {"word": "twelve", "hint": "dozen"},
-      {"word": "useless", "hint": "futile"},
-      {"word": "valley", "hint": "canyon"},
-      {"word": "wish", "hint": "hope"}
+      { "word": "slant", "hint": "lean" },
+      { "word": "twelve", "hint": "dozen" },
+      { "word": "useless", "hint": "futile" },
+      { "word": "valley", "hint": "canyon" },
+      { "word": "wish", "hint": "hope" }
     ]
   },
   {
     "days_since_launch": 133,
     "wordlist": [
-      {"word": "arrow", "hint": "bow"},
-      {"word": "basic", "hint": "simple"},
-      {"word": "cast", "hint": "throw"},
-      {"word": "doorbell", "hint": "chime"},
-      {"word": "eight", "hint": "number"}
+      { "word": "arrow", "hint": "bow" },
+      { "word": "basic", "hint": "simple" },
+      { "word": "cast", "hint": "throw" },
+      { "word": "doorbell", "hint": "chime" },
+      { "word": "eight", "hint": "number" }
     ]
   },
   {
     "days_since_launch": 134,
     "wordlist": [
-      {"word": "bum", "hint": "drifter"},
-      {"word": "curb", "hint": "hinder"},
-      {"word": "drape", "hint": "hang"},
-      {"word": "expend", "hint": "consume"},
-      {"word": "frequent", "hint": "seldom"}
+      { "word": "bum", "hint": "drifter" },
+      { "word": "curb", "hint": "hinder" },
+      { "word": "drape", "hint": "hang" },
+      { "word": "expend", "hint": "consume" },
+      { "word": "frequent", "hint": "seldom" }
     ]
   },
   {
     "days_since_launch": 135,
     "wordlist": [
-      {"word": "clerk", "hint": "salesperson"},
-      {"word": "driver", "hint": "passenger"},
-      {"word": "envelop", "hint": "surround"},
-      {"word": "foul", "hint": "rotten"},
-      {"word": "grapes", "hint": "wine"}
+      { "word": "clerk", "hint": "salesperson" },
+      { "word": "driver", "hint": "passenger" },
+      { "word": "envelop", "hint": "surround" },
+      { "word": "foul", "hint": "rotten" },
+      { "word": "grapes", "hint": "wine" }
     ]
   },
   {
     "days_since_launch": 136,
     "wordlist": [
-      {"word": "drop", "hint": "rain"},
-      {"word": "espresso", "hint": "coffee"},
-      {"word": "formula", "hint": "algorithm"},
-      {"word": "gray", "hint": "ashy"},
-      {"word": "host", "hint": "entertain"}
+      { "word": "drop", "hint": "rain" },
+      { "word": "espresso", "hint": "coffee" },
+      { "word": "formula", "hint": "algorithm" },
+      { "word": "gray", "hint": "ashy" },
+      { "word": "host", "hint": "entertain" }
     ]
   },
   {
     "days_since_launch": 137,
     "wordlist": [
-      {"word": "sugar", "hint": "cane"},
-      {"word": "talk", "hint": "converse"},
-      {"word": "unfaithful", "hint": "disloyal"},
-      {"word": "valet", "hint": "parking"},
-      {"word": "worth", "hint": "value"}
+      { "word": "sugar", "hint": "cane" },
+      { "word": "talk", "hint": "converse" },
+      { "word": "unfaithful", "hint": "disloyal" },
+      { "word": "valet", "hint": "parking" },
+      { "word": "worth", "hint": "value" }
     ]
   },
   {
     "days_since_launch": 138,
     "wordlist": [
-      {"word": "asleep", "hint": "dormant"},
-      {"word": "bulky", "hint": "massive"},
-      {"word": "cure", "hint": "remedy"},
-      {"word": "dog", "hint": "cat"},
-      {"word": "entrance", "hint": "doorway"}
+      { "word": "asleep", "hint": "dormant" },
+      { "word": "bulky", "hint": "massive" },
+      { "word": "cure", "hint": "remedy" },
+      { "word": "dog", "hint": "cat" },
+      { "word": "entrance", "hint": "doorway" }
     ]
   },
   {
     "days_since_launch": 139,
     "wordlist": [
-      {"word": "booze", "hint": "liquor"},
-      {"word": "calf", "hint": "bovine"},
-      {"word": "dent", "hint": "depression"},
-      {"word": "element", "hint": "component"},
-      {"word": "frank", "hint": "candid"}
+      { "word": "booze", "hint": "liquor" },
+      { "word": "calf", "hint": "bovine" },
+      { "word": "dent", "hint": "depression" },
+      { "word": "element", "hint": "component" },
+      { "word": "frank", "hint": "candid" }
     ]
   },
   {
     "days_since_launch": 140,
     "wordlist": [
-      {"word": "calm", "hint": "still"},
-      {"word": "delete", "hint": "erase"},
-      {"word": "exercise", "hint": "workout"},
-      {"word": "formal", "hint": "prom"},
-      {"word": "guard", "hint": "protect"}
+      { "word": "calm", "hint": "still" },
+      { "word": "delete", "hint": "erase" },
+      { "word": "exercise", "hint": "workout" },
+      { "word": "formal", "hint": "prom" },
+      { "word": "guard", "hint": "protect" }
     ]
   },
   {
     "days_since_launch": 141,
     "wordlist": [
-      {"word": "deer", "hint": "doe"},
-      {"word": "environment", "hint": "surroundings"},
-      {"word": "flavor", "hint": "taste"},
-      {"word": "great", "hint": "good"},
-      {"word": "hyper", "hint": "excitable"}
+      { "word": "deer", "hint": "doe" },
+      { "word": "environment", "hint": "surroundings" },
+      { "word": "flavor", "hint": "taste" },
+      { "word": "great", "hint": "good" },
+      { "word": "hyper", "hint": "excitable" }
     ]
   },
   {
     "days_since_launch": 142,
     "wordlist": [
-      {"word": "exile", "hint": "banish"},
-      {"word": "forest", "hint": "trees"},
-      {"word": "gasoline", "hint": "petrol"},
-      {"word": "heist", "hint": "burglary"},
-      {"word": "insist", "hint": "demand"}
+      { "word": "exile", "hint": "banish" },
+      { "word": "forest", "hint": "trees" },
+      { "word": "gasoline", "hint": "petrol" },
+      { "word": "heist", "hint": "burglary" },
+      { "word": "insist", "hint": "demand" }
     ]
   },
   {
     "days_since_launch": 143,
     "wordlist": [
-      {"word": "flesh", "hint": "meat"},
-      {"word": "goblet", "hint": "glass"},
-      {"word": "horizontal", "hint": "parallel"},
-      {"word": "intruder", "hint": "trespasser"},
-      {"word": "jab", "hint": "stab"}
+      { "word": "flesh", "hint": "meat" },
+      { "word": "goblet", "hint": "glass" },
+      { "word": "horizontal", "hint": "parallel" },
+      { "word": "intruder", "hint": "trespasser" },
+      { "word": "jab", "hint": "stab" }
     ]
   },
   {
     "days_since_launch": 144,
     "wordlist": [
-      {"word": "gruesome", "hint": "horrific"},
-      {"word": "humor", "hint": "comedy"},
-      {"word": "interfere", "hint": "meddle"},
-      {"word": "jolt", "hint": "shock"},
-      {"word": "knob", "hint": "door"}
+      { "word": "gruesome", "hint": "horrific" },
+      { "word": "humor", "hint": "comedy" },
+      { "word": "interfere", "hint": "meddle" },
+      { "word": "jolt", "hint": "shock" },
+      { "word": "knob", "hint": "door" }
     ]
   },
   {
     "days_since_launch": 145,
     "wordlist": [
-      {"word": "launch", "hint": "rocket"},
-      {"word": "mint", "hint": "pristine"},
-      {"word": "nonsense", "hint": "rubbish"},
-      {"word": "octagon", "hint": "eight"},
-      {"word": "pleat", "hint": "fold"}
+      { "word": "launch", "hint": "rocket" },
+      { "word": "mint", "hint": "pristine" },
+      { "word": "nonsense", "hint": "rubbish" },
+      { "word": "octagon", "hint": "eight" },
+      { "word": "pleat", "hint": "fold" }
     ]
   },
   {
     "days_since_launch": 146,
     "wordlist": [
-      {"word": "minus", "hint": "subtract"},
-      {"word": "nut", "hint": "cashew"},
-      {"word": "ornament", "hint": "adornment"},
-      {"word": "placate", "hint": "soothe"},
-      {"word": "quart", "hint": "unit"}
+      { "word": "minus", "hint": "subtract" },
+      { "word": "nut", "hint": "cashew" },
+      { "word": "ornament", "hint": "adornment" },
+      { "word": "placate", "hint": "soothe" },
+      { "word": "quart", "hint": "unit" }
     ]
   },
   {
     "days_since_launch": 147,
     "wordlist": [
-      {"word": "neat", "hint": "tidy"},
-      {"word": "outsider", "hint": "stranger"},
-      {"word": "pair", "hint": "couple"},
-      {"word": "quaver", "hint": "tremble"},
-      {"word": "raw", "hint": "uncooked"}
+      { "word": "neat", "hint": "tidy" },
+      { "word": "outsider", "hint": "stranger" },
+      { "word": "pair", "hint": "couple" },
+      { "word": "quaver", "hint": "tremble" },
+      { "word": "raw", "hint": "uncooked" }
     ]
   },
   {
     "days_since_launch": 148,
     "wordlist": [
-      {"word": "outcry", "hint": "scream"},
-      {"word": "pantry", "hint": "cupboard"},
-      {"word": "quandary", "hint": "dilemma"},
-      {"word": "race", "hint": "compete"},
-      {"word": "sushi", "hint": "raw"}
+      { "word": "outcry", "hint": "scream" },
+      { "word": "pantry", "hint": "cupboard" },
+      { "word": "quandary", "hint": "dilemma" },
+      { "word": "race", "hint": "compete" },
+      { "word": "sushi", "hint": "raw" }
     ]
   },
   {
     "days_since_launch": 149,
     "wordlist": [
-      {"word": "pancake", "hint": "syrup"},
-      {"word": "quell", "hint": "calm"},
-      {"word": "radio", "hint": "music"},
-      {"word": "stationary", "hint": "motionless"},
-      {"word": "true", "hint": "false"}
+      { "word": "pancake", "hint": "syrup" },
+      { "word": "quell", "hint": "calm" },
+      { "word": "radio", "hint": "music" },
+      { "word": "stationary", "hint": "motionless" },
+      { "word": "true", "hint": "false" }
     ]
   },
   {
     "days_since_launch": 150,
     "wordlist": [
-      {"word": "quay", "hint": "wharf"},
-      {"word": "restroom", "hint": "toilet"},
-      {"word": "static", "hint": "immobile"},
-      {"word": "truce", "hint": "peace"},
-      {"word": "unclad", "hint": "exposed"}
+      { "word": "quay", "hint": "wharf" },
+      { "word": "restroom", "hint": "toilet" },
+      { "word": "static", "hint": "immobile" },
+      { "word": "truce", "hint": "peace" },
+      { "word": "unclad", "hint": "exposed" }
     ]
   },
   {
     "days_since_launch": 151,
     "wordlist": [
-      {"word": "angry", "hint": "mad"},
-      {"word": "bloated", "hint": "swollen"},
-      {"word": "clay", "hint": "ceramic"},
-      {"word": "dull", "hint": "shiney"},
-      {"word": "evening", "hint": "dusk"}
+      { "word": "angry", "hint": "mad" },
+      { "word": "bloated", "hint": "swollen" },
+      { "word": "clay", "hint": "ceramic" },
+      { "word": "dull", "hint": "shiney" },
+      { "word": "evening", "hint": "dusk" }
     ]
   },
   {
     "days_since_launch": 152,
     "wordlist": [
-      {"word": "blanket", "hint": "cloak"},
-      {"word": "curly", "hint": "straight"},
-      {"word": "ditch", "hint": "abandon"},
-      {"word": "elderly", "hint": "aging"},
-      {"word": "force", "hint": "coerce"}
+      { "word": "blanket", "hint": "cloak" },
+      { "word": "curly", "hint": "straight" },
+      { "word": "ditch", "hint": "abandon" },
+      { "word": "elderly", "hint": "aging" },
+      { "word": "force", "hint": "coerce" }
     ]
   },
   {
     "days_since_launch": 153,
     "wordlist": [
-      {"word": "game", "hint": "play"},
-      {"word": "hard", "hint": "difficulty"},
-      {"word": "ice", "hint": "hockey"},
-      {"word": "jenga", "hint": "blocks"},
-      {"word": "kirby", "hint": "pink"}
+      { "word": "game", "hint": "play" },
+      { "word": "hard", "hint": "difficulty" },
+      { "word": "ice", "hint": "hockey" },
+      { "word": "jenga", "hint": "blocks" },
+      { "word": "kirby", "hint": "pink" }
     ]
   },
   {
     "days_since_launch": 154,
     "wordlist": [
-      {"word": "rabbit", "hint": "hopping"},
-      {"word": "snake", "hint": "slithering"},
-      {"word": "turkey", "hint": "gobble"},
-      {"word": "urchin", "hint": "spiky"},
-      {"word": "viper", "hint": "venomous"}
+      { "word": "rabbit", "hint": "hopping" },
+      { "word": "snake", "hint": "slithering" },
+      { "word": "turkey", "hint": "gobble" },
+      { "word": "urchin", "hint": "spiky" },
+      { "word": "viper", "hint": "venomous" }
     ]
   },
   {
     "days_since_launch": 155,
     "wordlist": [
-      {"word": "amber", "hint": "gold"},
-      {"word": "blue", "hint": "sky"},
-      {"word": "cyan", "hint": "aqua"},
-      {"word": "denim", "hint": "jeans"},
-      {"word": "emerald", "hint": "green"}
+      { "word": "amber", "hint": "gold" },
+      { "word": "blue", "hint": "sky" },
+      { "word": "cyan", "hint": "aqua" },
+      { "word": "denim", "hint": "jeans" },
+      { "word": "emerald", "hint": "green" }
     ]
   },
   {
     "days_since_launch": 156,
     "wordlist": [
-      {"word": "fig", "hint": "fruit"},
-      {"word": "grape", "hint": "vine"},
-      {"word": "honey", "hint": "bees"},
-      {"word": "ice", "hint": "cream"},
-      {"word": "jam", "hint": "spread"}
+      { "word": "fig", "hint": "fruit" },
+      { "word": "grape", "hint": "vine" },
+      { "word": "honey", "hint": "bees" },
+      { "word": "ice", "hint": "cream" },
+      { "word": "jam", "hint": "spread" }
     ]
   },
   {
     "days_since_launch": 157,
     "wordlist": [
-      {"word": "poppy", "hint": "flower"},
-      {"word": "quinoa", "hint": "grain"},
-      {"word": "redwood", "hint": "tree"},
-      {"word": "sunflower", "hint": "seeds"},
-      {"word": "thyme", "hint": "spice"}
+      { "word": "poppy", "hint": "flower" },
+      { "word": "quinoa", "hint": "grain" },
+      { "word": "redwood", "hint": "tree" },
+      { "word": "sunflower", "hint": "seeds" },
+      { "word": "thyme", "hint": "spice" }
     ]
   },
   {
     "days_since_launch": 158,
     "wordlist": [
-      {"word": "farmer", "hint": "crops"},
-      {"word": "geologist", "hint": "rocks"},
-      {"word": "hairdresser", "hint": "salon"},
-      {"word": "illustrator", "hint": "draw"},
-      {"word": "judge", "hint": "court"}
+      { "word": "farmer", "hint": "crops" },
+      { "word": "geologist", "hint": "rocks" },
+      { "word": "hairdresser", "hint": "salon" },
+      { "word": "illustrator", "hint": "draw" },
+      { "word": "judge", "hint": "court" }
     ]
   },
   {
     "days_since_launch": 159,
     "wordlist": [
-      {"word": "griddle", "hint": "cook"},
-      {"word": "hairbrush", "hint": "comb"},
-      {"word": "insulation", "hint": "warmth"},
-      {"word": "jewelry", "hint": "adorn"},
-      {"word": "kleenex", "hint": "tissue"}
+      { "word": "griddle", "hint": "cook" },
+      { "word": "hairbrush", "hint": "comb" },
+      { "word": "insulation", "hint": "warmth" },
+      { "word": "jewelry", "hint": "adorn" },
+      { "word": "kleenex", "hint": "tissue" }
     ]
   },
   {
     "days_since_launch": 160,
     "wordlist": [
-      {"word": "bank", "hint": "money"},
-      {"word": "carpenter", "hint": "nail"},
-      {"word": "diamonds", "hint": "hearts"},
-      {"word": "elephant", "hint": "trunk"},
-      {"word": "frisbee", "hint": "golf"}
+      { "word": "bank", "hint": "money" },
+      { "word": "carpenter", "hint": "nail" },
+      { "word": "diamonds", "hint": "hearts" },
+      { "word": "elephant", "hint": "trunk" },
+      { "word": "frisbee", "hint": "golf" }
     ]
   },
   {
     "days_since_launch": 161,
     "wordlist": [
-      {"word": "reindeer", "hint": "sleigh"},
-      {"word": "small", "hint": "large"},
-      {"word": "topiary", "hint": "bush"},
-      {"word": "upset", "hint": "defeat"},
-      {"word": "vice", "hint": "tool"}
+      { "word": "reindeer", "hint": "sleigh" },
+      { "word": "small", "hint": "large" },
+      { "word": "topiary", "hint": "bush" },
+      { "word": "upset", "hint": "defeat" },
+      { "word": "vice", "hint": "tool" }
     ]
   },
   {
     "days_since_launch": 162,
     "wordlist": [
-      {"word": "blue", "hint": "color"},
-      {"word": "cardinal", "hint": "bird"},
-      {"word": "denim", "hint": "fabric"},
-      {"word": "eggs", "hint": "breakfast"},
-      {"word": "fries", "hint": "snack"}
+      { "word": "blue", "hint": "color" },
+      { "word": "cardinal", "hint": "bird" },
+      { "word": "denim", "hint": "fabric" },
+      { "word": "eggs", "hint": "breakfast" },
+      { "word": "fries", "hint": "snack" }
     ]
   },
   {
     "days_since_launch": 163,
     "wordlist": [
-      {"word": "artichoke", "hint": "vegetable"},
-      {"word": "beach", "hint": "life"},
-      {"word": "caramel", "hint": "sundae"},
-      {"word": "determined", "hint": "driven"},
-      {"word": "eggs", "hint": "bacon"}
+      { "word": "artichoke", "hint": "vegetable" },
+      { "word": "beach", "hint": "life" },
+      { "word": "caramel", "hint": "sundae" },
+      { "word": "determined", "hint": "driven" },
+      { "word": "eggs", "hint": "bacon" }
     ]
   },
   {
     "days_since_launch": 164,
     "wordlist": [
-      {"word": "far", "hint": "near"},
-      {"word": "glass", "hint": "clear"},
-      {"word": "hound", "hint": "dog"},
-      {"word": "incense", "hint": "scent"},
-      {"word": "jungle", "hint": "tropical"}
+      { "word": "far", "hint": "near" },
+      { "word": "glass", "hint": "clear" },
+      { "word": "hound", "hint": "dog" },
+      { "word": "incense", "hint": "scent" },
+      { "word": "jungle", "hint": "tropical" }
     ]
   },
   {
     "days_since_launch": 165,
     "wordlist": [
-      {"word": "catalina", "hint": "island"},
-      {"word": "dinghy", "hint": "boat"},
-      {"word": "exhale", "hint": "relax"},
-      {"word": "fish", "hint": "garibaldi"},
-      {"word": "game", "hint": "frisbee"}
+      { "word": "catalina", "hint": "island" },
+      { "word": "dinghy", "hint": "boat" },
+      { "word": "exhale", "hint": "relax" },
+      { "word": "fish", "hint": "garibaldi" },
+      { "word": "game", "hint": "frisbee" }
     ]
   },
   {
     "days_since_launch": 166,
     "wordlist": [
-      {"word": "grass", "hint": "lawn"},
-      {"word": "heron", "hint": "bird"},
-      {"word": "intelligent", "hint": "smart"},
-      {"word": "jiggle", "hint": "movement"},
-      {"word": "knave", "hint": "warrior"}
+      { "word": "grass", "hint": "lawn" },
+      { "word": "heron", "hint": "bird" },
+      { "word": "intelligent", "hint": "smart" },
+      { "word": "jiggle", "hint": "movement" },
+      { "word": "knave", "hint": "warrior" }
     ]
   },
   {
     "days_since_launch": 167,
     "wordlist": [
-      {"word": "knitting", "hint": "sweater"},
-      {"word": "lemon", "hint": "citrus"},
-      {"word": "master", "hint": "servant"},
-      {"word": "neat", "hint": "messy"},
-      {"word": "opal", "hint": "gem"}
+      { "word": "knitting", "hint": "sweater" },
+      { "word": "lemon", "hint": "citrus" },
+      { "word": "master", "hint": "servant" },
+      { "word": "neat", "hint": "messy" },
+      { "word": "opal", "hint": "gem" }
     ]
   },
   {
     "days_since_launch": 168,
     "wordlist": [
-      {"word": "parabola", "hint": "graph"},
-      {"word": "quadratic", "hint": "formula"},
-      {"word": "radical", "hint": "sign"},
-      {"word": "sum", "hint": "add"},
-      {"word": "total", "hint": "sum"}
+      { "word": "parabola", "hint": "graph" },
+      { "word": "quadratic", "hint": "formula" },
+      { "word": "radical", "hint": "sign" },
+      { "word": "sum", "hint": "add" },
+      { "word": "total", "hint": "sum" }
     ]
   },
   {
     "days_since_launch": 169,
     "wordlist": [
-      {"word": "apple", "hint": "fruit"},
-      {"word": "banana", "hint": "fruit"},
-      {"word": "cantaloupe", "hint": "fruit"},
-      {"word": "daikon", "hint": "vegetable"},
-      {"word": "eggs", "hint": "protein"}
+      { "word": "apple", "hint": "fruit" },
+      { "word": "banana", "hint": "fruit" },
+      { "word": "cantaloupe", "hint": "fruit" },
+      { "word": "daikon", "hint": "vegetable" },
+      { "word": "eggs", "hint": "protein" }
     ]
   },
   {
     "days_since_launch": 170,
     "wordlist": [
-      {"word": "gray", "hint": "color"},
-      {"word": "hibiscus", "hint": "flower"},
-      {"word": "ivory", "hint": "ebony"},
-      {"word": "jasmine", "hint": "flower"},
-      {"word": "kaleidoscope", "hint": "colors"}
+      { "word": "gray", "hint": "color" },
+      { "word": "hibiscus", "hint": "flower" },
+      { "word": "ivory", "hint": "ebony" },
+      { "word": "jasmine", "hint": "flower" },
+      { "word": "kaleidoscope", "hint": "colors" }
     ]
   },
   {
     "days_since_launch": 171,
     "wordlist": [
-      {"word": "honey", "hint": "sweet"},
-      {"word": "igloo", "hint": "house"},
-      {"word": "junk", "hint": "trash"},
-      {"word": "key", "hint": "lock"},
-      {"word": "lion", "hint": "cat"}
+      { "word": "honey", "hint": "sweet" },
+      { "word": "igloo", "hint": "house" },
+      { "word": "junk", "hint": "trash" },
+      { "word": "key", "hint": "lock" },
+      { "word": "lion", "hint": "cat" }
     ]
   },
   {
     "days_since_launch": 172,
     "wordlist": [
-      {"word": "vulture", "hint": "scavenger"},
-      {"word": "wind", "hint": "gust"},
-      {"word": "xylophone", "hint": "instrument"},
-      {"word": "yell", "hint": "shout"},
-      {"word": "zebra", "hint": "striped"}
+      { "word": "vulture", "hint": "scavenger" },
+      { "word": "wind", "hint": "gust" },
+      { "word": "xylophone", "hint": "instrument" },
+      { "word": "yell", "hint": "shout" },
+      { "word": "zebra", "hint": "striped" }
     ]
   },
   {
     "days_since_launch": 173,
     "wordlist": [
-      {"word": "farmer", "hint": "occupation"},
-      {"word": "grass", "hint": "lawn"},
-      {"word": "helicopter", "hint": "vehicle"},
-      {"word": "inner", "hint": "outer"},
-      {"word": "junk", "hint": "trash"}
+      { "word": "farmer", "hint": "occupation" },
+      { "word": "grass", "hint": "lawn" },
+      { "word": "helicopter", "hint": "vehicle" },
+      { "word": "inner", "hint": "outer" },
+      { "word": "junk", "hint": "trash" }
     ]
   },
   {
     "days_since_launch": 174,
     "wordlist": [
-      {"word": "green", "hint": "color"},
-      {"word": "halo", "hint": "angel"},
-      {"word": "internet", "hint": "surf"},
-      {"word": "jasmine", "hint": "flower"},
-      {"word": "kimono", "hint": "outfit"}
+      { "word": "green", "hint": "color" },
+      { "word": "halo", "hint": "angel" },
+      { "word": "internet", "hint": "surf" },
+      { "word": "jasmine", "hint": "flower" },
+      { "word": "kimono", "hint": "outfit" }
     ]
   },
   {
     "days_since_launch": 175,
     "wordlist": [
-      {"word": "artichoke", "hint": "vegetable"},
-      {"word": "banana", "hint": "fruit"},
-      {"word": "custard", "hint": "dessert"},
-      {"word": "dominoes", "hint": "game"},
-      {"word": "elastic", "hint": "stretch"}
+      { "word": "artichoke", "hint": "vegetable" },
+      { "word": "banana", "hint": "fruit" },
+      { "word": "custard", "hint": "dessert" },
+      { "word": "dominoes", "hint": "game" },
+      { "word": "elastic", "hint": "stretch" }
     ]
   },
   {
     "days_since_launch": 176,
     "wordlist": [
-      {"word": "gum", "hint": "chewy"},
-      {"word": "havarti", "hint": "cheese"},
-      {"word": "incense", "hint": "aroma"},
-      {"word": "june", "hint": "month"},
-      {"word": "knitting", "hint": "hobby"}
+      { "word": "gum", "hint": "chewy" },
+      { "word": "havarti", "hint": "cheese" },
+      { "word": "incense", "hint": "aroma" },
+      { "word": "june", "hint": "month" },
+      { "word": "knitting", "hint": "hobby" }
     ]
   },
   {
     "days_since_launch": 177,
     "wordlist": [
-      {"word": "dark", "hint": "light"},
-      {"word": "eighty", "hint": "seventy"},
-      {"word": "fawn", "hint": "deer"},
-      {"word": "gram", "hint": "measurement"},
-      {"word": "haunted", "hint": "spooky"}
+      { "word": "dark", "hint": "light" },
+      { "word": "eighty", "hint": "seventy" },
+      { "word": "fawn", "hint": "deer" },
+      { "word": "gram", "hint": "measurement" },
+      { "word": "haunted", "hint": "spooky" }
     ]
   },
   {
     "days_since_launch": 178,
     "wordlist": [
-      {"word": "coins", "hint": "dollar"},
-      {"word": "diamonds", "hint": "stones"},
-      {"word": "entrance", "hint": "exit"},
-      {"word": "float", "hint": "sink"},
-      {"word": "gnat", "hint": "bug"}
+      { "word": "coins", "hint": "dollar" },
+      { "word": "diamonds", "hint": "stones" },
+      { "word": "entrance", "hint": "exit" },
+      { "word": "float", "hint": "sink" },
+      { "word": "gnat", "hint": "bug" }
     ]
   },
   {
     "days_since_launch": 179,
     "wordlist": [
-      {"word": "monkey", "hint": "animal"},
-      {"word": "nylon", "hint": "material"},
-      {"word": "obey", "hint": "follow"},
-      {"word": "punch", "hint": "drink"},
-      {"word": "quince", "hint": "fruit"}
+      { "word": "monkey", "hint": "animal" },
+      { "word": "nylon", "hint": "material" },
+      { "word": "obey", "hint": "follow" },
+      { "word": "punch", "hint": "drink" },
+      { "word": "quince", "hint": "fruit" }
     ]
   },
   {
     "days_since_launch": 180,
     "wordlist": [
-      {"word": "seller", "hint": "vendor"},
-      {"word": "tether", "hint": "leash"},
-      {"word": "under", "hint": "below"},
-      {"word": "vanquish", "hint": "defeat"},
-      {"word": "winner", "hint": "champion"}
+      { "word": "seller", "hint": "vendor" },
+      { "word": "tether", "hint": "leash" },
+      { "word": "under", "hint": "below" },
+      { "word": "vanquish", "hint": "defeat" },
+      { "word": "winner", "hint": "champion" }
     ]
   },
   {
     "days_since_launch": 181,
     "wordlist": [
-      {"word": "after", "hint": "before"},
-      {"word": "beach", "hint": "waves"},
-      {"word": "colon", "hint": "organ"},
-      {"word": "dasher", "hint": "reindeer"},
-      {"word": "egg", "hint": "protein"}
+      { "word": "after", "hint": "before" },
+      { "word": "beach", "hint": "waves" },
+      { "word": "colon", "hint": "organ" },
+      { "word": "dasher", "hint": "reindeer" },
+      { "word": "egg", "hint": "protein" }
     ]
   },
   {
     "days_since_launch": 182,
     "wordlist": [
-      {"word": "olympics", "hint": "event"},
-      {"word": "parakeet", "hint": "bird"},
-      {"word": "quiet", "hint": "silent"},
-      {"word": "raspberry", "hint": "fruit"},
-      {"word": "swiftly", "hint": "quickly"}
+      { "word": "olympics", "hint": "event" },
+      { "word": "parakeet", "hint": "bird" },
+      { "word": "quiet", "hint": "silent" },
+      { "word": "raspberry", "hint": "fruit" },
+      { "word": "swiftly", "hint": "quickly" }
     ]
   },
   {
     "days_since_launch": 183,
     "wordlist": [
-      {"word": "green", "hint": "grass"},
-      {"word": "happy", "hint": "sad"},
-      {"word": "igloo", "hint": "house"},
-      {"word": "jelly", "hint": "peanut butter"},
-      {"word": "kiwi", "hint": "fruit"}
+      { "word": "green", "hint": "grass" },
+      { "word": "happy", "hint": "sad" },
+      { "word": "igloo", "hint": "house" },
+      { "word": "jelly", "hint": "peanut butter" },
+      { "word": "kiwi", "hint": "fruit" }
     ]
   },
   {
     "days_since_launch": 184,
     "wordlist": [
-      {"word": "pretzel", "hint": "snack"},
-      {"word": "quilt", "hint": "cover"},
-      {"word": "rubber", "hint": "material"},
-      {"word": "sloth", "hint": "animal"},
-      {"word": "tart", "hint": "dessert"}
+      { "word": "pretzel", "hint": "snack" },
+      { "word": "quilt", "hint": "cover" },
+      { "word": "rubber", "hint": "material" },
+      { "word": "sloth", "hint": "animal" },
+      { "word": "tart", "hint": "dessert" }
     ]
   },
   {
     "days_since_launch": 185,
     "wordlist": [
-      {"word": "always", "hint": "Never"},
-      {"word": "breakfast", "hint": "Meal"},
-      {"word": "crunchy", "hint": "Texture"},
-      {"word": "duet", "hint": "Solo"},
-      {"word": "elf", "hint": "Santa"}
+      { "word": "always", "hint": "Never" },
+      { "word": "breakfast", "hint": "Meal" },
+      { "word": "crunchy", "hint": "Texture" },
+      { "word": "duet", "hint": "Solo" },
+      { "word": "elf", "hint": "Santa" }
     ]
   },
   {
     "days_since_launch": 186,
     "wordlist": [
-      {"word": "never", "hint": "always"},
-      {"word": "olive", "hint": "martini"},
-      {"word": "pretzel", "hint": "twisted"},
-      {"word": "queue", "hint": "line"},
-      {"word": "rapidly", "hint": "quickly"}
+      { "word": "never", "hint": "always" },
+      { "word": "olive", "hint": "martini" },
+      { "word": "pretzel", "hint": "twisted" },
+      { "word": "queue", "hint": "line" },
+      { "word": "rapidly", "hint": "quickly" }
     ]
   },
   {
     "days_since_launch": 187,
     "wordlist": [
-      {"word": "dance", "hint": "Art"},
-      {"word": "ebony", "hint": "Ivory"},
-      {"word": "finger", "hint": "Digit"},
-      {"word": "groundhog", "hint": "Phil"},
-      {"word": "hamburger", "hint": "Sandwich"}
+      { "word": "dance", "hint": "Art" },
+      { "word": "ebony", "hint": "Ivory" },
+      { "word": "finger", "hint": "Digit" },
+      { "word": "groundhog", "hint": "Phil" },
+      { "word": "hamburger", "hint": "Sandwich" }
     ]
   },
   {
     "days_since_launch": 188,
     "wordlist": [
-      {"word": "arrow", "hint": "Bow"},
-      {"word": "blonde", "hint": "Hair"},
-      {"word": "cupcake", "hint": "Dessert"},
-      {"word": "dollar", "hint": "Cash"},
-      {"word": "envelope", "hint": "Letter"}
+      { "word": "arrow", "hint": "Bow" },
+      { "word": "blonde", "hint": "Hair" },
+      { "word": "cupcake", "hint": "Dessert" },
+      { "word": "dollar", "hint": "Cash" },
+      { "word": "envelope", "hint": "Letter" }
     ]
   },
   {
     "days_since_launch": 189,
     "wordlist": [
-      {"word": "film", "hint": "Movie"},
-      {"word": "grade", "hint": "Score"},
-      {"word": "happy", "hint": "Sad"},
-      {"word": "idea", "hint": "Thought"},
-      {"word": "jail", "hint": "Prison"}
+      { "word": "film", "hint": "Movie" },
+      { "word": "grade", "hint": "Score" },
+      { "word": "happy", "hint": "Sad" },
+      { "word": "idea", "hint": "Thought" },
+      { "word": "jail", "hint": "Prison" }
     ]
   },
   {
     "days_since_launch": 190,
     "wordlist": [
-      {"word": "cold", "hint": "Hot"},
-      {"word": "dark", "hint": "Light"},
-      {"word": "every", "hint": "None"},
-      {"word": "free", "hint": "Expensive"},
-      {"word": "glad", "hint": "Sad"}
+      { "word": "cold", "hint": "Hot" },
+      { "word": "dark", "hint": "Light" },
+      { "word": "every", "hint": "None" },
+      { "word": "free", "hint": "Expensive" },
+      { "word": "glad", "hint": "Sad" }
     ]
   },
   {
     "days_since_launch": 191,
     "wordlist": [
-      {"word": "fruit", "hint": "Vegetable"},
-      {"word": "gravel", "hint": "Rocks"},
-      {"word": "house", "hint": "Dwelling"},
-      {"word": "invent", "hint": "Create"},
-      {"word": "jab", "hint": "Stick"}
+      { "word": "fruit", "hint": "Vegetable" },
+      { "word": "gravel", "hint": "Rocks" },
+      { "word": "house", "hint": "Dwelling" },
+      { "word": "invent", "hint": "Create" },
+      { "word": "jab", "hint": "Stick" }
     ]
   },
   {
     "days_since_launch": 192,
     "wordlist": [
-      {"word": "lemon", "hint": "Lime"},
-      {"word": "minutes", "hint": "Time"},
-      {"word": "nosh", "hint": "Eat"},
-      {"word": "onion", "hint": "Layers"},
-      {"word": "phalanges", "hint": "Fingers"}
+      { "word": "lemon", "hint": "Lime" },
+      { "word": "minutes", "hint": "Time" },
+      { "word": "nosh", "hint": "Eat" },
+      { "word": "onion", "hint": "Layers" },
+      { "word": "phalanges", "hint": "Fingers" }
     ]
   },
   {
     "days_since_launch": 193,
     "wordlist": [
-      {"word": "golf", "hint": "Sport"},
-      {"word": "handsome", "hint": "Pretty"},
-      {"word": "inch", "hint": "Measurement"},
-      {"word": "jewelry", "hint": "jewels"},
-      {"word": "kangaroo", "hint": "Animal"}
+      { "word": "golf", "hint": "Sport" },
+      { "word": "handsome", "hint": "Pretty" },
+      { "word": "inch", "hint": "Measurement" },
+      { "word": "jewelry", "hint": "jewels" },
+      { "word": "kangaroo", "hint": "Animal" }
     ]
   },
   {
     "days_since_launch": 194,
     "wordlist": [
-  
+      { "word": "ankle", "hint": "body part" },
+      { "word": "babies", "hint": "infants" },
+      { "word": "carrot", "hint": "orange" },
+      { "word": "daffodil", "hint": "flower" },
+      { "word": "elbow", "hint": "body part" }
     ]
   },
   {
     "days_since_launch": 195,
     "wordlist": [
-  
+      { "word": "viola", "hint": "instrument" },
+      { "word": "water", "hint": "wet" },
+      { "word": "xylophone", "hint": "instrument" },
+      { "word": "yoyo", "hint": "toy" },
+      { "word": "zipped", "hint": "fastened" }
     ]
   },
   {
     "days_since_launch": 196,
     "wordlist": [
-  
+      { "word": "money", "hint": "dollars" },
+      { "word": "null", "hint": "void" },
+      { "word": "opal", "hint": "gem" },
+      { "word": "princess", "hint": "royal" },
+      { "word": "quiz", "hint": "test" }
     ]
   },
   {
     "days_since_launch": 197,
     "wordlist": [
-  
+      { "word": "junk", "hint": "mess" },
+      { "word": "kentucky", "hint": "state" },
+      { "word": "loaf", "hint": "bread" },
+      { "word": "mayonnaise", "hint": "sauce" },
+      { "word": "noble", "hint": "royal" }
     ]
   },
   {
     "days_since_launch": 198,
     "wordlist": [
-  
+      { "word": "needle", "hint": "sew" },
+      { "word": "orange", "hint": "citrus" },
+      { "word": "peony", "hint": "flower" },
+      { "word": "quibble", "hint": "argue" },
+      { "word": "radish", "hint": "vegetable" }
     ]
   },
   {
     "days_since_launch": 199,
     "wordlist": [
-  
+      { "word": "basketball", "hint": "sport" },
+      { "word": "cricket", "hint": "sport" },
+      { "word": "dodgeball", "hint": "sport" },
+      { "word": "equestrian", "hint": "sport" },
+      { "word": "football", "hint": "sport" }
     ]
   },
   {
     "days_since_launch": 200,
     "wordlist": [
-  
+      { "word": "rabbit", "hint": "bunny" },
+      { "word": "sand", "hint": "beach" },
+      { "word": "tomato", "hint": "fruit" },
+      { "word": "under", "hint": "over" },
+      { "word": "victory", "hint": "loss" }
+    ]
+  },
+  {
+    "days_since_launch": 201,
+    "wordlist": [
+      { "word": "antelope", "hint": "animal" },
+      { "word": "buffalo", "hint": "animal" },
+      { "word": "cheetah", "hint": "animal" },
+      { "word": "donkey", "hint": "animal" },
+      { "word": "elephant", "hint": "animal" }
+    ]
+  },
+  {
+    "days_since_launch": 202,
+    "wordlist": [
+      { "word": "ocean", "hint": "sea" },
+      { "word": "pastry", "hint": "dessert" },
+      { "word": "quart", "hint": "measurement" },
+      { "word": "raise", "hint": "lift" },
+      { "word": "slippery", "hint": "slimy" }
+    ]
+  },
+  {
+    "days_since_launch": 203,
+    "wordlist": [
+      { "word": "carrot", "hint": "vegetable" },
+      { "word": "daisy", "hint": "flower" },
+      { "word": "eggplant", "hint": "vegetable" },
+      { "word": "fudge", "hint": "candy" },
+      { "word": "gloves", "hint": "clothing" }
     ]
   }
 ]
