@@ -2292,11 +2292,11 @@
   {
     "days_since_launch": 229,
     "wordlist": [
-      { "word": "juniper", "hint": "berry" },
-      { "word": "kipper", "hint": "fish" },
-      { "word": "lemon", "hint": "sour" },
-      { "word": "macarons", "hint": "cookies" },
-      { "word": "nibble", "hint": "bite" }
+      { "word": "barbecue", "hint": "grill" },
+      { "word": "celebrate", "hint": "enjoy" },
+      { "word": "day", "hint": "time" },
+      { "word": "labor", "hint": "work" },
+      { "word": "rest", "hint": "relax" }
     ]
   },
   {
@@ -2387,6 +2387,86 @@
       { "word": "happiness", "hint": "joy" },
       { "word": "invisible", "hint": "clear" },
       { "word": "joke", "hint": "gag" }
+    ]
+  },
+  {
+    "days_since_launch": 239,
+    "wordlist": [
+      { "word": "cookie", "hint": "baked" },
+      { "word": "cake", "hint": "dessert" },
+      { "word": "pie", "hint": "crust" },
+      { "word": "brownie", "hint": "chocolate" },
+      { "word": "muffin", "hint": "breakfast" }
+    ]
+  },
+  {
+    "days_since_launch": 240,
+    "wordlist": [
+      { "word": "pencil", "hint": "write" },
+      { "word": "pen", "hint": "ink" },
+      { "word": "eraser", "hint": "mistake" },
+      { "word": "marker", "hint": "color" },
+      { "word": "crayon", "hint": "draw" }
+    ]
+  },
+  {
+    "days_since_launch": 241,
+    "wordlist": [
+      { "word": "bread", "hint": "loaf" },
+      { "word": "butter", "hint": "spread" },
+      { "word": "cheese", "hint": "dairy" },
+      { "word": "ham", "hint": "meat" },
+      { "word": "lettuce", "hint": "green" }
+    ]
+  },
+  {
+    "days_since_launch": 242,
+    "wordlist": [
+      { "word": "plume", "hint": "feather" },
+      { "word": "quasar", "hint": "space" },
+      { "word": "ravine", "hint": "gorge" },
+      { "word": "spore", "hint": "fungus" },
+      { "word": "thicket", "hint": "bush" }
+    ]
+  },
+  {
+    "days_since_launch": 243,
+    "wordlist": [
+      { "word": "fir", "hint": "tree" },
+      { "word": "glacier", "hint": "ice" },
+      { "word": "hill", "hint": "land" },
+      { "word": "iguana", "hint": "reptile" },
+      { "word": "jungle", "hint": "forest" }
+    ]
+  },
+  {
+    "days_since_launch": 244,
+    "wordlist": [
+      { "word": "meadow", "hint": "field" },
+      { "word": "noon", "hint": "midday" },
+      { "word": "opal", "hint": "gem" },
+      { "word": "pebble", "hint": "stone" },
+      { "word": "quarry", "hint": "mine" }
+    ]
+  },
+  {
+    "days_since_launch": 245,
+    "wordlist": [
+      { "word": "harvest", "hint": "crop" },
+      { "word": "isle", "hint": "island" },
+      { "word": "jade", "hint": "gem" },
+      { "word": "koi", "hint": "fish" },
+      { "word": "lava", "hint": "volcano" }
+    ]
+  },
+  {
+    "days_since_launch": 246,
+    "wordlist": [
+      { "word": "juniper", "hint": "berry" },
+      { "word": "kipper", "hint": "fish" },
+      { "word": "lemon", "hint": "sour" },
+      { "word": "macarons", "hint": "cookies" },
+      { "word": "nibble", "hint": "bite" }
     ]
   }
 ]
