@@ -2688,5 +2688,135 @@
       { "word": "quiver", "hint": "shake" },
       { "word": "rabbit", "hint": "hare" }
     ]
+  },
+  {
+    "days_since_launch": 269,
+    "wordlist": [
+      { "word": "shame", "hint": "ridicule" },
+      { "word": "tambourine", "hint": "instrument" },
+      { "word": "under", "hint": "below" },
+      { "word": "vinegar", "hint": "acid" },
+      { "word": "wash", "hint": "clean" }
+    ]
+  },
+  {
+    "days_since_launch": 270,
+    "wordlist": [
+      { "word": "air", "hint": "oxygen" },
+      { "word": "bread", "hint": "baked" },
+      { "word": "crayon", "hint": "color" },
+      { "word": "drum", "hint": "beat" },
+      { "word": "exit", "hint": "leave" }
+    ]
+  },
+  {
+    "days_since_launch": 271,
+    "wordlist": [
+      { "word": "giant", "hint": "dwarf" },
+      { "word": "house", "hint": "apartment" },
+      { "word": "image", "hint": "picture" },
+      { "word": "jail", "hint": "prison" },
+      { "word": "keep", "hint": "give" }
+    ]
+  },
+  {
+    "days_since_launch": 272,
+    "wordlist": [
+      { "word": "asia", "hint": "continent" },
+      { "word": "baby", "hint": "infant" },
+      { "word": "crunchy", "hint": "texture" },
+      { "word": "dribble", "hint": "bounce" },
+      { "word": "elephant", "hint": "pachyderm" }
+    ]
+  },
+  {
+    "days_since_launch": 273,
+    "wordlist": [
+      { "word": "smash", "hint": "squish" },
+      { "word": "tight", "hint": "loose" },
+      { "word": "upper", "hint": "lower" },
+      { "word": "vegetable", "hint": "fruit" },
+      { "word": "walrus", "hint": "animal" }
+    ]
+  },
+  {
+    "days_since_launch": 274,
+    "wordlist": [
+      { "word": "drafty", "hint": "chilly" },
+      { "word": "eternal", "hint": "forever" },
+      { "word": "fable", "hint": "story" },
+      { "word": "grass", "hint": "lawn" },
+      { "word": "hazy", "hint": "filmy" }
+    ]
+  },
+  {
+    "days_since_launch": 275,
+    "wordlist": [
+      { "word": "foil", "hint": "aluminum" },
+      { "word": "gravesite", "hint": "cemetery" },
+      { "word": "herring", "hint": "fish" },
+      { "word": "incline", "hint": "hill" },
+      { "word": "jewelry", "hint": "baubles" }
+    ]
+  },
+  {
+    "days_since_launch": 276,
+    "wordlist": [
+      { "word": "pumpkin", "hint": "gourd" },
+      { "word": "question", "hint": "inquiry" },
+      { "word": "relish", "hint": "enjoy" },
+      { "word": "starch", "hint": "potato" },
+      { "word": "tart", "hint": "dessert" }
+    ]
+  },
+  {
+    "days_since_launch": 277,
+    "wordlist": [
+      { "word": "kiwi", "hint": "fruit" },
+      { "word": "lemon", "hint": "fruit" },
+      { "word": "mango", "hint": "fruit" },
+      { "word": "nectarine", "hint": "fruit" },
+      { "word": "onion", "hint": "vegetable" }
+    ]
+  },
+  {
+    "days_since_launch": 278,
+    "wordlist": [
+      { "word": "koala", "hint": "bear" },
+      { "word": "lighter", "hint": "darker" },
+      { "word": "money", "hint": "currency" },
+      { "word": "noodles", "hint": "ramen" },
+      { "word": "orchestra", "hint": "symphony" }
+    ]
+  },
+  {
+    "days_since_launch": 279,
+    "wordlist": [
+      { "word": "plane", "hint": "jet" },
+      { "word": "quiet", "hint": "loud" },
+      { "word": "radish", "hint": "vegetable" },
+      { "word": "stable", "hint": "calm" },
+      { "word": "tango", "hint": "dance" }
+    ]
+  },
+  {
+    "days_since_launch": 280,
+    "wordlist": [
+      { "word": "beige", "hint": "color" },
+      { "word": "cream", "hint": "color" },
+      { "word": "dark", "hint": "light" },
+      { "word": "exit", "hint": "entrance" },
+      { "word": "fabric", "hint": "cloth" }
+    ]
+  },
+  {
+    "days_since_launch": 281,
+    "wordlist": [
+      { "word": "gift", "hint": "present" },
+      { "word": "hands", "hint": "feet" },
+      { "word": "ivory", "hint": "ebony" },
+      { "word": "jelly", "hint": "preserves" },
+      { "word": "king", "hint": "queen" }
+    ]
   }
 ]
