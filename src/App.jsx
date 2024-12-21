@@ -21,31 +21,32 @@ export default function App() {
   const [isModalOpen, setIsModalOpen] = useState(true);
   const [gameStarted, setGameStarted] = useState(false);
   const [showResults, setShowResults] = useState(false);
-  // const [time, setTime] = useState(0);
   const [activeInputIndex, setActiveInputIndex] = useState(0);
   const [hints, setHints] = useState([]);
   const [gameNumber, setGameNumber] = useState(0);
   const [shakeIncorrect, setShakeIncorrect] = useState(false);
 
-
   const [showInstructions, setShowInstructions] = useState(false);
   const [showSettings, setShowSettings] = useState(false);
 
   const launchDate = dayjs("2024-01-17");
-
   let now = dayjs();
   const currentDate = now.format("YYYY-MM-DD");
   const daysSinceLaunch = now.diff(launchDate, "days");
 
-  // get today's game from .json file
-  const currentGame = wordlists.filter(
-    (game) => game.days_since_launch === daysSinceLaunch
-  );
-  const currentWordlist = currentGame[0].wordlist;
+  // Calculate which puzzle to show based on total days since launch
+  const totalWordlists = wordlists.length;
+  const currentWordlistIndex = daysSinceLaunch % totalWordlists;
+  
+  // Get today's game from the calculated index
+  const currentGame = wordlists[currentWordlistIndex];
+  const currentWordlist = currentGame.wordlist;
+  
   const navigate = useNavigate();
   if (currentWordlist.length === 0) {
     navigate("/uh-oh");
   }
+  
   const [userGuesses, setUserGuesses] = useState("");
   const [guessCount, setGuessCount] = useState(
     Array(currentWordlist.length).fill(0)
@@ -53,12 +54,13 @@ export default function App() {
 
   useEffect(() => {
     setHints(currentWordlist.map((set) => set.hint));
-    setGameNumber(currentGame[0].days_since_launch);
+    // Use the actual days since launch for the game number to maintain unique identifiers
+    setGameNumber(daysSinceLaunch);
 
     if (lastPlayed === currentDate) {
       setShowResults(true);
     }
-  }, [currentDate, lastPlayed]);
+  }, [currentDate, lastPlayed, currentWordlist, daysSinceLaunch]);
 
   const addUserText = useCallback((key) => {
     setUserGuesses((prevGuess) => prevGuess + key);
@@ -85,26 +87,14 @@ export default function App() {
     [gamesPlayed, setGamesPlayed]
   );
 
-  // const updateLocalStorage = useCallback(
-  //   (currentDate, gameNumber) => {
-  //     setLastPlayed(currentDate);
-  //     addGameNumber(gameNumber);
-  //   },
-  //   [addGameNumber, setLastPlayed]
-  // );
-
-    const updateSteak = (lastPlayed) => {
-      // console.log(lastPlayed, dayjs().subtract(1, "day").format("YYYY-MM-DD"));
-      if (lastPlayed === dayjs().subtract(1, "day").format("YYYY-MM-DD")) {
-        const updatedStreak = streak + 1;
-        setStreak(updatedStreak);
-        // console.log('updating streak');
-      } else {
-        // console.log('resetting streak');
-        setStreak(1);
-      }
+  const updateSteak = (lastPlayed) => {
+    if (lastPlayed === dayjs().subtract(1, "day").format("YYYY-MM-DD")) {
+      const updatedStreak = streak + 1;
+      setStreak(updatedStreak);
+    } else {
+      setStreak(1);
     }
-
+  };
 
   const endGame = useCallback(() => {
     setActiveInputIndex(null);
@@ -117,10 +107,9 @@ export default function App() {
       setIsModalOpen(true);
       // updateLocalStorage(currentDate, gameNumber);
     }, 1250);
-  }, [currentDate, setLastPlayed]);
+  }, [currentDate, gameNumber, lastPlayed, addGameNumber, setLastPlayed]);
 
   const updateGuessCount = useCallback(() => {
-    // prevent increase of guessCount after failing
     if (guessCount[activeInputIndex] < 3) {
       setGuessCount(
         guessCount.map((item, index) =>
@@ -146,13 +135,7 @@ export default function App() {
         handleLastAttempt(isLastWord);
       }
     },
-    [
-      userGuesses,
-      guessCount,
-      handleLastAttempt,
-      activeInputIndex,
-      updateGuessCount,
-    ]
+    [userGuesses, guessCount, activeInputIndex, updateGuessCount]
   );
 
   const handleCorrectGuess = useCallback(
@@ -190,6 +173,7 @@ export default function App() {
     );
   }
 
+  
   useEffect(() => {
     console.log(`
 
@@ -208,7 +192,12 @@ export default function App() {
 
   return (
     <>
-      <Navbar showInstructions={showInstructions} setShowInstructions={setShowInstructions} showSettings={showSettings} setShowSettings={setShowSettings}/>
+      <Navbar 
+        showInstructions={showInstructions} 
+        setShowInstructions={setShowInstructions} 
+        showSettings={showSettings} 
+        setShowSettings={setShowSettings}
+      />
       {showInstructions && <Instructions showInstructions={showInstructions} setShowInstructions={setShowInstructions}/>}
       {showSettings && <Settings showSettings={showSettings} setShowSettings={setShowSettings}/>}
       <StopwatchProvider>
@@ -228,18 +217,18 @@ export default function App() {
           gamesPlayed={gamesPlayed}
           setIsModalOpen={setIsModalOpen}
         />}
-      <Game
-        gameStarted={gameStarted}
-        userGuess={userGuesses}
-        currentWordlist={currentWordlist}
-        activeInputIndex={activeInputIndex}
-        checkGuess={checkGuess}
-        hints={hints}
-        shakeIncorrect={shakeIncorrect}
-        setShakeIncorrect={setShakeIncorrect}
-        guessCount={guessCount}
-        lastPlayed={lastPlayed}
-        currentDate={currentDate}
+        <Game
+          gameStarted={gameStarted}
+          userGuess={userGuesses}
+          currentWordlist={currentWordlist}
+          activeInputIndex={activeInputIndex}
+          checkGuess={checkGuess}
+          hints={hints}
+          shakeIncorrect={shakeIncorrect}
+          setShakeIncorrect={setShakeIncorrect}
+          guessCount={guessCount}
+          lastPlayed={lastPlayed}
+          currentDate={currentDate}
         />
       </StopwatchProvider>
       {lastPlayed !== currentDate && <Keyboard
